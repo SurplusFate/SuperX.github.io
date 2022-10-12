@@ -1,6 +1,5 @@
 // 随机一言
 var hitokoto = document.getElementsByClassName("footer")[0];
-console.log(hitokoto);
 if (hitokoto != undefined) {
   var xhr = new XMLHttpRequest();
   xhr.open("get", "https://v1.hitokoto.cn");

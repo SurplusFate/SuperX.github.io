@@ -27,8 +27,8 @@ tar -zxvf redis-6.2.6.tar.gz
 ```shell
 # 进入解压目录
 cd redis-6.2.6
-# 编译并安装
-make && make install
+# 编译
+make
 ```
 
 ## 安装目录

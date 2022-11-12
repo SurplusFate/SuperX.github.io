@@ -1,5 +1,4 @@
-<template><div><h1 id="typereference-获取泛型属性" tabindex="-1"><a class="header-anchor" href="#typereference-获取泛型属性" aria-hidden="true">#</a> <code v-pre>TypeReference</code> 获取泛型属性</h1>
-<p>当一个对象含有的属性有泛型时, 反序列化该对象可以尝试使用 <code v-pre>TypeReference</code>.</p>
+<template><div><p>当一个对象含有的属性有泛型时, 反序列化该对象可以尝试使用 <code v-pre>TypeReference</code>.</p>
 <p>例如:</p>
 <div class="language-java line-numbers-mode" data-ext="java"><pre v-pre class="language-java"><code><span class="token annotation punctuation">@Data</span>
 <span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">RedisData</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">T</span><span class="token punctuation">></span></span> <span class="token punctuation">{</span>
@@ -30,11 +29,11 @@ ist<span class="token generics"><span class="token punctuation">&lt;</span><span
 
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><code v-pre>Type[] getActualTypeArguments</code></p>
 <blockquote>
-<p>核心接口，返回泛型类型数组， 该接口可获取父类实际泛型类型，返回的Type数组对象表示该类型的实际类型参数。</p>
+<p>核心接口，返回泛型类型数组， 该接口可获取父类实际泛型类型，返回的 Type 数组对象表示该类型的实际类型参数。</p>
 </blockquote>
 <p><code v-pre>Type getRawType()</code></p>
 <blockquote>
-<p>返回原始类型Type</p>
+<p>返回原始类型 Type</p>
 </blockquote>
 <p><code v-pre>Type getOwnerType()</code></p>
 <blockquote>

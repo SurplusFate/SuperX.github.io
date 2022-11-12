@@ -1,11 +1,11 @@
-<template><div><h1 id="_1-初识-mq" tabindex="-1"><a class="header-anchor" href="#_1-初识-mq" aria-hidden="true">#</a> 1.初识 MQ</h1>
-<h2 id="_1-1-同步和异步通讯" tabindex="-1"><a class="header-anchor" href="#_1-1-同步和异步通讯" aria-hidden="true">#</a> 1.1.同步和异步通讯</h2>
+<template><div><h1 id="_16-初识-mq" tabindex="-1"><a class="header-anchor" href="#_16-初识-mq" aria-hidden="true">#</a> 16.初识 MQ</h1>
+<h2 id="_16-1-同步和异步通讯" tabindex="-1"><a class="header-anchor" href="#_16-1-同步和异步通讯" aria-hidden="true">#</a> 16.1.同步和异步通讯</h2>
 <p>微服务间通讯有同步和异步两种方式：</p>
 <p>同步通讯：就像打电话，需要实时响应。</p>
 <p>异步通讯：就像发邮件，不需要马上回复。</p>
 <p><img src="https://gcore.jsdelivr.net/gh/SurplusFate/guide_img@main/img/image-20210717161939695.png" alt="image-20210717161939695"></p>
 <p>两种方式各有优劣，打电话可以立即得到响应，但是你却不能跟多个人同时通话。发送邮件可以同时与多个人收发邮件，但是往往响应会有延迟。</p>
-<h3 id="_1-1-1-同步通讯" tabindex="-1"><a class="header-anchor" href="#_1-1-1-同步通讯" aria-hidden="true">#</a> 1.1.1.同步通讯</h3>
+<h3 id="_16-1-1-同步通讯" tabindex="-1"><a class="header-anchor" href="#_16-1-1-同步通讯" aria-hidden="true">#</a> 16.1.1.同步通讯</h3>
 <p>我们之前学习的 Feign 调用就属于同步方式，虽然调用可以实时得到结果，但存在下面的问题：</p>
 <p><img src="https://gcore.jsdelivr.net/gh/SurplusFate/guide_img@main/img/image-20210717162004285.png" alt="image-20210717162004285"></p>
 <p>总结：</p>
@@ -20,7 +20,7 @@
 <li>有额外的资源消耗</li>
 <li>有级联失败问题</li>
 </ul>
-<h3 id="_1-1-2-异步通讯" tabindex="-1"><a class="header-anchor" href="#_1-1-2-异步通讯" aria-hidden="true">#</a> 1.1.2.异步通讯</h3>
+<h3 id="_16-1-2-异步通讯" tabindex="-1"><a class="header-anchor" href="#_16-1-2-异步通讯" aria-hidden="true">#</a> 16.1.2.异步通讯</h3>
 <p>异步调用则可以避免上述问题：</p>
 <p>我们以购买商品为例，用户支付后需要调用订单服务完成订单状态修改，调用物流服务，从仓库分配响应的库存并准备发货。</p>
 <p>在事件模式中，支付服务是事件发布者（publisher），在支付完成后只需要发布一个支付成功的事件（event），事件中带上订单 id。</p>
@@ -52,7 +52,7 @@
 <li>需要依赖于 Broker 的可靠、安全、性能</li>
 </ul>
 <p>好在现在开源软件或云平台上 Broker 的软件是非常成熟的，比较常见的一种就是我们今天要学习的 MQ 技术。</p>
-<h2 id="_1-2-技术对比" tabindex="-1"><a class="header-anchor" href="#_1-2-技术对比" aria-hidden="true">#</a> 1.2.技术对比</h2>
+<h2 id="_16-2-技术对比" tabindex="-1"><a class="header-anchor" href="#_16-2-技术对比" aria-hidden="true">#</a> 16.2.技术对比</h2>
 <p>MQ，中文是消息队列（MessageQueue），字面来看就是存放消息的队列。也就是事件驱动架构中的 Broker。</p>
 <p>比较常见的 MQ 实现：</p>
 <ul>

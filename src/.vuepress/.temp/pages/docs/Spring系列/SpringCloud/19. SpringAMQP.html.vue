@@ -9,14 +9,14 @@
 <li>基于注解的监听器模式，异步接收消息</li>
 <li>封装了 RabbitTemplate 工具，用于发送消息</li>
 </ul>
-<h2 id="_3-1-basic-queue-简单队列模型" tabindex="-1"><a class="header-anchor" href="#_3-1-basic-queue-简单队列模型" aria-hidden="true">#</a> 3.1.Basic Queue 简单队列模型</h2>
+<h2 id="_19-1-basic-queue-简单队列模型" tabindex="-1"><a class="header-anchor" href="#_19-1-basic-queue-简单队列模型" aria-hidden="true">#</a> 19.1.Basic Queue 简单队列模型</h2>
 <p>在父工程 mq-demo 中引入依赖</p>
 <div class="language-xml line-numbers-mode" data-ext="xml"><pre v-pre class="language-xml"><code><span class="token comment">&lt;!--AMQP依赖，包含RabbitMQ--></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>dependency</span><span class="token punctuation">></span></span>
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>groupId</span><span class="token punctuation">></span></span>org.springframework.boot<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>groupId</span><span class="token punctuation">></span></span>
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>artifactId</span><span class="token punctuation">></span></span>spring-boot-starter-amqp<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>artifactId</span><span class="token punctuation">></span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>dependency</span><span class="token punctuation">></span></span>
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="_3-1-1-消息发送" tabindex="-1"><a class="header-anchor" href="#_3-1-1-消息发送" aria-hidden="true">#</a> 3.1.1.消息发送</h3>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="_19-1-1-消息发送" tabindex="-1"><a class="header-anchor" href="#_19-1-1-消息发送" aria-hidden="true">#</a> 19.1.1.消息发送</h3>
 <p>首先配置 MQ 地址，在 publisher 服务的 application.yml 中添加配置：</p>
 <div class="language-yaml line-numbers-mode" data-ext="yml"><pre v-pre class="language-yaml"><code><span class="token key atrule">spring</span><span class="token punctuation">:</span>
   <span class="token key atrule">rabbitmq</span><span class="token punctuation">:</span>
@@ -52,7 +52,7 @@
         rabbitTemplate<span class="token punctuation">.</span><span class="token function">convertAndSend</span><span class="token punctuation">(</span>queueName<span class="token punctuation">,</span> message<span class="token punctuation">)</span><span class="token punctuation">;</span>
     <span class="token punctuation">}</span>
 <span class="token punctuation">}</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="_3-1-2-消息接收" tabindex="-1"><a class="header-anchor" href="#_3-1-2-消息接收" aria-hidden="true">#</a> 3.1.2.消息接收</h3>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="_19-1-2-消息接收" tabindex="-1"><a class="header-anchor" href="#_19-1-2-消息接收" aria-hidden="true">#</a> 19.1.2.消息接收</h3>
 <p>首先配置 MQ 地址，在 consumer 服务的 application.yml 中添加配置：</p>
 <div class="language-yaml line-numbers-mode" data-ext="yml"><pre v-pre class="language-yaml"><code><span class="token key atrule">spring</span><span class="token punctuation">:</span>
   <span class="token key atrule">rabbitmq</span><span class="token punctuation">:</span>
@@ -75,14 +75,14 @@
         <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"spring 消费者接收到消息：【"</span> <span class="token operator">+</span> msg <span class="token operator">+</span> <span class="token string">"】"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
     <span class="token punctuation">}</span>
 <span class="token punctuation">}</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="_3-1-3-测试" tabindex="-1"><a class="header-anchor" href="#_3-1-3-测试" aria-hidden="true">#</a> 3.1.3.测试</h3>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="_19-1-3-测试" tabindex="-1"><a class="header-anchor" href="#_19-1-3-测试" aria-hidden="true">#</a> 19.1.3.测试</h3>
 <p>启动 consumer 服务，然后在 publisher 服务中运行测试代码，发送 MQ 消息</p>
-<h2 id="_3-2-workqueue" tabindex="-1"><a class="header-anchor" href="#_3-2-workqueue" aria-hidden="true">#</a> 3.2.WorkQueue</h2>
+<h2 id="_19-2-workqueue" tabindex="-1"><a class="header-anchor" href="#_19-2-workqueue" aria-hidden="true">#</a> 19.2.WorkQueue</h2>
 <p>Work queues，也被称为（Task queues），任务模型。简单来说就是<strong>让多个消费者绑定到一个队列，共同消费队列中的消息</strong>。</p>
 <p><img src="https://gcore.jsdelivr.net/gh/SurplusFate/guide_img@main/img/image-20210717164238910.png" alt="image-20210717164238910"></p>
 <p>当消息处理比较耗时的时候，可能生产消息的速度会远远大于消息的消费速度。长此以往，消息就会堆积越来越多，无法及时处理。</p>
 <p>此时就可以使用 work 模型，多个消费者共同处理消息处理，速度就能大大提高了。</p>
-<h3 id="_3-2-1-消息发送" tabindex="-1"><a class="header-anchor" href="#_3-2-1-消息发送" aria-hidden="true">#</a> 3.2.1.消息发送</h3>
+<h3 id="_19-2-1-消息发送" tabindex="-1"><a class="header-anchor" href="#_19-2-1-消息发送" aria-hidden="true">#</a> 19.2.1.消息发送</h3>
 <p>这次我们循环发送，模拟大量消息堆积现象。</p>
 <p>在 publisher 服务中的 SpringAmqpTest 类中添加一个测试方法：</p>
 <div class="language-java line-numbers-mode" data-ext="java"><pre v-pre class="language-java"><code><span class="token doc-comment comment">/**
@@ -101,7 +101,7 @@
         <span class="token class-name">Thread</span><span class="token punctuation">.</span><span class="token function">sleep</span><span class="token punctuation">(</span><span class="token number">20</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
     <span class="token punctuation">}</span>
 <span class="token punctuation">}</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="_3-2-2-消息接收" tabindex="-1"><a class="header-anchor" href="#_3-2-2-消息接收" aria-hidden="true">#</a> 3.2.2.消息接收</h3>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="_19-2-2-消息接收" tabindex="-1"><a class="header-anchor" href="#_19-2-2-消息接收" aria-hidden="true">#</a> 19.2.2.消息接收</h3>
 <p>要模拟多个消费者绑定同一个队列，我们在 consumer 服务的 SpringRabbitListener 中添加 2 个新的方法：</p>
 <div class="language-java line-numbers-mode" data-ext="java"><pre v-pre class="language-java"><code><span class="token annotation punctuation">@RabbitListener</span><span class="token punctuation">(</span>queues <span class="token operator">=</span> <span class="token string">"simple.queue"</span><span class="token punctuation">)</span>
 <span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">listenWorkQueue1</span><span class="token punctuation">(</span><span class="token class-name">String</span> msg<span class="token punctuation">)</span> <span class="token keyword">throws</span> <span class="token class-name">InterruptedException</span> <span class="token punctuation">{</span>
@@ -115,24 +115,24 @@
     <span class="token class-name">Thread</span><span class="token punctuation">.</span><span class="token function">sleep</span><span class="token punctuation">(</span><span class="token number">200</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 <span class="token punctuation">}</span>
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>注意到这个消费者 sleep 了 1000 秒，模拟任务耗时。</p>
-<h3 id="_3-2-3-测试" tabindex="-1"><a class="header-anchor" href="#_3-2-3-测试" aria-hidden="true">#</a> 3.2.3.测试</h3>
+<h3 id="_19-2-3-测试" tabindex="-1"><a class="header-anchor" href="#_19-2-3-测试" aria-hidden="true">#</a> 19.2.3.测试</h3>
 <p>启动 ConsumerApplication 后，在执行 publisher 服务中刚刚编写的发送测试方法 testWorkQueue。</p>
 <p>可以看到消费者 1 很快完成了自己的 25 条消息。消费者 2 却在缓慢的处理自己的 25 条消息。</p>
 <p>也就是说消息是平均分配给每个消费者，并没有考虑到消费者的处理能力。这样显然是有问题的。</p>
-<h3 id="_3-2-4-能者多劳" tabindex="-1"><a class="header-anchor" href="#_3-2-4-能者多劳" aria-hidden="true">#</a> 3.2.4.能者多劳</h3>
+<h3 id="_19-2-4-能者多劳" tabindex="-1"><a class="header-anchor" href="#_19-2-4-能者多劳" aria-hidden="true">#</a> 19.2.4.能者多劳</h3>
 <p>在 spring 中有一个简单的配置，可以解决这个问题。我们修改 consumer 服务的 application.yml 文件，添加配置：</p>
 <div class="language-yaml line-numbers-mode" data-ext="yml"><pre v-pre class="language-yaml"><code><span class="token key atrule">spring</span><span class="token punctuation">:</span>
   <span class="token key atrule">rabbitmq</span><span class="token punctuation">:</span>
     <span class="token key atrule">listener</span><span class="token punctuation">:</span>
       <span class="token key atrule">simple</span><span class="token punctuation">:</span>
         <span class="token key atrule">prefetch</span><span class="token punctuation">:</span> <span class="token number">1</span> <span class="token comment"># 每次只能获取一条消息，处理完成才能获取下一个消息</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="_3-2-5-总结" tabindex="-1"><a class="header-anchor" href="#_3-2-5-总结" aria-hidden="true">#</a> 3.2.5.总结</h3>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="_19-2-5-总结" tabindex="-1"><a class="header-anchor" href="#_19-2-5-总结" aria-hidden="true">#</a> 19.2.5.总结</h3>
 <p>Work 模型的使用：</p>
 <ul>
 <li>多个消费者绑定到一个队列，同一条消息只会被一个消费者处理</li>
 <li>通过设置 prefetch 来控制消费者预取的消息数量</li>
 </ul>
-<h2 id="_3-3-发布-订阅" tabindex="-1"><a class="header-anchor" href="#_3-3-发布-订阅" aria-hidden="true">#</a> 3.3.发布/订阅</h2>
+<h2 id="_19-3-发布-订阅" tabindex="-1"><a class="header-anchor" href="#_19-3-发布-订阅" aria-hidden="true">#</a> 19.3.发布/订阅</h2>
 <p>发布订阅的模型如图：</p>
 <p><img src="https://gcore.jsdelivr.net/gh/SurplusFate/guide_img@main/img/image-20210717165309625.png" alt="image-20210717165309625"></p>
 <p>可以看到，在订阅模型中，多了一个 exchange 角色，而且过程略有变化：</p>
@@ -149,7 +149,7 @@
 <li>Queue：消息队列也与以前一样，接收消息、缓存消息。</li>
 </ul>
 <p><strong>Exchange（交换机）只负责转发消息，不具备存储消息的能力</strong>，因此如果没有任何队列与 Exchange 绑定，或者没有符合路由规则的队列，那么消息会丢失！</p>
-<h2 id="_3-4-fanout" tabindex="-1"><a class="header-anchor" href="#_3-4-fanout" aria-hidden="true">#</a> 3.4.Fanout</h2>
+<h2 id="_19-4-fanout" tabindex="-1"><a class="header-anchor" href="#_19-4-fanout" aria-hidden="true">#</a> 19.4.Fanout</h2>
 <p>Fanout，英文翻译是扇出，我觉得在 MQ 中叫广播更合适。</p>
 <p><img src="https://gcore.jsdelivr.net/gh/SurplusFate/guide_img@main/img/image-20210717165438225.png" alt="image-20210717165438225"></p>
 <p>在广播模式下，消息发送流程是这样的：</p>
@@ -166,7 +166,7 @@
 <li>创建两个队列 fanout.queue1 和 fanout.queue2，绑定到交换机 itcast.fanout</li>
 </ul>
 <p><img src="https://gcore.jsdelivr.net/gh/SurplusFate/guide_img@main/img/image-20210717165509466.png" alt="image-20210717165509466"></p>
-<h3 id="_3-4-1-声明队列和交换机" tabindex="-1"><a class="header-anchor" href="#_3-4-1-声明队列和交换机" aria-hidden="true">#</a> 3.4.1.声明队列和交换机</h3>
+<h3 id="_19-4-1-声明队列和交换机" tabindex="-1"><a class="header-anchor" href="#_19-4-1-声明队列和交换机" aria-hidden="true">#</a> 19.4.1.声明队列和交换机</h3>
 <p>Spring 提供了一个接口 Exchange，来表示所有不同类型的交换机：</p>
 <p><img src="https://gcore.jsdelivr.net/gh/SurplusFate/guide_img@main/img/image-20210717165552676.png" alt="image-20210717165552676"></p>
 <p>在 consumer 中创建一个类，声明队列和交换机：</p>
@@ -222,7 +222,7 @@
         <span class="token keyword">return</span> <span class="token class-name">BindingBuilder</span><span class="token punctuation">.</span><span class="token function">bind</span><span class="token punctuation">(</span>fanoutQueue2<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token keyword">to</span><span class="token punctuation">(</span>fanoutExchange<span class="token punctuation">)</span><span class="token punctuation">;</span>
     <span class="token punctuation">}</span>
 <span class="token punctuation">}</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="_3-4-2-消息发送" tabindex="-1"><a class="header-anchor" href="#_3-4-2-消息发送" aria-hidden="true">#</a> 3.4.2.消息发送</h3>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="_19-4-2-消息发送" tabindex="-1"><a class="header-anchor" href="#_19-4-2-消息发送" aria-hidden="true">#</a> 19.4.2.消息发送</h3>
 <p>在 publisher 服务的 SpringAmqpTest 类中添加测试方法：</p>
 <div class="language-java line-numbers-mode" data-ext="java"><pre v-pre class="language-java"><code><span class="token annotation punctuation">@Test</span>
 <span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">testFanoutExchange</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
@@ -232,7 +232,7 @@
     <span class="token class-name">String</span> message <span class="token operator">=</span> <span class="token string">"hello, everyone!"</span><span class="token punctuation">;</span>
     rabbitTemplate<span class="token punctuation">.</span><span class="token function">convertAndSend</span><span class="token punctuation">(</span>exchangeName<span class="token punctuation">,</span> <span class="token string">""</span><span class="token punctuation">,</span> message<span class="token punctuation">)</span><span class="token punctuation">;</span>
 <span class="token punctuation">}</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="_3-4-3-消息接收" tabindex="-1"><a class="header-anchor" href="#_3-4-3-消息接收" aria-hidden="true">#</a> 3.4.3.消息接收</h3>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="_19-4-3-消息接收" tabindex="-1"><a class="header-anchor" href="#_19-4-3-消息接收" aria-hidden="true">#</a> 19.4.3.消息接收</h3>
 <p>在 consumer 服务的 SpringRabbitListener 中添加两个方法，作为消费者：</p>
 <div class="language-java line-numbers-mode" data-ext="java"><pre v-pre class="language-java"><code><span class="token annotation punctuation">@RabbitListener</span><span class="token punctuation">(</span>queues <span class="token operator">=</span> <span class="token string">"fanout.queue1"</span><span class="token punctuation">)</span>
 <span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">listenFanoutQueue1</span><span class="token punctuation">(</span><span class="token class-name">String</span> msg<span class="token punctuation">)</span> <span class="token punctuation">{</span>
@@ -243,7 +243,7 @@
 <span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">listenFanoutQueue2</span><span class="token punctuation">(</span><span class="token class-name">String</span> msg<span class="token punctuation">)</span> <span class="token punctuation">{</span>
     <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"消费者2接收到Fanout消息：【"</span> <span class="token operator">+</span> msg <span class="token operator">+</span> <span class="token string">"】"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 <span class="token punctuation">}</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="_3-4-4-总结" tabindex="-1"><a class="header-anchor" href="#_3-4-4-总结" aria-hidden="true">#</a> 3.4.4.总结</h3>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="_19-4-4-总结" tabindex="-1"><a class="header-anchor" href="#_19-4-4-总结" aria-hidden="true">#</a> 19.4.4.总结</h3>
 <p>交换机的作用是什么？</p>
 <ul>
 <li>接收 publisher 发送的消息</li>
@@ -257,7 +257,7 @@
 <li>FanoutExchange</li>
 <li>Binding</li>
 </ul>
-<h2 id="_3-5-direct" tabindex="-1"><a class="header-anchor" href="#_3-5-direct" aria-hidden="true">#</a> 3.5.Direct</h2>
+<h2 id="_19-5-direct" tabindex="-1"><a class="header-anchor" href="#_19-5-direct" aria-hidden="true">#</a> 19.5.Direct</h2>
 <p>在 Fanout 模式中，一条消息，会被所有订阅的队列都消费。但是，在某些场景下，我们希望不同的消息被不同的队列消费。这时就要用到 Direct 类型的 Exchange。</p>
 <p><img src="https://gcore.jsdelivr.net/gh/SurplusFate/guide_img@main/img/image-20210717170041447.png" alt="image-20210717170041447"></p>
 <p>在 Direct 模型下：</p>
@@ -279,7 +279,7 @@
 </li>
 </ol>
 <p><img src="https://gcore.jsdelivr.net/gh/SurplusFate/guide_img@main/img/image-20210717170223317.png" alt="image-20210717170223317"></p>
-<h3 id="_3-5-1-基于注解声明队列和交换机" tabindex="-1"><a class="header-anchor" href="#_3-5-1-基于注解声明队列和交换机" aria-hidden="true">#</a> 3.5.1.基于注解声明队列和交换机</h3>
+<h3 id="_19-5-1-基于注解声明队列和交换机" tabindex="-1"><a class="header-anchor" href="#_19-5-1-基于注解声明队列和交换机" aria-hidden="true">#</a> 19.5.1.基于注解声明队列和交换机</h3>
 <p>基于@Bean 的方式声明队列和交换机比较麻烦，Spring 还提供了基于注解方式来声明。</p>
 <p>在 consumer 的 SpringRabbitListener 中添加两个消费者，同时基于注解来声明队列和交换机：</p>
 <div class="language-java line-numbers-mode" data-ext="java"><pre v-pre class="language-java"><code><span class="token annotation punctuation">@RabbitListener</span><span class="token punctuation">(</span>bindings <span class="token operator">=</span> <span class="token annotation punctuation">@QueueBinding</span><span class="token punctuation">(</span>
@@ -299,7 +299,7 @@
 <span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">listenDirectQueue2</span><span class="token punctuation">(</span><span class="token class-name">String</span> msg<span class="token punctuation">)</span><span class="token punctuation">{</span>
     <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"消费者接收到direct.queue2的消息：【"</span> <span class="token operator">+</span> msg <span class="token operator">+</span> <span class="token string">"】"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 <span class="token punctuation">}</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="_3-5-2-消息发送" tabindex="-1"><a class="header-anchor" href="#_3-5-2-消息发送" aria-hidden="true">#</a> 3.5.2.消息发送</h3>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="_19-5-2-消息发送" tabindex="-1"><a class="header-anchor" href="#_19-5-2-消息发送" aria-hidden="true">#</a> 19.5.2.消息发送</h3>
 <p>在 publisher 服务的 SpringAmqpTest 类中添加测试方法：</p>
 <div class="language-java line-numbers-mode" data-ext="java"><pre v-pre class="language-java"><code><span class="token annotation punctuation">@Test</span>
 <span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">testSendDirectExchange</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
@@ -310,7 +310,7 @@
     <span class="token comment">// 发送消息</span>
     rabbitTemplate<span class="token punctuation">.</span><span class="token function">convertAndSend</span><span class="token punctuation">(</span>exchangeName<span class="token punctuation">,</span> <span class="token string">"red"</span><span class="token punctuation">,</span> message<span class="token punctuation">)</span><span class="token punctuation">;</span>
 <span class="token punctuation">}</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="_3-5-3-总结" tabindex="-1"><a class="header-anchor" href="#_3-5-3-总结" aria-hidden="true">#</a> 3.5.3.总结</h3>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="_19-5-3-总结" tabindex="-1"><a class="header-anchor" href="#_19-5-3-总结" aria-hidden="true">#</a> 19.5.3.总结</h3>
 <p>描述下 Direct 交换机与 Fanout 交换机的差异？</p>
 <ul>
 <li>Fanout 交换机将消息路由给每一个与之绑定的队列</li>
@@ -322,8 +322,8 @@
 <li>@Queue</li>
 <li>@Exchange</li>
 </ul>
-<h2 id="_3-6-topic" tabindex="-1"><a class="header-anchor" href="#_3-6-topic" aria-hidden="true">#</a> 3.6.Topic</h2>
-<h3 id="_3-6-1-说明" tabindex="-1"><a class="header-anchor" href="#_3-6-1-说明" aria-hidden="true">#</a> 3.6.1.说明</h3>
+<h2 id="_19-6-topic" tabindex="-1"><a class="header-anchor" href="#_19-6-topic" aria-hidden="true">#</a> 19.6.Topic</h2>
+<h3 id="_19-6-1-说明" tabindex="-1"><a class="header-anchor" href="#_19-6-1-说明" aria-hidden="true">#</a> 19.6.1.说明</h3>
 <p><code v-pre>Topic</code>类型的<code v-pre>Exchange</code>与<code v-pre>Direct</code>相比，都是可以根据<code v-pre>RoutingKey</code>把消息路由到不同的队列。只不过<code v-pre>Topic</code>类型<code v-pre>Exchange</code>可以让队列在绑定<code v-pre>Routing key</code> 的时候使用通配符！</p>
 <p><code v-pre>Routingkey</code> 一般都是有一个或多个单词组成，多个单词之间以”.”分割，例如： <code v-pre>item.insert</code></p>
 <p>通配符规则：</p>
@@ -332,7 +332,6 @@
 <p>举例：</p>
 <p><code v-pre>item.#</code>：能够匹配<code v-pre>item.spu.insert</code> 或者 <code v-pre>item.spu</code></p>
 <p><code v-pre>item.*</code>：只能匹配<code v-pre>item.spu</code></p>
-<p>​</p>
 <p>图示：</p>
 <p><img src="https://gcore.jsdelivr.net/gh/SurplusFate/guide_img@main/img/image-20210717170705380.png" alt="image-20210717170705380"></p>
 <p>解释：</p>
@@ -354,7 +353,7 @@
 </li>
 </ol>
 <p><img src="https://gcore.jsdelivr.net/gh/SurplusFate/guide_img@main/img/image-20210717170829229.png" alt="image-20210717170829229"></p>
-<h3 id="_3-6-2-消息发送" tabindex="-1"><a class="header-anchor" href="#_3-6-2-消息发送" aria-hidden="true">#</a> 3.6.2.消息发送</h3>
+<h3 id="_19-6-2-消息发送" tabindex="-1"><a class="header-anchor" href="#_19-6-2-消息发送" aria-hidden="true">#</a> 19.6.2.消息发送</h3>
 <p>在 publisher 服务的 SpringAmqpTest 类中添加测试方法：</p>
 <div class="language-java line-numbers-mode" data-ext="java"><pre v-pre class="language-java"><code><span class="token doc-comment comment">/**
      * topicExchange
@@ -368,7 +367,7 @@
     <span class="token comment">// 发送消息</span>
     rabbitTemplate<span class="token punctuation">.</span><span class="token function">convertAndSend</span><span class="token punctuation">(</span>exchangeName<span class="token punctuation">,</span> <span class="token string">"china.news"</span><span class="token punctuation">,</span> message<span class="token punctuation">)</span><span class="token punctuation">;</span>
 <span class="token punctuation">}</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="_3-6-3-消息接收" tabindex="-1"><a class="header-anchor" href="#_3-6-3-消息接收" aria-hidden="true">#</a> 3.6.3.消息接收</h3>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="_19-6-3-消息接收" tabindex="-1"><a class="header-anchor" href="#_19-6-3-消息接收" aria-hidden="true">#</a> 19.6.3.消息接收</h3>
 <p>在 consumer 服务的 SpringRabbitListener 中添加方法：</p>
 <div class="language-java line-numbers-mode" data-ext="java"><pre v-pre class="language-java"><code><span class="token annotation punctuation">@RabbitListener</span><span class="token punctuation">(</span>bindings <span class="token operator">=</span> <span class="token annotation punctuation">@QueueBinding</span><span class="token punctuation">(</span>
     value <span class="token operator">=</span> <span class="token annotation punctuation">@Queue</span><span class="token punctuation">(</span>name <span class="token operator">=</span> <span class="token string">"topic.queue1"</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
@@ -387,7 +386,7 @@
 <span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">listenTopicQueue2</span><span class="token punctuation">(</span><span class="token class-name">String</span> msg<span class="token punctuation">)</span><span class="token punctuation">{</span>
     <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"消费者接收到topic.queue2的消息：【"</span> <span class="token operator">+</span> msg <span class="token operator">+</span> <span class="token string">"】"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 <span class="token punctuation">}</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="_3-6-4-总结" tabindex="-1"><a class="header-anchor" href="#_3-6-4-总结" aria-hidden="true">#</a> 3.6.4.总结</h3>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="_19-6-4-总结" tabindex="-1"><a class="header-anchor" href="#_19-6-4-总结" aria-hidden="true">#</a> 19.6.4.总结</h3>
 <p>描述下 Direct 交换机与 Topic 交换机的差异？</p>
 <ul>
 <li>Topic 交换机接收的消息 RoutingKey 必须是多个单词，以 <code v-pre>**.**</code> 分割</li>
@@ -395,7 +394,7 @@
 <li><code v-pre>#</code>：代表 0 个或多个词</li>
 <li><code v-pre>*</code>：代表 1 个词</li>
 </ul>
-<h2 id="_3-7-消息转换器" tabindex="-1"><a class="header-anchor" href="#_3-7-消息转换器" aria-hidden="true">#</a> 3.7.消息转换器</h2>
+<h2 id="_19-7-消息转换器" tabindex="-1"><a class="header-anchor" href="#_19-7-消息转换器" aria-hidden="true">#</a> 19.7.消息转换器</h2>
 <p>之前说过，Spring 会把你发送的消息序列化为字节发送给 MQ，接收消息的时候，还会把字节反序列化为 Java 对象。</p>
 <p><img src="https://gcore.jsdelivr.net/gh/SurplusFate/guide_img@main/img/image-20200525170410401.png" alt="image-20200525170410401"></p>
 <p>只不过，默认情况下 Spring 采用的序列化方式是 JDK 序列化。众所周知，JDK 序列化存在下列问题：</p>
@@ -405,7 +404,7 @@
 <li>可读性差</li>
 </ul>
 <p>我们来测试一下。</p>
-<h3 id="_3-7-1-测试默认转换器" tabindex="-1"><a class="header-anchor" href="#_3-7-1-测试默认转换器" aria-hidden="true">#</a> 3.7.1.测试默认转换器</h3>
+<h3 id="_19-7-1-测试默认转换器" tabindex="-1"><a class="header-anchor" href="#_19-7-1-测试默认转换器" aria-hidden="true">#</a> 19.7.1.测试默认转换器</h3>
 <p>我们修改消息发送的代码，发送一个 Map 对象：</p>
 <div class="language-java line-numbers-mode" data-ext="java"><pre v-pre class="language-java"><code><span class="token annotation punctuation">@Test</span>
 <span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">testSendMap</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token keyword">throws</span> <span class="token class-name">InterruptedException</span> <span class="token punctuation">{</span>
@@ -419,7 +418,7 @@
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>停止 consumer 服务</p>
 <p>发送消息后查看控制台：</p>
 <p><img src="https://gcore.jsdelivr.net/gh/SurplusFate/guide_img@main/img/image-20210422232835363.png" alt="image-20210422232835363"></p>
-<h3 id="_3-7-2-配置-json-转换器" tabindex="-1"><a class="header-anchor" href="#_3-7-2-配置-json-转换器" aria-hidden="true">#</a> 3.7.2.配置 JSON 转换器</h3>
+<h3 id="_19-7-2-配置-json-转换器" tabindex="-1"><a class="header-anchor" href="#_19-7-2-配置-json-转换器" aria-hidden="true">#</a> 19.7.2.配置 JSON 转换器</h3>
 <p>显然，JDK 序列化方式并不合适。我们希望消息体的体积更小、可读性更高，因此可以使用 JSON 方式来做序列化和反序列化。</p>
 <p>在 publisher 和 consumer 两个服务中都引入依赖：</p>
 <div class="language-xml line-numbers-mode" data-ext="xml"><pre v-pre class="language-xml"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>dependency</span><span class="token punctuation">></span></span>

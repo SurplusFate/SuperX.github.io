@@ -1,4 +1,4 @@
-<template><div><h1 id="_9-gateway-服务网关" tabindex="-1"><a class="header-anchor" href="#_9-gateway-服务网关" aria-hidden="true">#</a> 9.Gateway 服务网关</h1>
+<template><div><h1 id="_9-gateway-服务网关" tabindex="-1"><a class="header-anchor" href="#_9-gateway-服务网关" aria-hidden="true">#</a> 9. Gateway 服务网关</h1>
 <p>Spring Cloud Gateway 是 Spring Cloud 的一个全新项目，该项目是基于 Spring 5.0，Spring Boot 2.0 和 Project Reactor 等响应式编程和事件流技术开发的网关，它旨在为微服务架构提供一种简单有效的统一的 API 路由管理方式。</p>
 <h2 id="_9-1-为什么需要网关" tabindex="-1"><a class="header-anchor" href="#_9-1-为什么需要网关" aria-hidden="true">#</a> 9.1.为什么需要网关</h2>
 <p>Gateway 网关是我们服务的守门神，所有微服务的统一入口。</p>

@@ -11,8 +11,8 @@
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h2 id="编译" tabindex="-1"><a class="header-anchor" href="#编译" aria-hidden="true">#</a> 编译</h2>
 <div class="language-bash line-numbers-mode" data-ext="sh"><pre v-pre class="language-bash"><code><span class="token comment"># 进入解压目录</span>
 <span class="token builtin class-name">cd</span> redis-6.2.6
-<span class="token comment"># 编译并安装</span>
-<span class="token function">make</span> <span class="token operator">&amp;&amp;</span> <span class="token function">make</span> <span class="token function">install</span>
+<span class="token comment"># 编译</span>
+<span class="token function">make</span>
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2 id="安装目录" tabindex="-1"><a class="header-anchor" href="#安装目录" aria-hidden="true">#</a> 安装目录</h2>
 <p>默认的安装路径是在 /usr/local/bin 目录下.</p>
 <p>该目录已经默认配置到环境变量，因此可以在任意目录下运行这些命令。其中：</p>

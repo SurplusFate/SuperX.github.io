@@ -1,7 +1,7 @@
-<template><div><h1 id="rabbitmq-部署指南" tabindex="-1"><a class="header-anchor" href="#rabbitmq-部署指南" aria-hidden="true">#</a> RabbitMQ 部署指南</h1>
-<h2 id="_1-单机部署" tabindex="-1"><a class="header-anchor" href="#_1-单机部署" aria-hidden="true">#</a> 1.单机部署</h2>
+<template><div><h1 id="_17-rabbitmq-部署指南" tabindex="-1"><a class="header-anchor" href="#_17-rabbitmq-部署指南" aria-hidden="true">#</a> 17. RabbitMQ 部署指南</h1>
+<h2 id="_17-1-单机部署" tabindex="-1"><a class="header-anchor" href="#_17-1-单机部署" aria-hidden="true">#</a> 17.1.单机部署</h2>
 <p>我们在 Centos7 虚拟机中使用 Docker 来安装。</p>
-<h3 id="_1-1-下载镜像" tabindex="-1"><a class="header-anchor" href="#_1-1-下载镜像" aria-hidden="true">#</a> 1.1.下载镜像</h3>
+<h3 id="_17-1-1-下载镜像" tabindex="-1"><a class="header-anchor" href="#_17-1-1-下载镜像" aria-hidden="true">#</a> 17.1.1.下载镜像</h3>
 <p>方式一：在线拉取</p>
 <div class="language-bash line-numbers-mode" data-ext="sh"><pre v-pre class="language-bash"><code><span class="token function">docker</span> pull rabbitmq:3-management
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>方式二：从本地加载</p>
@@ -9,7 +9,7 @@
 <p>链接: <a href="https://pan.baidu.com/s/1nn-K9dCkdVtitEvMtpI0Dw?pwd=4jfy" target="_blank" rel="noopener noreferrer">https://pan.baidu.com/s/1nn-K9dCkdVtitEvMtpI0Dw?pwd=4jfy<ExternalLinkIcon/></a> 提取码: 4jfy</p>
 <p>上传到虚拟机中后，使用命令加载镜像即可：</p>
 <div class="language-bash line-numbers-mode" data-ext="sh"><pre v-pre class="language-bash"><code><span class="token function">docker</span> load <span class="token parameter variable">-i</span> mq.tar
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h3 id="_1-2-安装-mq" tabindex="-1"><a class="header-anchor" href="#_1-2-安装-mq" aria-hidden="true">#</a> 1.2.安装 MQ</h3>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h3 id="_17-1-2-安装-mq" tabindex="-1"><a class="header-anchor" href="#_17-1-2-安装-mq" aria-hidden="true">#</a> 17.1.2.安装 MQ</h3>
 <p>执行下面的命令来运行 MQ 容器：</p>
 <div class="language-bash line-numbers-mode" data-ext="sh"><pre v-pre class="language-bash"><code><span class="token function">docker</span> run <span class="token punctuation">\</span>
  <span class="token parameter variable">-e</span> <span class="token assign-left variable">RABBITMQ_DEFAULT_USER</span><span class="token operator">=</span>itcast <span class="token punctuation">\</span>
@@ -23,16 +23,16 @@
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>之后可以通过浏览器访问:<a href="http://192.168.202.100:15672/" target="_blank" rel="noopener noreferrer">http://192.168.202.100:15672/<ExternalLinkIcon/></a> 进入管理界面</p>
 <p>账号: itcast</p>
 <p>密码: 123321</p>
-<h2 id="_2-集群部署" tabindex="-1"><a class="header-anchor" href="#_2-集群部署" aria-hidden="true">#</a> 2.集群部署</h2>
+<h2 id="_17-2-集群部署" tabindex="-1"><a class="header-anchor" href="#_17-2-集群部署" aria-hidden="true">#</a> 17.2.集群部署</h2>
 <p>接下来，我们看看如何安装 RabbitMQ 的集群。</p>
-<h3 id="_2-1-集群分类" tabindex="-1"><a class="header-anchor" href="#_2-1-集群分类" aria-hidden="true">#</a> 2.1.集群分类</h3>
+<h3 id="_17-2-1-集群分类" tabindex="-1"><a class="header-anchor" href="#_17-2-1-集群分类" aria-hidden="true">#</a> 17.2.1.集群分类</h3>
 <p>在 RabbitMQ 的官方文档中，讲述了两种集群的配置方式：</p>
 <ul>
 <li>普通模式：普通模式集群不进行数据同步，每个 MQ 都有自己的队列、数据信息（其它元数据信息如交换机等会同步）。例如我们有 2 个 MQ：mq1，和 mq2，如果你的消息在 mq1，而你连接到了 mq2，那么 mq2 会去 mq1 拉取消息，然后返回给你。如果 mq1 宕机，消息就会丢失。</li>
 <li>镜像模式：与普通模式不同，队列会在各个 mq 的镜像节点之间同步，因此你连接到任何一个镜像节点，均可获取到消息。而且如果一个节点宕机，并不会导致数据丢失。不过，这种方式增加了数据同步的带宽消耗。</li>
 </ul>
 <p>我们先来看普通模式集群。</p>
-<h3 id="_2-2-设置网络" tabindex="-1"><a class="header-anchor" href="#_2-2-设置网络" aria-hidden="true">#</a> 2.2.设置网络</h3>
+<h3 id="_17-2-2-设置网络" tabindex="-1"><a class="header-anchor" href="#_17-2-2-设置网络" aria-hidden="true">#</a> 17.2.2.设置网络</h3>
 <p>首先，我们需要让 3 台 MQ 互相知道对方的存在。</p>
 <p>分别在 3 台机器中，设置 /etc/hosts 文件，设置 ip 地址：</p>
 <div class="language-bash line-numbers-mode" data-ext="sh"><pre v-pre class="language-bash"><code><span class="token number">192.168</span>.202.101 mq1

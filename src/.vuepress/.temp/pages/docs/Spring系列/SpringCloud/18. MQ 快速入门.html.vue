@@ -1,4 +1,4 @@
-<template><div><h1 id="_2-快速入门" tabindex="-1"><a class="header-anchor" href="#_2-快速入门" aria-hidden="true">#</a> 2.快速入门</h1>
+<template><div><h1 id="_18-mq-快速入门" tabindex="-1"><a class="header-anchor" href="#_18-mq-快速入门" aria-hidden="true">#</a> 18. MQ 快速入门</h1>
 <p>MQ 的基本结构：</p>
 <p><img src="https://gcore.jsdelivr.net/gh/SurplusFate/guide_img@main/img/image-20210717162752376.png" alt="image-20210717162752376"></p>
 <p>RabbitMQ 中的一些角色：</p>
@@ -9,10 +9,10 @@
 <li>queue：队列，存储消息</li>
 <li>virtualHost：虚拟主机，隔离不同租户的 exchange、queue、消息的隔离</li>
 </ul>
-<h2 id="_2-2-rabbitmq-消息模型" tabindex="-1"><a class="header-anchor" href="#_2-2-rabbitmq-消息模型" aria-hidden="true">#</a> 2.2.RabbitMQ 消息模型</h2>
+<h2 id="_18-1-rabbitmq-消息模型" tabindex="-1"><a class="header-anchor" href="#_18-1-rabbitmq-消息模型" aria-hidden="true">#</a> 18.1.RabbitMQ 消息模型</h2>
 <p>RabbitMQ 官方提供了 5 个不同的 Demo 示例，对应了不同的消息模型：</p>
 <p><img src="https://gcore.jsdelivr.net/gh/SurplusFate/guide_img@main/img/image-20210717163332646.png" alt="image-20210717163332646"></p>
-<h2 id="_2-3-导入-demo-工程" tabindex="-1"><a class="header-anchor" href="#_2-3-导入-demo-工程" aria-hidden="true">#</a> 2.3.导入 Demo 工程</h2>
+<h2 id="_18-2-导入-demo-工程" tabindex="-1"><a class="header-anchor" href="#_18-2-导入-demo-工程" aria-hidden="true">#</a> 18.2.导入 Demo 工程</h2>
 <p>链接: <a href="https://pan.baidu.com/s/1eAZjQx4g0qDlshalY_bN7g?pwd=myqv" target="_blank" rel="noopener noreferrer">https://pan.baidu.com/s/1eAZjQx4g0qDlshalY_bN7g?pwd=myqv<ExternalLinkIcon/></a> 提取码: myqv</p>
 <p>导入后可以看到结构如下：</p>
 <p><img src="https://gcore.jsdelivr.net/gh/SurplusFate/guide_img@main/img/image-20210717163604330.png" alt="image-20210717163604330"></p>
@@ -22,7 +22,7 @@
 <li>publisher：消息的发送者</li>
 <li>consumer：消息的消费者</li>
 </ul>
-<h2 id="_2-4-入门案例" tabindex="-1"><a class="header-anchor" href="#_2-4-入门案例" aria-hidden="true">#</a> 2.4.入门案例</h2>
+<h2 id="_18-3-入门案例" tabindex="-1"><a class="header-anchor" href="#_18-3-入门案例" aria-hidden="true">#</a> 18.3.入门案例</h2>
 <p>简单队列模式的模型图：</p>
 <p><img src="https://gcore.jsdelivr.net/gh/SurplusFate/guide_img@main/img/image-20210717163434647.png" alt="image-20210717163434647"></p>
 <p>官方的 HelloWorld 是基于最基础的消息队列模型来实现的，只包括三个角色：</p>
@@ -31,7 +31,7 @@
 <li>queue：消息队列，负责接受并缓存消息</li>
 <li>consumer：订阅队列，处理队列中的消息</li>
 </ul>
-<h3 id="_2-4-1-publisher-实现" tabindex="-1"><a class="header-anchor" href="#_2-4-1-publisher-实现" aria-hidden="true">#</a> 2.4.1.publisher 实现</h3>
+<h3 id="_18-3-1-publisher-实现" tabindex="-1"><a class="header-anchor" href="#_18-3-1-publisher-实现" aria-hidden="true">#</a> 18.3.1.publisher 实现</h3>
 <p>思路：</p>
 <ul>
 <li>建立连接</li>
@@ -83,7 +83,7 @@
 
     <span class="token punctuation">}</span>
 <span class="token punctuation">}</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="_2-4-2-consumer-实现" tabindex="-1"><a class="header-anchor" href="#_2-4-2-consumer-实现" aria-hidden="true">#</a> 2.4.2.consumer 实现</h3>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="_18-3-2-consumer-实现" tabindex="-1"><a class="header-anchor" href="#_18-3-2-consumer-实现" aria-hidden="true">#</a> 18.3.2.consumer 实现</h3>
 <p>代码思路：</p>
 <ul>
 <li>建立连接</li>
@@ -123,7 +123,7 @@
         connection<span class="token punctuation">.</span><span class="token function">close</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
     <span class="token punctuation">}</span>
 <span class="token punctuation">}</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2 id="_2-5-总结" tabindex="-1"><a class="header-anchor" href="#_2-5-总结" aria-hidden="true">#</a> 2.5.总结</h2>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2 id="_18-4-总结" tabindex="-1"><a class="header-anchor" href="#_18-4-总结" aria-hidden="true">#</a> 18.4.总结</h2>
 <p>基本消息队列的消息发送流程：</p>
 <ol>
 <li>

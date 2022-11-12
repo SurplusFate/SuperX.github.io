@@ -1,5 +1,3 @@
-# `TypeReference` 获取泛型属性
-
 当一个对象含有的属性有泛型时, 反序列化该对象可以尝试使用 `TypeReference`.
 
 例如:
@@ -46,14 +44,17 @@ protected TypeReference(){
 }
 
 ```
+
 `Type[] getActualTypeArguments`
 
-> 核心接口，返回泛型类型数组， 该接口可获取父类实际泛型类型，返回的Type数组对象表示该类型的实际类型参数。
+> 核心接口，返回泛型类型数组， 该接口可获取父类实际泛型类型，返回的 Type 数组对象表示该类型的实际类型参数。
 
 `Type getRawType()`
-> 返回原始类型Type
+
+> 返回原始类型 Type
 
 `Type getOwnerType()`
+
 > 返回 Type 对象，表示此类型是其成员之一的类型。
 
 示例

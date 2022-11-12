@@ -1,11 +1,3 @@
----
-icon: note
-date: 2022-09-24
-order: 1
-category:
-  - SSM
----
-
 # 环境搭建
 
 创建 web 项目并添加相关依赖.
@@ -207,13 +199,10 @@ conf/spring.xml
 <beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xmlns:context="http://www.springframework.org/schema/context"
        xmlns="http://www.springframework.org/schema/beans"
-       xmlns:tx="http://www.springframework.org/schema/tx"
        xsi:schemaLocation="http://www.springframework.org/schema/beans
                            http://www.springframework.org/schema/beans/spring-beans.xsd
                            http://www.springframework.org/schema/context
-                           https://www.springframework.org/schema/context/spring-context.xsd
-                           http://www.springframework.org/schema/tx
-                           http://www.springframework.org/schema/tx/spring-tx.xsd">
+                           https://www.springframework.org/schema/context/spring-context.xsd">
     <!--spring配置文件： 声明service，dao，工具类等对象-->
     <!--声明service的注解@Service所在的包名位置-->
     <context:component-scan base-package="com.demo.service"/>
@@ -250,70 +239,7 @@ conf/spring.xml
         <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>
         <property name="basePackage" value="com.demo.dao"/>
     </bean>
-
-<!--
-    &lt;!&ndash;使用spring的事务处理&ndash;&gt;
-    &lt;!&ndash;1. 声明事务管理器&ndash;&gt;
-    <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
-        &lt;!&ndash;连接的数据库, 指定数据源&ndash;&gt;
-        <property name="dataSource" ref="myDataSource"/>
-    </bean>
-    &lt;!&ndash;2. 开启事务注解驱动,告诉spring使用注解管理事务,创建代理对象
-           transaction-manager:事务管理器对象的id
-    &ndash;&gt;
-    <tx:annotation-driven transaction-manager="transactionManager"/>-->
-
-    <!--    &lt;!&ndash;事务配置：注解的配置， aspectj的配置&ndash;&gt;
-    &lt;!&ndash;声明式事务处理: 和源代码完全分离的&ndash;&gt;
-    &lt;!&ndash;1.声明事务管理器对象&ndash;&gt;
-    <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
-        <property name="dataSource" ref="myDataSource"/>
-    </bean>
-    &lt;!&ndash;2.声明业务方法它的事务属性（隔离级别,传播行为,超时时间）
-       id:自定义名称,表示 <tx:advice> 和 </tx:advice>之间的配置内容的
-       transaction-manager:事务管理器对象的id
-       &ndash;&gt;
-    <tx:advice id="myAdvice" transaction-manager="transactionManager">
-        &lt;!&ndash;tx:attributes: 配置事务属性&ndash;&gt;
-        <tx:attributes>
-            &lt;!&ndash;tx:method: 给具体的方法配置事务属性,method可以有多个,分别给不同的方法设置事务属性
-                        name:方法名称,1）完整的方法名称,不带有包和类
-                                    2）方法可以使用通配符,* 表示任意字符
-                        propagation: 传播行为,枚举值
-                        isolation: 隔离级别
-                        rollback-for: 你指定的异常类名,全限定类名 发生异常一定回滚
-                    &ndash;&gt;
-            <tx:method name="buy" propagation="REQUIRED" isolation="DEFAULT"
-                       rollback-for="java.lang.NullPointerException,com.bjpowernode.excep.NotEnoughException"/>
-
-            &lt;!&ndash;使用通配符,指定很多的方法&ndash;&gt;
-            <tx:method name="add*" propagation="REQUIRES_NEW"/>
-            &lt;!&ndash;指定修改方法&ndash;&gt;
-            <tx:method name="modify*"/>
-            &lt;!&ndash;删除方法&ndash;&gt;
-            <tx:method name="remove*"/>
-            &lt;!&ndash;查询方法,query,search,find&ndash;&gt;
-            <tx:method name="*" propagation="SUPPORTS" read-only="true"/>
-        </tx:attributes>
-    </tx:advice>
-    &lt;!&ndash;配置aop&ndash;&gt;
-    <aop:config>
-        &lt;!&ndash;配置切入点表达式: 指定哪些包中类,要使用事务
-                   id:切入点表达式的名称,唯一值
-                   expression: 切入点表达式,指定哪些类要使用事务,aspectj会创建代理对象
-
-                   com.bjpowernode.service
-                   com.crm.service
-                   com.service
-        &ndash;&gt;
-        <aop:pointcut id="servicePt" expression="execution(* *..service..*.*(..))"/>
-
-        &lt;!&ndash;配置增强器: 关联adivce和pointcut
-               advice-ref:通知,上面tx:advice哪里的配置
-               pointcut-ref: 切入点表达式的id
-        &ndash;&gt;
-        <aop:advisor advice-ref="myAdvice" pointcut-ref="servicePt"/>
-    </aop:config>-->
+    <!--事务配置：注解的配置， aspectj的配置-->
 </beans>
 
 ```

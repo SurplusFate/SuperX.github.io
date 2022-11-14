@@ -4890,6 +4890,388 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "1. 准备",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1. 导入依赖",
+        "slug": "_1-导入依赖",
+        "link": "#_1-导入依赖",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2. mysql 驱动",
+        "slug": "_2-mysql-驱动",
+        "link": "#_2-mysql-驱动",
+        "children": []
+      }
+    ],
+    "path": "/docs/Mybatis/1.%20%E5%87%86%E5%A4%87.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "10. 注解",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Mybatis 详细执行流程",
+        "slug": "mybatis-详细执行流程",
+        "link": "#mybatis-详细执行流程",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "注解 CRUD",
+        "slug": "注解-crud",
+        "link": "#注解-crud",
+        "children": []
+      }
+    ],
+    "path": "/docs/Mybatis/10.%20%E6%B3%A8%E8%A7%A3.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "11. 复杂查询环境搭建",
+    "headers": [
+      {
+        "level": 2,
+        "title": "多对一处理",
+        "slug": "多对一处理",
+        "link": "#多对一处理",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "一对多处理",
+        "slug": "一对多处理",
+        "link": "#一对多处理",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "总结",
+        "slug": "总结",
+        "link": "#总结",
+        "children": []
+      }
+    ],
+    "path": "/docs/Mybatis/11.%20%E5%A4%8D%E6%9D%82%E6%9F%A5%E8%AF%A2%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "12. 动态 SQL",
+    "headers": [
+      {
+        "level": 2,
+        "title": "if",
+        "slug": "if",
+        "link": "#if",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "trim、where、set",
+        "slug": "trim、where、set",
+        "link": "#trim、where、set",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "choose、when、otherwise",
+        "slug": "choose、when、otherwise",
+        "link": "#choose、when、otherwise",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "SQL 片段",
+        "slug": "sql-片段",
+        "link": "#sql-片段",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "foreach",
+        "slug": "foreach",
+        "link": "#foreach",
+        "children": []
+      }
+    ],
+    "path": "/docs/Mybatis/12.%20%E5%8A%A8%E6%80%81%20SQL.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "2. 使用",
+    "headers": [
+      {
+        "level": 2,
+        "title": "编写实体类(pojo/bean 层)",
+        "slug": "编写实体类-pojo-bean-层",
+        "link": "#编写实体类-pojo-bean-层",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "编写持久层(dao 层)",
+        "slug": "编写持久层-dao-层",
+        "link": "#编写持久层-dao-层",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "UserMapper.xml(替代原来的 impl 类)",
+        "slug": "usermapper-xml-替代原来的-impl-类",
+        "link": "#usermapper-xml-替代原来的-impl-类",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Mybatis 主配置文件",
+        "slug": "mybatis-主配置文件",
+        "link": "#mybatis-主配置文件",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "封装 mybatisUtils 工具类",
+        "slug": "封装-mybatisutils-工具类",
+        "link": "#封装-mybatisutils-工具类",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "测试",
+        "slug": "测试",
+        "link": "#测试",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "资源导出失败问题解决",
+        "slug": "资源导出失败问题解决",
+        "link": "#资源导出失败问题解决",
+        "children": []
+      }
+    ],
+    "path": "/docs/Mybatis/2.%20%E4%BD%BF%E7%94%A8.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "3. 主要类的介绍",
+    "headers": [],
+    "path": "/docs/Mybatis/3.%20%E4%B8%BB%E8%A6%81%E7%B1%BB%E4%BB%8B%E7%BB%8D.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "4. 配置文件详解",
+    "headers": [
+      {
+        "level": 2,
+        "title": "为什么要使用配置文件",
+        "slug": "为什么要使用配置文件",
+        "link": "#为什么要使用配置文件",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Mybatis 配置全貌",
+        "slug": "mybatis-配置全貌",
+        "link": "#mybatis-配置全貌",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "XML 核心配置",
+        "slug": "xml-核心配置",
+        "link": "#xml-核心配置",
+        "children": []
+      }
+    ],
+    "path": "/docs/Mybatis/4.%20%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E8%AF%A6%E8%A7%A3.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "5. CRUD",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1. select",
+        "slug": "_1-select",
+        "link": "#_1-select",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2. insert",
+        "slug": "_2-insert",
+        "link": "#_2-insert",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "3. update",
+        "slug": "_3-update",
+        "link": "#_3-update",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "4. delete",
+        "slug": "_4-delete",
+        "link": "#_4-delete",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "5. map 传参",
+        "slug": "_5-map-传参",
+        "link": "#_5-map-传参",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "6. 模糊查询",
+        "slug": "_6-模糊查询",
+        "link": "#_6-模糊查询",
+        "children": []
+      }
+    ],
+    "path": "/docs/Mybatis/5.%20CRUD.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "6. 配置 environments",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1. 属性（properties）",
+        "slug": "_1-属性-properties",
+        "link": "#_1-属性-properties",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2. 类型别名（typeAliases）",
+        "slug": "_2-类型别名-typealiases",
+        "link": "#_2-类型别名-typealiases",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "3.设置（settings）",
+        "slug": "_3-设置-settings",
+        "link": "#_3-设置-settings",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "4.其他设置",
+        "slug": "_4-其他设置",
+        "link": "#_4-其他设置",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "5.映射器（mappers）",
+        "slug": "_5-映射器-mappers",
+        "link": "#_5-映射器-mappers",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "作用域（Scope）和生命周期",
+        "slug": "作用域-scope-和生命周期",
+        "link": "#作用域-scope-和生命周期",
+        "children": []
+      }
+    ],
+    "path": "/docs/Mybatis/6.%20%E9%85%8D%E7%BD%AE%20environments.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "7. ResultMap 结果集映射",
+    "headers": [],
+    "path": "/docs/Mybatis/7.%20ResultMap%20%E7%BB%93%E6%9E%9C%E9%9B%86%E6%98%A0%E5%B0%84.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "8. 日志",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1. 日志工厂",
+        "slug": "_1-日志工厂",
+        "link": "#_1-日志工厂",
+        "children": [
+          {
+            "level": 3,
+            "title": "STDOUT_LOGGING",
+            "slug": "stdout-logging",
+            "link": "#stdout-logging",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "LOG4J",
+            "slug": "log4j",
+            "link": "#log4j",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/docs/Mybatis/8.%20%E6%97%A5%E5%BF%97.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "9. 分页",
+    "headers": [
+      {
+        "level": 2,
+        "title": "limit 分页",
+        "slug": "limit-分页",
+        "link": "#limit-分页",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "RowBounds 分页",
+        "slug": "rowbounds-分页",
+        "link": "#rowbounds-分页",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "分页插件",
+        "slug": "分页插件",
+        "link": "#分页插件",
+        "children": []
+      }
+    ],
+    "path": "/docs/Mybatis/9.%20%E5%88%86%E9%A1%B5.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Mybatis",
+    "headers": [],
+    "path": "/docs/Mybatis/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "VMware",
     "headers": [
       {
@@ -6052,388 +6434,6 @@ export const searchIndex = [
     "title": "Linux",
     "headers": [],
     "path": "/docs/Linux/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "1. 准备",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1. 导入依赖",
-        "slug": "_1-导入依赖",
-        "link": "#_1-导入依赖",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2. mysql 驱动",
-        "slug": "_2-mysql-驱动",
-        "link": "#_2-mysql-驱动",
-        "children": []
-      }
-    ],
-    "path": "/docs/Mybatis/1.%20%E5%87%86%E5%A4%87.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "10. 注解",
-    "headers": [
-      {
-        "level": 2,
-        "title": "Mybatis 详细执行流程",
-        "slug": "mybatis-详细执行流程",
-        "link": "#mybatis-详细执行流程",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "注解 CRUD",
-        "slug": "注解-crud",
-        "link": "#注解-crud",
-        "children": []
-      }
-    ],
-    "path": "/docs/Mybatis/10.%20%E6%B3%A8%E8%A7%A3.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "11. 复杂查询环境搭建",
-    "headers": [
-      {
-        "level": 2,
-        "title": "多对一处理",
-        "slug": "多对一处理",
-        "link": "#多对一处理",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "一对多处理",
-        "slug": "一对多处理",
-        "link": "#一对多处理",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "总结",
-        "slug": "总结",
-        "link": "#总结",
-        "children": []
-      }
-    ],
-    "path": "/docs/Mybatis/11.%20%E5%A4%8D%E6%9D%82%E6%9F%A5%E8%AF%A2%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "12. 动态 SQL",
-    "headers": [
-      {
-        "level": 2,
-        "title": "if",
-        "slug": "if",
-        "link": "#if",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "trim、where、set",
-        "slug": "trim、where、set",
-        "link": "#trim、where、set",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "choose、when、otherwise",
-        "slug": "choose、when、otherwise",
-        "link": "#choose、when、otherwise",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "SQL 片段",
-        "slug": "sql-片段",
-        "link": "#sql-片段",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "foreach",
-        "slug": "foreach",
-        "link": "#foreach",
-        "children": []
-      }
-    ],
-    "path": "/docs/Mybatis/12.%20%E5%8A%A8%E6%80%81%20SQL.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "2. 使用",
-    "headers": [
-      {
-        "level": 2,
-        "title": "编写实体类(pojo/bean 层)",
-        "slug": "编写实体类-pojo-bean-层",
-        "link": "#编写实体类-pojo-bean-层",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "编写持久层(dao 层)",
-        "slug": "编写持久层-dao-层",
-        "link": "#编写持久层-dao-层",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "UserMapper.xml(替代原来的 impl 类)",
-        "slug": "usermapper-xml-替代原来的-impl-类",
-        "link": "#usermapper-xml-替代原来的-impl-类",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Mybatis 主配置文件",
-        "slug": "mybatis-主配置文件",
-        "link": "#mybatis-主配置文件",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "封装 mybatisUtils 工具类",
-        "slug": "封装-mybatisutils-工具类",
-        "link": "#封装-mybatisutils-工具类",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "测试",
-        "slug": "测试",
-        "link": "#测试",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "资源导出失败问题解决",
-        "slug": "资源导出失败问题解决",
-        "link": "#资源导出失败问题解决",
-        "children": []
-      }
-    ],
-    "path": "/docs/Mybatis/2.%20%E4%BD%BF%E7%94%A8.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "3. 主要类的介绍",
-    "headers": [],
-    "path": "/docs/Mybatis/3.%20%E4%B8%BB%E8%A6%81%E7%B1%BB%E4%BB%8B%E7%BB%8D.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "4. 配置文件详解",
-    "headers": [
-      {
-        "level": 2,
-        "title": "为什么要使用配置文件",
-        "slug": "为什么要使用配置文件",
-        "link": "#为什么要使用配置文件",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Mybatis 配置全貌",
-        "slug": "mybatis-配置全貌",
-        "link": "#mybatis-配置全貌",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "XML 核心配置",
-        "slug": "xml-核心配置",
-        "link": "#xml-核心配置",
-        "children": []
-      }
-    ],
-    "path": "/docs/Mybatis/4.%20%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E8%AF%A6%E8%A7%A3.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "5. CRUD",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1. select",
-        "slug": "_1-select",
-        "link": "#_1-select",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2. insert",
-        "slug": "_2-insert",
-        "link": "#_2-insert",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "3. update",
-        "slug": "_3-update",
-        "link": "#_3-update",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "4. delete",
-        "slug": "_4-delete",
-        "link": "#_4-delete",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "5. map 传参",
-        "slug": "_5-map-传参",
-        "link": "#_5-map-传参",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "6. 模糊查询",
-        "slug": "_6-模糊查询",
-        "link": "#_6-模糊查询",
-        "children": []
-      }
-    ],
-    "path": "/docs/Mybatis/5.%20CRUD.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "6. 配置 environments",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1. 属性（properties）",
-        "slug": "_1-属性-properties",
-        "link": "#_1-属性-properties",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2. 类型别名（typeAliases）",
-        "slug": "_2-类型别名-typealiases",
-        "link": "#_2-类型别名-typealiases",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "3.设置（settings）",
-        "slug": "_3-设置-settings",
-        "link": "#_3-设置-settings",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "4.其他设置",
-        "slug": "_4-其他设置",
-        "link": "#_4-其他设置",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "5.映射器（mappers）",
-        "slug": "_5-映射器-mappers",
-        "link": "#_5-映射器-mappers",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "作用域（Scope）和生命周期",
-        "slug": "作用域-scope-和生命周期",
-        "link": "#作用域-scope-和生命周期",
-        "children": []
-      }
-    ],
-    "path": "/docs/Mybatis/6.%20%E9%85%8D%E7%BD%AE%20environments.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "7. ResultMap 结果集映射",
-    "headers": [],
-    "path": "/docs/Mybatis/7.%20ResultMap%20%E7%BB%93%E6%9E%9C%E9%9B%86%E6%98%A0%E5%B0%84.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "8. 日志",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1. 日志工厂",
-        "slug": "_1-日志工厂",
-        "link": "#_1-日志工厂",
-        "children": [
-          {
-            "level": 3,
-            "title": "STDOUT_LOGGING",
-            "slug": "stdout-logging",
-            "link": "#stdout-logging",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "LOG4J",
-            "slug": "log4j",
-            "link": "#log4j",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/docs/Mybatis/8.%20%E6%97%A5%E5%BF%97.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "9. 分页",
-    "headers": [
-      {
-        "level": 2,
-        "title": "limit 分页",
-        "slug": "limit-分页",
-        "link": "#limit-分页",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "RowBounds 分页",
-        "slug": "rowbounds-分页",
-        "link": "#rowbounds-分页",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "分页插件",
-        "slug": "分页插件",
-        "link": "#分页插件",
-        "children": []
-      }
-    ],
-    "path": "/docs/Mybatis/9.%20%E5%88%86%E9%A1%B5.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Mybatis",
-    "headers": [],
-    "path": "/docs/Mybatis/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -8395,7 +8395,7 @@ export const searchIndex = [
         ]
       }
     ],
-    "path": "/docs/%E5%B0%8F%E8%AE%B0/sentinel%E8%A7%84%E5%88%99%E6%8C%81%E4%B9%85%E5%8C%96.html",
+    "path": "/docs/%E5%B0%8F%E8%AE%B0/sentinel%20%E8%A7%84%E5%88%99%E6%8C%81%E4%B9%85%E5%8C%96.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -8853,6 +8853,534 @@ export const searchIndex = [
       }
     ],
     "path": "/docs/Redis/Redis%20%E5%9F%BA%E7%A1%80/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "1. IOC",
+    "headers": [],
+    "path": "/docs/Spring%E7%B3%BB%E5%88%97/Spring/1.%20IOC.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "10. 整合 Mybatis",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1. 回忆 Mybatis",
+        "slug": "_1-回忆-mybatis",
+        "link": "#_1-回忆-mybatis",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2. 整合 Mybatis 的方式一",
+        "slug": "_2-整合-mybatis-的方式一",
+        "link": "#_2-整合-mybatis-的方式一",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2. 整合 Mybatis 的方式二",
+        "slug": "_2-整合-mybatis-的方式二",
+        "link": "#_2-整合-mybatis-的方式二",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "3. 整合 Mybatis 的方式三",
+        "slug": "_3-整合-mybatis-的方式三",
+        "link": "#_3-整合-mybatis-的方式三",
+        "children": []
+      }
+    ],
+    "path": "/docs/Spring%E7%B3%BB%E5%88%97/Spring/10.%20%E6%95%B4%E5%90%88%20Mybatis.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "11. 事务",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1. 事务回顾",
+        "slug": "_1-事务回顾",
+        "link": "#_1-事务回顾",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2. Spring 中的事务管理",
+        "slug": "_2-spring-中的事务管理",
+        "link": "#_2-spring-中的事务管理",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "3. 模拟事务环境搭建",
+        "slug": "_3-模拟事务环境搭建",
+        "link": "#_3-模拟事务环境搭建",
+        "children": [
+          {
+            "level": 3,
+            "title": "1. dao 层",
+            "slug": "_1-dao-层",
+            "link": "#_1-dao-层",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2. 实体类",
+            "slug": "_2-实体类",
+            "link": "#_2-实体类",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3. service 层",
+            "slug": "_3-service-层",
+            "link": "#_3-service-层",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "4. 配置文件",
+            "slug": "_4-配置文件",
+            "link": "#_4-配置文件",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "4. 事务处理",
+        "slug": "_4-事务处理",
+        "link": "#_4-事务处理",
+        "children": [
+          {
+            "level": 3,
+            "title": "1. spring 框架中提供的事务处理方案",
+            "slug": "_1-spring-框架中提供的事务处理方案",
+            "link": "#_1-spring-框架中提供的事务处理方案",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2. 使用 aspectj 的 aop 配置管理事务",
+            "slug": "_2-使用-aspectj-的-aop-配置管理事务",
+            "link": "#_2-使用-aspectj-的-aop-配置管理事务",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/docs/Spring%E7%B3%BB%E5%88%97/Spring/11.%20%E4%BA%8B%E5%8A%A1.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "12. web 项目使用容器对象",
+    "headers": [
+      {
+        "level": 2,
+        "title": "环境搭建",
+        "slug": "环境搭建",
+        "link": "#环境搭建",
+        "children": [
+          {
+            "level": 3,
+            "title": "controller 层",
+            "slug": "controller-层",
+            "link": "#controller-层",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "dao 层",
+            "slug": "dao-层",
+            "link": "#dao-层",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "实体类",
+            "slug": "实体类",
+            "link": "#实体类",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "service 层",
+            "slug": "service-层",
+            "link": "#service-层",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "配置文件",
+            "slug": "配置文件",
+            "link": "#配置文件",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "响应页面",
+            "slug": "响应页面",
+            "link": "#响应页面",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/docs/Spring%E7%B3%BB%E5%88%97/Spring/12.%20%20web%20%E9%A1%B9%E7%9B%AE%E4%B8%AD%E4%BD%BF%E7%94%A8%E5%AE%B9%E5%99%A8%E5%AF%B9%E8%B1%A1.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "2. Spring 创建对象",
+    "headers": [
+      {
+        "level": 2,
+        "title": "获取容器中对象信息的 api",
+        "slug": "获取容器中对象信息的-api",
+        "link": "#获取容器中对象信息的-api",
+        "children": []
+      }
+    ],
+    "path": "/docs/Spring%E7%B3%BB%E5%88%97/Spring/2.%20Spring%E5%88%9B%E5%BB%BA%E5%AF%B9%E8%B1%A1.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "3. DI: 依赖注入",
+    "headers": [
+      {
+        "level": 2,
+        "title": "set 注入",
+        "slug": "set-注入",
+        "link": "#set-注入",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "构造注入",
+        "slug": "构造注入",
+        "link": "#构造注入",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "命名空间注入",
+        "slug": "命名空间注入",
+        "link": "#命名空间注入",
+        "children": []
+      }
+    ],
+    "path": "/docs/Spring%E7%B3%BB%E5%88%97/Spring/3.%20DI%20%E4%BE%9D%E8%B5%96%E6%B3%A8%E5%85%A5.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "4. Spring 配置",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1. 别名",
+        "slug": "_1-别名",
+        "link": "#_1-别名",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2. Bean 配置",
+        "slug": "_2-bean-配置",
+        "link": "#_2-bean-配置",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "3. import",
+        "slug": "_3-import",
+        "link": "#_3-import",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "4. bean 的作用域",
+        "slug": "_4-bean-的作用域",
+        "link": "#_4-bean-的作用域",
+        "children": []
+      }
+    ],
+    "path": "/docs/Spring%E7%B3%BB%E5%88%97/Spring/4.%20Spring%20%E9%85%8D%E7%BD%AE.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "5. Bean 自动装配",
+    "headers": [
+      {
+        "level": 2,
+        "title": "ByName 自动装配",
+        "slug": "byname-自动装配",
+        "link": "#byname-自动装配",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "ByType 自动装配",
+        "slug": "bytype-自动装配",
+        "link": "#bytype-自动装配",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "使用注解自动装配",
+        "slug": "使用注解自动装配",
+        "link": "#使用注解自动装配",
+        "children": [
+          {
+            "level": 3,
+            "title": "@Autowired",
+            "slug": "autowired",
+            "link": "#autowired",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "总结",
+            "slug": "总结",
+            "link": "#总结",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/docs/Spring%E7%B3%BB%E5%88%97/Spring/5.%20Bean%20%E8%87%AA%E5%8A%A8%E8%A3%85%E9%85%8D.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "6. 使用注解开发",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1. 导入 Context 约束, 增加注解支持",
+        "slug": "_1-导入-context-约束-增加注解支持",
+        "link": "#_1-导入-context-约束-增加注解支持",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2. 注解",
+        "slug": "_2-注解",
+        "link": "#_2-注解",
+        "children": []
+      }
+    ],
+    "path": "/docs/Spring%E7%B3%BB%E5%88%97/Spring/6.%20%E4%BD%BF%E7%94%A8%E6%B3%A8%E8%A7%A3%E5%BC%80%E5%8F%91.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "7. 使用 java 方式配置 Spring",
+    "headers": [],
+    "path": "/docs/Spring%E7%B3%BB%E5%88%97/Spring/7.%20%E4%BD%BF%E7%94%A8%20java%20%E6%96%B9%E5%BC%8F%E9%85%8D%E7%BD%AE%20Spring.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "8. 代理模式",
+    "headers": [
+      {
+        "level": 2,
+        "title": "定义",
+        "slug": "定义",
+        "link": "#定义",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "代理模式的主要角色",
+        "slug": "代理模式的主要角色",
+        "link": "#代理模式的主要角色",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "优点",
+        "slug": "优点",
+        "link": "#优点",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "缺点",
+        "slug": "缺点",
+        "link": "#缺点",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "静态代理",
+        "slug": "静态代理",
+        "link": "#静态代理",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "动态代理",
+        "slug": "动态代理",
+        "link": "#动态代理",
+        "children": [
+          {
+            "level": 3,
+            "title": "JDK 原生动态代理",
+            "slug": "jdk-原生动态代理",
+            "link": "#jdk-原生动态代理",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "分析",
+            "slug": "分析",
+            "link": "#分析",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "小结",
+            "slug": "小结",
+            "link": "#小结",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/docs/Spring%E7%B3%BB%E5%88%97/Spring/8.%20%E4%BB%A3%E7%90%86%E6%A8%A1%E5%BC%8F.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "9. Spring AOP",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1. 基本概念",
+        "slug": "_1-基本概念",
+        "link": "#_1-基本概念",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2. 面向切面编程",
+        "slug": "_2-面向切面编程",
+        "link": "#_2-面向切面编程",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "3. AOP 的目的",
+        "slug": "_3-aop-的目的",
+        "link": "#_3-aop-的目的",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "4. 术语",
+        "slug": "_4-术语",
+        "link": "#_4-术语",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "5. 流程",
+        "slug": "_5-流程",
+        "link": "#_5-流程",
+        "children": [
+          {
+            "level": 3,
+            "title": "1. 五大通知执行顺序",
+            "slug": "_1-五大通知执行顺序",
+            "link": "#_1-五大通知执行顺序",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2. 图例",
+            "slug": "_2-图例",
+            "link": "#_2-图例",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "6. AOP 实现方式一(SpringAPI 接口)",
+        "slug": "_6-aop-实现方式一-springapi-接口",
+        "link": "#_6-aop-实现方式一-springapi-接口",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "7. AOP 实现方式二(配置文件)",
+        "slug": "_7-aop-实现方式二-配置文件",
+        "link": "#_7-aop-实现方式二-配置文件",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "8. AOP 实现方式三(注解)",
+        "slug": "_8-aop-实现方式三-注解",
+        "link": "#_8-aop-实现方式三-注解",
+        "children": [
+          {
+            "level": 3,
+            "title": "1. 前置通知和后置通知",
+            "slug": "_1-前置通知和后置通知",
+            "link": "#_1-前置通知和后置通知",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2. 环绕通知（Around）",
+            "slug": "_2-环绕通知-around",
+            "link": "#_2-环绕通知-around",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3. 异常通知 AfterThrowing",
+            "slug": "_3-异常通知-afterthrowing",
+            "link": "#_3-异常通知-afterthrowing",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "4. 最终通知 After",
+            "slug": "_4-最终通知-after",
+            "link": "#_4-最终通知-after",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "5. 定义和管理切入点(Pointcut)",
+            "slug": "_5-定义和管理切入点-pointcut",
+            "link": "#_5-定义和管理切入点-pointcut",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "6. 总结",
+            "slug": "_6-总结",
+            "link": "#_6-总结",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/docs/Spring%E7%B3%BB%E5%88%97/Spring/9.%20Spring%20AOP.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -9427,534 +9955,6 @@ export const searchIndex = [
       }
     ],
     "path": "/docs/Redis/Redis%20%E5%AE%9E%E6%88%98/9.%20%E9%99%84%E8%BF%91%E5%95%86%E6%88%B7.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "1. IOC",
-    "headers": [],
-    "path": "/docs/Spring%E7%B3%BB%E5%88%97/Spring/1.%20IOC.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "10. 整合 Mybatis",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1. 回忆 Mybatis",
-        "slug": "_1-回忆-mybatis",
-        "link": "#_1-回忆-mybatis",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2. 整合 Mybatis 的方式一",
-        "slug": "_2-整合-mybatis-的方式一",
-        "link": "#_2-整合-mybatis-的方式一",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2. 整合 Mybatis 的方式二",
-        "slug": "_2-整合-mybatis-的方式二",
-        "link": "#_2-整合-mybatis-的方式二",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "3. 整合 Mybatis 的方式三",
-        "slug": "_3-整合-mybatis-的方式三",
-        "link": "#_3-整合-mybatis-的方式三",
-        "children": []
-      }
-    ],
-    "path": "/docs/Spring%E7%B3%BB%E5%88%97/Spring/10.%20%E6%95%B4%E5%90%88%20Mybatis.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "11. 事务",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1. 事务回顾",
-        "slug": "_1-事务回顾",
-        "link": "#_1-事务回顾",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2. Spring 中的事务管理",
-        "slug": "_2-spring-中的事务管理",
-        "link": "#_2-spring-中的事务管理",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "3. 模拟事务环境搭建",
-        "slug": "_3-模拟事务环境搭建",
-        "link": "#_3-模拟事务环境搭建",
-        "children": [
-          {
-            "level": 3,
-            "title": "1. dao 层",
-            "slug": "_1-dao-层",
-            "link": "#_1-dao-层",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2. 实体类",
-            "slug": "_2-实体类",
-            "link": "#_2-实体类",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3. service 层",
-            "slug": "_3-service-层",
-            "link": "#_3-service-层",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "4. 配置文件",
-            "slug": "_4-配置文件",
-            "link": "#_4-配置文件",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "4. 事务处理",
-        "slug": "_4-事务处理",
-        "link": "#_4-事务处理",
-        "children": [
-          {
-            "level": 3,
-            "title": "1. spring 框架中提供的事务处理方案",
-            "slug": "_1-spring-框架中提供的事务处理方案",
-            "link": "#_1-spring-框架中提供的事务处理方案",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2. 使用 aspectj 的 aop 配置管理事务",
-            "slug": "_2-使用-aspectj-的-aop-配置管理事务",
-            "link": "#_2-使用-aspectj-的-aop-配置管理事务",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/docs/Spring%E7%B3%BB%E5%88%97/Spring/11.%20%E4%BA%8B%E5%8A%A1.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "12. web 项目使用容器对象",
-    "headers": [
-      {
-        "level": 2,
-        "title": "环境搭建",
-        "slug": "环境搭建",
-        "link": "#环境搭建",
-        "children": [
-          {
-            "level": 3,
-            "title": "controller 层",
-            "slug": "controller-层",
-            "link": "#controller-层",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "dao 层",
-            "slug": "dao-层",
-            "link": "#dao-层",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "实体类",
-            "slug": "实体类",
-            "link": "#实体类",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "service 层",
-            "slug": "service-层",
-            "link": "#service-层",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "配置文件",
-            "slug": "配置文件",
-            "link": "#配置文件",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "响应页面",
-            "slug": "响应页面",
-            "link": "#响应页面",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/docs/Spring%E7%B3%BB%E5%88%97/Spring/12.%20%20web%20%E9%A1%B9%E7%9B%AE%E4%B8%AD%E4%BD%BF%E7%94%A8%E5%AE%B9%E5%99%A8%E5%AF%B9%E8%B1%A1.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "2. Spring 创建对象",
-    "headers": [
-      {
-        "level": 2,
-        "title": "获取容器中对象信息的 api",
-        "slug": "获取容器中对象信息的-api",
-        "link": "#获取容器中对象信息的-api",
-        "children": []
-      }
-    ],
-    "path": "/docs/Spring%E7%B3%BB%E5%88%97/Spring/2.%20Spring%E5%88%9B%E5%BB%BA%E5%AF%B9%E8%B1%A1.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "3. DI: 依赖注入",
-    "headers": [
-      {
-        "level": 2,
-        "title": "set 注入",
-        "slug": "set-注入",
-        "link": "#set-注入",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "构造注入",
-        "slug": "构造注入",
-        "link": "#构造注入",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "命名空间注入",
-        "slug": "命名空间注入",
-        "link": "#命名空间注入",
-        "children": []
-      }
-    ],
-    "path": "/docs/Spring%E7%B3%BB%E5%88%97/Spring/3.%20DI%20%E4%BE%9D%E8%B5%96%E6%B3%A8%E5%85%A5.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "4. Spring 配置",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1. 别名",
-        "slug": "_1-别名",
-        "link": "#_1-别名",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2. Bean 配置",
-        "slug": "_2-bean-配置",
-        "link": "#_2-bean-配置",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "3. import",
-        "slug": "_3-import",
-        "link": "#_3-import",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "4. bean 的作用域",
-        "slug": "_4-bean-的作用域",
-        "link": "#_4-bean-的作用域",
-        "children": []
-      }
-    ],
-    "path": "/docs/Spring%E7%B3%BB%E5%88%97/Spring/4.%20Spring%20%E9%85%8D%E7%BD%AE.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "5. Bean 自动装配",
-    "headers": [
-      {
-        "level": 2,
-        "title": "ByName 自动装配",
-        "slug": "byname-自动装配",
-        "link": "#byname-自动装配",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "ByType 自动装配",
-        "slug": "bytype-自动装配",
-        "link": "#bytype-自动装配",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "使用注解自动装配",
-        "slug": "使用注解自动装配",
-        "link": "#使用注解自动装配",
-        "children": [
-          {
-            "level": 3,
-            "title": "@Autowired",
-            "slug": "autowired",
-            "link": "#autowired",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "总结",
-            "slug": "总结",
-            "link": "#总结",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/docs/Spring%E7%B3%BB%E5%88%97/Spring/5.%20Bean%20%E8%87%AA%E5%8A%A8%E8%A3%85%E9%85%8D.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "6. 使用注解开发",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1. 导入 Context 约束, 增加注解支持",
-        "slug": "_1-导入-context-约束-增加注解支持",
-        "link": "#_1-导入-context-约束-增加注解支持",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2. 注解",
-        "slug": "_2-注解",
-        "link": "#_2-注解",
-        "children": []
-      }
-    ],
-    "path": "/docs/Spring%E7%B3%BB%E5%88%97/Spring/6.%20%E4%BD%BF%E7%94%A8%E6%B3%A8%E8%A7%A3%E5%BC%80%E5%8F%91.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "7. 使用 java 方式配置 Spring",
-    "headers": [],
-    "path": "/docs/Spring%E7%B3%BB%E5%88%97/Spring/7.%20%E4%BD%BF%E7%94%A8%20java%20%E6%96%B9%E5%BC%8F%E9%85%8D%E7%BD%AE%20Spring.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "8. 代理模式",
-    "headers": [
-      {
-        "level": 2,
-        "title": "定义",
-        "slug": "定义",
-        "link": "#定义",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "代理模式的主要角色",
-        "slug": "代理模式的主要角色",
-        "link": "#代理模式的主要角色",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "优点",
-        "slug": "优点",
-        "link": "#优点",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "缺点",
-        "slug": "缺点",
-        "link": "#缺点",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "静态代理",
-        "slug": "静态代理",
-        "link": "#静态代理",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "动态代理",
-        "slug": "动态代理",
-        "link": "#动态代理",
-        "children": [
-          {
-            "level": 3,
-            "title": "JDK 原生动态代理",
-            "slug": "jdk-原生动态代理",
-            "link": "#jdk-原生动态代理",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "分析",
-            "slug": "分析",
-            "link": "#分析",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "小结",
-            "slug": "小结",
-            "link": "#小结",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/docs/Spring%E7%B3%BB%E5%88%97/Spring/8.%20%E4%BB%A3%E7%90%86%E6%A8%A1%E5%BC%8F.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "9. Spring AOP",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1. 基本概念",
-        "slug": "_1-基本概念",
-        "link": "#_1-基本概念",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2. 面向切面编程",
-        "slug": "_2-面向切面编程",
-        "link": "#_2-面向切面编程",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "3. AOP 的目的",
-        "slug": "_3-aop-的目的",
-        "link": "#_3-aop-的目的",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "4. 术语",
-        "slug": "_4-术语",
-        "link": "#_4-术语",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "5. 流程",
-        "slug": "_5-流程",
-        "link": "#_5-流程",
-        "children": [
-          {
-            "level": 3,
-            "title": "1. 五大通知执行顺序",
-            "slug": "_1-五大通知执行顺序",
-            "link": "#_1-五大通知执行顺序",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2. 图例",
-            "slug": "_2-图例",
-            "link": "#_2-图例",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "6. AOP 实现方式一(SpringAPI 接口)",
-        "slug": "_6-aop-实现方式一-springapi-接口",
-        "link": "#_6-aop-实现方式一-springapi-接口",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "7. AOP 实现方式二(配置文件)",
-        "slug": "_7-aop-实现方式二-配置文件",
-        "link": "#_7-aop-实现方式二-配置文件",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "8. AOP 实现方式三(注解)",
-        "slug": "_8-aop-实现方式三-注解",
-        "link": "#_8-aop-实现方式三-注解",
-        "children": [
-          {
-            "level": 3,
-            "title": "1. 前置通知和后置通知",
-            "slug": "_1-前置通知和后置通知",
-            "link": "#_1-前置通知和后置通知",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2. 环绕通知（Around）",
-            "slug": "_2-环绕通知-around",
-            "link": "#_2-环绕通知-around",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3. 异常通知 AfterThrowing",
-            "slug": "_3-异常通知-afterthrowing",
-            "link": "#_3-异常通知-afterthrowing",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "4. 最终通知 After",
-            "slug": "_4-最终通知-after",
-            "link": "#_4-最终通知-after",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "5. 定义和管理切入点(Pointcut)",
-            "slug": "_5-定义和管理切入点-pointcut",
-            "link": "#_5-定义和管理切入点-pointcut",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "6. 总结",
-            "slug": "_6-总结",
-            "link": "#_6-总结",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/docs/Spring%E7%B3%BB%E5%88%97/Spring/9.%20Spring%20AOP.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -13969,16 +13969,16 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "linux 分类",
+    "title": "mybatis 分类",
     "headers": [],
-    "path": "/category/linux/",
+    "path": "/category/mybatis/",
     "pathLocale": "/",
     "extraFields": []
   },
   {
-    "title": "mybatis 分类",
+    "title": "linux 分类",
     "headers": [],
-    "path": "/category/mybatis/",
+    "path": "/category/linux/",
     "pathLocale": "/",
     "extraFields": []
   },

@@ -95,20 +95,6 @@ export const pagesComponents = {
   "v-9ab2ba2e": defineAsyncComponent(() => import(/* webpackChunkName: "v-9ab2ba2e" */"E:/MyNode/src/.vuepress/.temp/pages/docs/javaWeb/8. Cookie 和 Session.html.vue")),
   // path: /docs/javaWeb/9.%20JSP.html
   "v-313f6f30": defineAsyncComponent(() => import(/* webpackChunkName: "v-313f6f30" */"E:/MyNode/src/.vuepress/.temp/pages/docs/javaWeb/9. JSP.html.vue")),
-  // path: /docs/Linux/1.%20VMware.html
-  "v-6b9d0d95": defineAsyncComponent(() => import(/* webpackChunkName: "v-6b9d0d95" */"E:/MyNode/src/.vuepress/.temp/pages/docs/Linux/1. VMware.html.vue")),
-  // path: /docs/Linux/2.%20%E6%96%87%E4%BB%B6%E7%AE%A1%E7%90%86.html
-  "v-2a95671d": defineAsyncComponent(() => import(/* webpackChunkName: "v-2a95671d" */"E:/MyNode/src/.vuepress/.temp/pages/docs/Linux/2. 文件管理.html.vue")),
-  // path: /docs/Linux/3.%20%E7%B3%BB%E7%BB%9F%E7%AE%A1%E7%90%86.html
-  "v-2db4a924": defineAsyncComponent(() => import(/* webpackChunkName: "v-2db4a924" */"E:/MyNode/src/.vuepress/.temp/pages/docs/Linux/3. 系统管理.html.vue")),
-  // path: /docs/Linux/4.%20%E7%94%A8%E6%88%B7%E5%92%8C%E7%BB%84.html
-  "v-801cbfbc": defineAsyncComponent(() => import(/* webpackChunkName: "v-801cbfbc" */"E:/MyNode/src/.vuepress/.temp/pages/docs/Linux/4. 用户和组.html.vue")),
-  // path: /docs/Linux/5.%20%E8%BD%AF%E4%BB%B6%E5%8C%85%E7%AE%A1%E7%90%86.html
-  "v-7b6b4f78": defineAsyncComponent(() => import(/* webpackChunkName: "v-7b6b4f78" */"E:/MyNode/src/.vuepress/.temp/pages/docs/Linux/5. 软件包管理.html.vue")),
-  // path: /docs/Linux/6.%20JavaEE%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA.html
-  "v-8d685680": defineAsyncComponent(() => import(/* webpackChunkName: "v-8d685680" */"E:/MyNode/src/.vuepress/.temp/pages/docs/Linux/6. JavaEE环境搭建.html.vue")),
-  // path: /docs/Linux/
-  "v-f31f90d4": defineAsyncComponent(() => import(/* webpackChunkName: "v-f31f90d4" */"E:/MyNode/src/.vuepress/.temp/pages/docs/Linux/index.html.vue")),
   // path: /docs/Mybatis/1.%20%E5%87%86%E5%A4%87.html
   "v-97cbea86": defineAsyncComponent(() => import(/* webpackChunkName: "v-97cbea86" */"E:/MyNode/src/.vuepress/.temp/pages/docs/Mybatis/1. 准备.html.vue")),
   // path: /docs/Mybatis/10.%20%E6%B3%A8%E8%A7%A3.html
@@ -135,6 +121,20 @@ export const pagesComponents = {
   "v-6ec20f99": defineAsyncComponent(() => import(/* webpackChunkName: "v-6ec20f99" */"E:/MyNode/src/.vuepress/.temp/pages/docs/Mybatis/9. 分页.html.vue")),
   // path: /docs/Mybatis/
   "v-4bf0a3d7": defineAsyncComponent(() => import(/* webpackChunkName: "v-4bf0a3d7" */"E:/MyNode/src/.vuepress/.temp/pages/docs/Mybatis/index.html.vue")),
+  // path: /docs/Linux/1.%20VMware.html
+  "v-6b9d0d95": defineAsyncComponent(() => import(/* webpackChunkName: "v-6b9d0d95" */"E:/MyNode/src/.vuepress/.temp/pages/docs/Linux/1. VMware.html.vue")),
+  // path: /docs/Linux/2.%20%E6%96%87%E4%BB%B6%E7%AE%A1%E7%90%86.html
+  "v-2a95671d": defineAsyncComponent(() => import(/* webpackChunkName: "v-2a95671d" */"E:/MyNode/src/.vuepress/.temp/pages/docs/Linux/2. 文件管理.html.vue")),
+  // path: /docs/Linux/3.%20%E7%B3%BB%E7%BB%9F%E7%AE%A1%E7%90%86.html
+  "v-2db4a924": defineAsyncComponent(() => import(/* webpackChunkName: "v-2db4a924" */"E:/MyNode/src/.vuepress/.temp/pages/docs/Linux/3. 系统管理.html.vue")),
+  // path: /docs/Linux/4.%20%E7%94%A8%E6%88%B7%E5%92%8C%E7%BB%84.html
+  "v-801cbfbc": defineAsyncComponent(() => import(/* webpackChunkName: "v-801cbfbc" */"E:/MyNode/src/.vuepress/.temp/pages/docs/Linux/4. 用户和组.html.vue")),
+  // path: /docs/Linux/5.%20%E8%BD%AF%E4%BB%B6%E5%8C%85%E7%AE%A1%E7%90%86.html
+  "v-7b6b4f78": defineAsyncComponent(() => import(/* webpackChunkName: "v-7b6b4f78" */"E:/MyNode/src/.vuepress/.temp/pages/docs/Linux/5. 软件包管理.html.vue")),
+  // path: /docs/Linux/6.%20JavaEE%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA.html
+  "v-8d685680": defineAsyncComponent(() => import(/* webpackChunkName: "v-8d685680" */"E:/MyNode/src/.vuepress/.temp/pages/docs/Linux/6. JavaEE环境搭建.html.vue")),
+  // path: /docs/Linux/
+  "v-f31f90d4": defineAsyncComponent(() => import(/* webpackChunkName: "v-f31f90d4" */"E:/MyNode/src/.vuepress/.temp/pages/docs/Linux/index.html.vue")),
   // path: /docs/MySQL/1.%20%E5%88%9B%E5%BB%BA%E4%B8%8E%E7%AE%A1%E7%90%86%E6%95%B0%E6%8D%AE%E5%BA%93.html
   "v-b766a27e": defineAsyncComponent(() => import(/* webpackChunkName: "v-b766a27e" */"E:/MyNode/src/.vuepress/.temp/pages/docs/MySQL/1. 创建与管理数据库.html.vue")),
   // path: /docs/MySQL/2.%20%E5%88%9B%E5%BB%BA%E4%B8%8E%E7%AE%A1%E7%90%86%E6%95%B0%E6%8D%AE%E8%A1%A8.html
@@ -169,8 +169,8 @@ export const pagesComponents = {
   "v-397ffdb2": defineAsyncComponent(() => import(/* webpackChunkName: "v-397ffdb2" */"E:/MyNode/src/.vuepress/.temp/pages/docs/小记/index.html.vue")),
   // path: /docs/%E5%B0%8F%E8%AE%B0/resultType=int%20%E8%BF%94%E5%9B%9E%E5%80%BC%E6%98%AF%20null.html
   "v-2e5294e9": defineAsyncComponent(() => import(/* webpackChunkName: "v-2e5294e9" */"E:/MyNode/src/.vuepress/.temp/pages/docs/小记/resultType=int 返回值是 null.html.vue")),
-  // path: /docs/%E5%B0%8F%E8%AE%B0/sentinel%E8%A7%84%E5%88%99%E6%8C%81%E4%B9%85%E5%8C%96.html
-  "v-cd20ee6c": defineAsyncComponent(() => import(/* webpackChunkName: "v-cd20ee6c" */"E:/MyNode/src/.vuepress/.temp/pages/docs/小记/sentinel规则持久化.html.vue")),
+  // path: /docs/%E5%B0%8F%E8%AE%B0/sentinel%20%E8%A7%84%E5%88%99%E6%8C%81%E4%B9%85%E5%8C%96.html
+  "v-52102f92": defineAsyncComponent(() => import(/* webpackChunkName: "v-52102f92" */"E:/MyNode/src/.vuepress/.temp/pages/docs/小记/sentinel 规则持久化.html.vue")),
   // path: /docs/%E5%B0%8F%E8%AE%B0/SSM%20%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA.html
   "v-6af377ba": defineAsyncComponent(() => import(/* webpackChunkName: "v-6af377ba" */"E:/MyNode/src/.vuepress/.temp/pages/docs/小记/SSM 环境搭建.html.vue")),
   // path: /docs/%E5%B0%8F%E8%AE%B0/TypeReference%20%E8%8E%B7%E5%8F%96%E6%B3%9B%E5%9E%8B%E5%B1%9E%E6%80%A7.html
@@ -199,28 +199,6 @@ export const pagesComponents = {
   "v-34161bfe": defineAsyncComponent(() => import(/* webpackChunkName: "v-34161bfe" */"E:/MyNode/src/.vuepress/.temp/pages/docs/Redis/Redis 基础/2. Redis 的 Java 客户端.html.vue")),
   // path: /docs/Redis/Redis%20%E5%9F%BA%E7%A1%80/
   "v-cfc3ccc0": defineAsyncComponent(() => import(/* webpackChunkName: "v-cfc3ccc0" */"E:/MyNode/src/.vuepress/.temp/pages/docs/Redis/Redis 基础/index.html.vue")),
-  // path: /docs/Redis/Redis%20%E5%AE%9E%E6%88%98/1.%20%E7%9F%AD%E4%BF%A1%E7%99%BB%E5%BD%95.html
-  "v-0e141eb0": defineAsyncComponent(() => import(/* webpackChunkName: "v-0e141eb0" */"E:/MyNode/src/.vuepress/.temp/pages/docs/Redis/Redis 实战/1. 短信登录.html.vue")),
-  // path: /docs/Redis/Redis%20%E5%AE%9E%E6%88%98/10.%20%E7%94%A8%E6%88%B7%E7%AD%BE%E5%88%B0.html
-  "v-44ec9ffe": defineAsyncComponent(() => import(/* webpackChunkName: "v-44ec9ffe" */"E:/MyNode/src/.vuepress/.temp/pages/docs/Redis/Redis 实战/10. 用户签到.html.vue")),
-  // path: /docs/Redis/Redis%20%E5%AE%9E%E6%88%98/11.%20UV%E7%BB%9F%E8%AE%A1.html
-  "v-f6aa5eba": defineAsyncComponent(() => import(/* webpackChunkName: "v-f6aa5eba" */"E:/MyNode/src/.vuepress/.temp/pages/docs/Redis/Redis 实战/11. UV统计.html.vue")),
-  // path: /docs/Redis/Redis%20%E5%AE%9E%E6%88%98/2.%20%E5%95%86%E6%88%B7%E6%9F%A5%E8%AF%A2%E7%BC%93%E5%AD%98.html
-  "v-5aa45e56": defineAsyncComponent(() => import(/* webpackChunkName: "v-5aa45e56" */"E:/MyNode/src/.vuepress/.temp/pages/docs/Redis/Redis 实战/2. 商户查询缓存.html.vue")),
-  // path: /docs/Redis/Redis%20%E5%AE%9E%E6%88%98/3.%20%E4%BC%98%E6%83%A0%E5%88%B8%E7%A7%92%E6%9D%80.html
-  "v-daa15a76": defineAsyncComponent(() => import(/* webpackChunkName: "v-daa15a76" */"E:/MyNode/src/.vuepress/.temp/pages/docs/Redis/Redis 实战/3. 优惠券秒杀.html.vue")),
-  // path: /docs/Redis/Redis%20%E5%AE%9E%E6%88%98/4.%20%E5%88%86%E5%B8%83%E5%BC%8F%E9%94%81.html
-  "v-8767b658": defineAsyncComponent(() => import(/* webpackChunkName: "v-8767b658" */"E:/MyNode/src/.vuepress/.temp/pages/docs/Redis/Redis 实战/4. 分布式锁.html.vue")),
-  // path: /docs/Redis/Redis%20%E5%AE%9E%E6%88%98/5.%20%E7%A7%92%E6%9D%80%E4%BC%98%E5%8C%96.html
-  "v-d6b988de": defineAsyncComponent(() => import(/* webpackChunkName: "v-d6b988de" */"E:/MyNode/src/.vuepress/.temp/pages/docs/Redis/Redis 实战/5. 秒杀优化.html.vue")),
-  // path: /docs/Redis/Redis%20%E5%AE%9E%E6%88%98/6.%20Redis%20%E6%B6%88%E6%81%AF%E9%98%9F%E5%88%97.html
-  "v-601f751a": defineAsyncComponent(() => import(/* webpackChunkName: "v-601f751a" */"E:/MyNode/src/.vuepress/.temp/pages/docs/Redis/Redis 实战/6. Redis 消息队列.html.vue")),
-  // path: /docs/Redis/Redis%20%E5%AE%9E%E6%88%98/7.%20%E8%BE%BE%E4%BA%BA%E6%8E%A2%E5%BA%97.html
-  "v-5bfdfc97": defineAsyncComponent(() => import(/* webpackChunkName: "v-5bfdfc97" */"E:/MyNode/src/.vuepress/.temp/pages/docs/Redis/Redis 实战/7. 达人探店.html.vue")),
-  // path: /docs/Redis/Redis%20%E5%AE%9E%E6%88%98/8.%20%E5%A5%BD%E5%8F%8B%E5%85%B3%E6%B3%A8.html
-  "v-2e736faa": defineAsyncComponent(() => import(/* webpackChunkName: "v-2e736faa" */"E:/MyNode/src/.vuepress/.temp/pages/docs/Redis/Redis 实战/8. 好友关注.html.vue")),
-  // path: /docs/Redis/Redis%20%E5%AE%9E%E6%88%98/9.%20%E9%99%84%E8%BF%91%E5%95%86%E6%88%B7.html
-  "v-f6807800": defineAsyncComponent(() => import(/* webpackChunkName: "v-f6807800" */"E:/MyNode/src/.vuepress/.temp/pages/docs/Redis/Redis 实战/9. 附近商户.html.vue")),
   // path: /docs/Spring%E7%B3%BB%E5%88%97/Spring/1.%20IOC.html
   "v-3243f89a": defineAsyncComponent(() => import(/* webpackChunkName: "v-3243f89a" */"E:/MyNode/src/.vuepress/.temp/pages/docs/Spring系列/Spring/1. IOC.html.vue")),
   // path: /docs/Spring%E7%B3%BB%E5%88%97/Spring/10.%20%E6%95%B4%E5%90%88%20Mybatis.html
@@ -245,6 +223,28 @@ export const pagesComponents = {
   "v-6069dde9": defineAsyncComponent(() => import(/* webpackChunkName: "v-6069dde9" */"E:/MyNode/src/.vuepress/.temp/pages/docs/Spring系列/Spring/8. 代理模式.html.vue")),
   // path: /docs/Spring%E7%B3%BB%E5%88%97/Spring/9.%20Spring%20AOP.html
   "v-77731972": defineAsyncComponent(() => import(/* webpackChunkName: "v-77731972" */"E:/MyNode/src/.vuepress/.temp/pages/docs/Spring系列/Spring/9. Spring AOP.html.vue")),
+  // path: /docs/Redis/Redis%20%E5%AE%9E%E6%88%98/1.%20%E7%9F%AD%E4%BF%A1%E7%99%BB%E5%BD%95.html
+  "v-0e141eb0": defineAsyncComponent(() => import(/* webpackChunkName: "v-0e141eb0" */"E:/MyNode/src/.vuepress/.temp/pages/docs/Redis/Redis 实战/1. 短信登录.html.vue")),
+  // path: /docs/Redis/Redis%20%E5%AE%9E%E6%88%98/10.%20%E7%94%A8%E6%88%B7%E7%AD%BE%E5%88%B0.html
+  "v-44ec9ffe": defineAsyncComponent(() => import(/* webpackChunkName: "v-44ec9ffe" */"E:/MyNode/src/.vuepress/.temp/pages/docs/Redis/Redis 实战/10. 用户签到.html.vue")),
+  // path: /docs/Redis/Redis%20%E5%AE%9E%E6%88%98/11.%20UV%E7%BB%9F%E8%AE%A1.html
+  "v-f6aa5eba": defineAsyncComponent(() => import(/* webpackChunkName: "v-f6aa5eba" */"E:/MyNode/src/.vuepress/.temp/pages/docs/Redis/Redis 实战/11. UV统计.html.vue")),
+  // path: /docs/Redis/Redis%20%E5%AE%9E%E6%88%98/2.%20%E5%95%86%E6%88%B7%E6%9F%A5%E8%AF%A2%E7%BC%93%E5%AD%98.html
+  "v-5aa45e56": defineAsyncComponent(() => import(/* webpackChunkName: "v-5aa45e56" */"E:/MyNode/src/.vuepress/.temp/pages/docs/Redis/Redis 实战/2. 商户查询缓存.html.vue")),
+  // path: /docs/Redis/Redis%20%E5%AE%9E%E6%88%98/3.%20%E4%BC%98%E6%83%A0%E5%88%B8%E7%A7%92%E6%9D%80.html
+  "v-daa15a76": defineAsyncComponent(() => import(/* webpackChunkName: "v-daa15a76" */"E:/MyNode/src/.vuepress/.temp/pages/docs/Redis/Redis 实战/3. 优惠券秒杀.html.vue")),
+  // path: /docs/Redis/Redis%20%E5%AE%9E%E6%88%98/4.%20%E5%88%86%E5%B8%83%E5%BC%8F%E9%94%81.html
+  "v-8767b658": defineAsyncComponent(() => import(/* webpackChunkName: "v-8767b658" */"E:/MyNode/src/.vuepress/.temp/pages/docs/Redis/Redis 实战/4. 分布式锁.html.vue")),
+  // path: /docs/Redis/Redis%20%E5%AE%9E%E6%88%98/5.%20%E7%A7%92%E6%9D%80%E4%BC%98%E5%8C%96.html
+  "v-d6b988de": defineAsyncComponent(() => import(/* webpackChunkName: "v-d6b988de" */"E:/MyNode/src/.vuepress/.temp/pages/docs/Redis/Redis 实战/5. 秒杀优化.html.vue")),
+  // path: /docs/Redis/Redis%20%E5%AE%9E%E6%88%98/6.%20Redis%20%E6%B6%88%E6%81%AF%E9%98%9F%E5%88%97.html
+  "v-601f751a": defineAsyncComponent(() => import(/* webpackChunkName: "v-601f751a" */"E:/MyNode/src/.vuepress/.temp/pages/docs/Redis/Redis 实战/6. Redis 消息队列.html.vue")),
+  // path: /docs/Redis/Redis%20%E5%AE%9E%E6%88%98/7.%20%E8%BE%BE%E4%BA%BA%E6%8E%A2%E5%BA%97.html
+  "v-5bfdfc97": defineAsyncComponent(() => import(/* webpackChunkName: "v-5bfdfc97" */"E:/MyNode/src/.vuepress/.temp/pages/docs/Redis/Redis 实战/7. 达人探店.html.vue")),
+  // path: /docs/Redis/Redis%20%E5%AE%9E%E6%88%98/8.%20%E5%A5%BD%E5%8F%8B%E5%85%B3%E6%B3%A8.html
+  "v-2e736faa": defineAsyncComponent(() => import(/* webpackChunkName: "v-2e736faa" */"E:/MyNode/src/.vuepress/.temp/pages/docs/Redis/Redis 实战/8. 好友关注.html.vue")),
+  // path: /docs/Redis/Redis%20%E5%AE%9E%E6%88%98/9.%20%E9%99%84%E8%BF%91%E5%95%86%E6%88%B7.html
+  "v-f6807800": defineAsyncComponent(() => import(/* webpackChunkName: "v-f6807800" */"E:/MyNode/src/.vuepress/.temp/pages/docs/Redis/Redis 实战/9. 附近商户.html.vue")),
   // path: /docs/Spring%E7%B3%BB%E5%88%97/SpringBoot/1.%20SpringBoot.html
   "v-35b09c2c": defineAsyncComponent(() => import(/* webpackChunkName: "v-35b09c2c" */"E:/MyNode/src/.vuepress/.temp/pages/docs/Spring系列/SpringBoot/1. SpringBoot.html.vue")),
   // path: /docs/Spring%E7%B3%BB%E5%88%97/SpringBoot/2.%20JavaConfig.html
@@ -373,10 +373,10 @@ export const pagesComponents = {
   "v-5831b135": defineAsyncComponent(() => import(/* webpackChunkName: "v-5831b135" */"E:/MyNode/src/.vuepress/.temp/pages/category/java/index.html.vue")),
   // path: /category/javaweb/
   "v-3edf0895": defineAsyncComponent(() => import(/* webpackChunkName: "v-3edf0895" */"E:/MyNode/src/.vuepress/.temp/pages/category/javaweb/index.html.vue")),
-  // path: /category/linux/
-  "v-9c48d85a": defineAsyncComponent(() => import(/* webpackChunkName: "v-9c48d85a" */"E:/MyNode/src/.vuepress/.temp/pages/category/linux/index.html.vue")),
   // path: /category/mybatis/
   "v-49f5e4d4": defineAsyncComponent(() => import(/* webpackChunkName: "v-49f5e4d4" */"E:/MyNode/src/.vuepress/.temp/pages/category/mybatis/index.html.vue")),
+  // path: /category/linux/
+  "v-9c48d85a": defineAsyncComponent(() => import(/* webpackChunkName: "v-9c48d85a" */"E:/MyNode/src/.vuepress/.temp/pages/category/linux/index.html.vue")),
   // path: /category/mysql/
   "v-9717cc36": defineAsyncComponent(() => import(/* webpackChunkName: "v-9717cc36" */"E:/MyNode/src/.vuepress/.temp/pages/category/mysql/index.html.vue")),
   // path: /category/vue/
@@ -395,4 +395,6 @@ export const pagesComponents = {
   "v-6fcf7e02": defineAsyncComponent(() => import(/* webpackChunkName: "v-6fcf7e02" */"E:/MyNode/src/.vuepress/.temp/pages/category/springcloud/index.html.vue")),
   // path: /category/springmvc/
   "v-424a813a": defineAsyncComponent(() => import(/* webpackChunkName: "v-424a813a" */"E:/MyNode/src/.vuepress/.temp/pages/category/springmvc/index.html.vue")),
+  // path: /docs/Spring%E7%B3%BB%E5%88%97/SpringCloud/.~34.%20%E5%BE%AE%E6%9C%8D%E5%8A%A1%E4%BF%9D%E6%8A%A4.html
+  "v-f53d027e": defineAsyncComponent(() => import(/* webpackChunkName: "v-f53d027e" */"E:/MyNode/src/.vuepress/.temp/pages/docs/Spring系列/SpringCloud/.~34. 微服务保护.html.vue")),
 }

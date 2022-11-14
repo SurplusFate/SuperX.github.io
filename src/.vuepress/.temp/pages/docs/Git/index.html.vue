@@ -418,6 +418,22 @@
 <p><img src="https://gcore.jsdelivr.net/gh/SurplusFate/guide_img@main/img/aeea29f6c91e45cfbf3e07ae85015c80.png" alt="在这里插入图片描述"></p>
 <p>选择分支</p>
 <p><img src="https://gcore.jsdelivr.net/gh/SurplusFate/guide_img@main/img/403ce7d8db204602a91f36f3e8b08732.png" alt="在这里插入图片描述"></p>
+<h2 id="同步fork仓库-git-upstream" tabindex="-1"><a class="header-anchor" href="#同步fork仓库-git-upstream" aria-hidden="true">#</a> 同步Fork仓库 git upstream</h2>
+<p><a href="https://www.jianshu.com/p/7f6598253a2b" target="_blank" rel="noopener noreferrer">同步Fork仓库 git upstream - 简书 (jianshu.com)<ExternalLinkIcon/></a></p>
+<p>查看你的远程仓库的路径：</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><pre v-pre class="language-bash"><code><span class="token function">git</span> remote <span class="token parameter variable">-v</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><blockquote>
+<p>如果只有origin的两行, 说明你未设置 upstream （中文叫：上游代码库）
+一般情况下，设置好一次 upstream 后就无需重复设置。</p>
+</blockquote>
+<p>执行命令:</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><pre v-pre class="language-bash"><code><span class="token function">git</span> remote <span class="token function">add</span> upstream https://*.git
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>再次执行命令 <code v-pre>git remote -v</code> 检查是否成功</p>
+<p>将未提交的提交</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><pre v-pre class="language-bash"><code><span class="token function">git</span> push origin master
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>执行命令 <code v-pre>git fetch upstream</code> 抓取原仓库的更新</p>
+<p>执行命令 <code v-pre>git merge upstream/master</code> 合并远程的master分支</p>
+<p>执行命令 <code v-pre>git push</code> 把本地仓库向github仓库（你fork到自己名下的仓库）推送修改</p>
 </div></template>
 
 

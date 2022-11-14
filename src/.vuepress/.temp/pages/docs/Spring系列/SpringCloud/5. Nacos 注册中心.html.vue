@@ -1,5 +1,6 @@
 <template><div><h1 id="_5-nacos-注册中心" tabindex="-1"><a class="header-anchor" href="#_5-nacos-注册中心" aria-hidden="true">#</a> 5. Nacos 注册中心</h1>
 <p>国内公司一般都推崇阿里巴巴的技术，比如注册中心，SpringCloudAlibaba 也推出了一个名为 Nacos 的注册中心。</p>
+<p>官方文档: <a href="https://github.com/alibaba/spring-cloud-alibaba/wiki/Nacos-discovery" target="_blank" rel="noopener noreferrer">Nacos discovery · alibaba/spring-cloud-alibaba Wiki (github.com)<ExternalLinkIcon/></a></p>
 <h2 id="_5-1-认识和安装-nacos" tabindex="-1"><a class="header-anchor" href="#_5-1-认识和安装-nacos" aria-hidden="true">#</a> 5.1.认识和安装 Nacos</h2>
 <p><a href="https://nacos.io/" target="_blank" rel="noopener noreferrer">Nacos<ExternalLinkIcon/></a>是阿里巴巴的产品，现在是<a href="https://spring.io/projects/spring-cloud" target="_blank" rel="noopener noreferrer">SpringCloud<ExternalLinkIcon/></a>中的一个组件。相比<a href="https://github.com/Netflix/eureka" target="_blank" rel="noopener noreferrer">Eureka<ExternalLinkIcon/></a>功能更加丰富，在国内受欢迎程度较高。</p>
 <p><img src="https://gcore.jsdelivr.net/gh/SurplusFate/guide_img@main/img/image-20210713230444308.png" alt="image-20210713230444308"></p>

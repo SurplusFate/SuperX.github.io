@@ -1,236 +1,5 @@
 export const searchIndex = [
   {
-    "title": "Git",
-    "headers": [
-      {
-        "level": 2,
-        "title": "基础篇",
-        "slug": "基础篇",
-        "link": "#基础篇",
-        "children": [
-          {
-            "level": 3,
-            "title": "分支与合并",
-            "slug": "分支与合并",
-            "link": "#分支与合并",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "高级篇",
-        "slug": "高级篇",
-        "link": "#高级篇",
-        "children": [
-          {
-            "level": 3,
-            "title": "HEAD 引用",
-            "slug": "head-引用",
-            "link": "#head-引用",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "相对引用",
-            "slug": "相对引用",
-            "link": "#相对引用",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "撤销变更",
-            "slug": "撤销变更",
-            "link": "#撤销变更",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "其他",
-        "slug": "其他",
-        "link": "#其他",
-        "children": [
-          {
-            "level": 3,
-            "title": "整理提交记录",
-            "slug": "整理提交记录",
-            "link": "#整理提交记录",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "交互式的 rebase",
-            "slug": "交互式的-rebase",
-            "link": "#交互式的-rebase",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "标签",
-            "slug": "标签",
-            "link": "#标签",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "锚点",
-            "slug": "锚点",
-            "link": "#锚点",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "选择父提交记录",
-            "slug": "选择父提交记录",
-            "link": "#选择父提交记录",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "远程仓库",
-        "slug": "远程仓库",
-        "link": "#远程仓库",
-        "children": [
-          {
-            "level": 3,
-            "title": "注册远程账号",
-            "slug": "注册远程账号",
-            "link": "#注册远程账号",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "关联远程仓库",
-            "slug": "关联远程仓库",
-            "link": "#关联远程仓库",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "删除关联关系",
-            "slug": "删除关联关系",
-            "link": "#删除关联关系",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "克隆",
-            "slug": "克隆",
-            "link": "#克隆",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "远程分支",
-            "slug": "远程分支",
-            "link": "#远程分支",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "删除远程分支",
-            "slug": "删除远程分支",
-            "link": "#删除远程分支",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "从远程仓库获取数据",
-            "slug": "从远程仓库获取数据",
-            "link": "#从远程仓库获取数据",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "合并数据",
-            "slug": "合并数据",
-            "link": "#合并数据",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "推送本地代码到远程仓库中",
-            "slug": "推送本地代码到远程仓库中",
-            "link": "#推送本地代码到远程仓库中",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "历史偏离",
-            "slug": "历史偏离",
-            "link": "#历史偏离",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "远程服务器拒绝",
-        "slug": "远程服务器拒绝",
-        "link": "#远程服务器拒绝",
-        "children": [
-          {
-            "level": 3,
-            "title": "为什么会被拒绝？",
-            "slug": "为什么会被拒绝",
-            "link": "#为什么会被拒绝",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "解决办法",
-            "slug": "解决办法",
-            "link": "#解决办法",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "公司多人合作项目 Git 基本操作流程",
-        "slug": "公司多人合作项目-git-基本操作流程",
-        "link": "#公司多人合作项目-git-基本操作流程",
-        "children": [
-          {
-            "level": 3,
-            "title": "前言",
-            "slug": "前言",
-            "link": "#前言",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Git 工具下载",
-            "slug": "git-工具下载",
-            "link": "#git-工具下载",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "配置 Git 用户信息",
-            "slug": "配置-git-用户信息",
-            "link": "#配置-git-用户信息",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "重点",
-            "slug": "重点",
-            "link": "#重点",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/docs/Git/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "Dubbo 框架",
     "headers": [
       {
@@ -614,6 +383,244 @@ export const searchIndex = [
       }
     ],
     "path": "/docs/Dubbo/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Git",
+    "headers": [
+      {
+        "level": 2,
+        "title": "基础篇",
+        "slug": "基础篇",
+        "link": "#基础篇",
+        "children": [
+          {
+            "level": 3,
+            "title": "分支与合并",
+            "slug": "分支与合并",
+            "link": "#分支与合并",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "高级篇",
+        "slug": "高级篇",
+        "link": "#高级篇",
+        "children": [
+          {
+            "level": 3,
+            "title": "HEAD 引用",
+            "slug": "head-引用",
+            "link": "#head-引用",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "相对引用",
+            "slug": "相对引用",
+            "link": "#相对引用",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "撤销变更",
+            "slug": "撤销变更",
+            "link": "#撤销变更",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "其他",
+        "slug": "其他",
+        "link": "#其他",
+        "children": [
+          {
+            "level": 3,
+            "title": "整理提交记录",
+            "slug": "整理提交记录",
+            "link": "#整理提交记录",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "交互式的 rebase",
+            "slug": "交互式的-rebase",
+            "link": "#交互式的-rebase",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "标签",
+            "slug": "标签",
+            "link": "#标签",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "锚点",
+            "slug": "锚点",
+            "link": "#锚点",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "选择父提交记录",
+            "slug": "选择父提交记录",
+            "link": "#选择父提交记录",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "远程仓库",
+        "slug": "远程仓库",
+        "link": "#远程仓库",
+        "children": [
+          {
+            "level": 3,
+            "title": "注册远程账号",
+            "slug": "注册远程账号",
+            "link": "#注册远程账号",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "关联远程仓库",
+            "slug": "关联远程仓库",
+            "link": "#关联远程仓库",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "删除关联关系",
+            "slug": "删除关联关系",
+            "link": "#删除关联关系",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "克隆",
+            "slug": "克隆",
+            "link": "#克隆",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "远程分支",
+            "slug": "远程分支",
+            "link": "#远程分支",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "删除远程分支",
+            "slug": "删除远程分支",
+            "link": "#删除远程分支",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "从远程仓库获取数据",
+            "slug": "从远程仓库获取数据",
+            "link": "#从远程仓库获取数据",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "合并数据",
+            "slug": "合并数据",
+            "link": "#合并数据",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "推送本地代码到远程仓库中",
+            "slug": "推送本地代码到远程仓库中",
+            "link": "#推送本地代码到远程仓库中",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "历史偏离",
+            "slug": "历史偏离",
+            "link": "#历史偏离",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "远程服务器拒绝",
+        "slug": "远程服务器拒绝",
+        "link": "#远程服务器拒绝",
+        "children": [
+          {
+            "level": 3,
+            "title": "为什么会被拒绝？",
+            "slug": "为什么会被拒绝",
+            "link": "#为什么会被拒绝",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "解决办法",
+            "slug": "解决办法",
+            "link": "#解决办法",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "公司多人合作项目 Git 基本操作流程",
+        "slug": "公司多人合作项目-git-基本操作流程",
+        "link": "#公司多人合作项目-git-基本操作流程",
+        "children": [
+          {
+            "level": 3,
+            "title": "前言",
+            "slug": "前言",
+            "link": "#前言",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Git 工具下载",
+            "slug": "git-工具下载",
+            "link": "#git-工具下载",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "配置 Git 用户信息",
+            "slug": "配置-git-用户信息",
+            "link": "#配置-git-用户信息",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "重点",
+            "slug": "重点",
+            "link": "#重点",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "同步Fork仓库 git upstream",
+        "slug": "同步fork仓库-git-upstream",
+        "link": "#同步fork仓库-git-upstream",
+        "children": []
+      }
+    ],
+    "path": "/docs/Git/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -7876,9 +7883,45 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "",
+    "title": "@RestController 指定主路径无效踩坑",
     "headers": [],
     "path": "/docs/%E5%B0%8F%E8%AE%B0/@RestController%20%E6%8C%87%E5%AE%9A%E4%B8%BB%E8%B7%AF%E5%BE%84%E6%97%A0%E6%95%88%E8%B8%A9%E5%9D%91.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "@**Mapping",
+    "headers": [
+      {
+        "level": 2,
+        "title": "method 属性",
+        "slug": "method-属性",
+        "link": "#method-属性",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "params 属性",
+        "slug": "params-属性",
+        "link": "#params-属性",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "RequestParam 注解",
+        "slug": "requestparam-注解",
+        "link": "#requestparam-注解",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "ant 风格的路径",
+        "slug": "ant-风格的路径",
+        "link": "#ant-风格的路径",
+        "children": []
+      }
+    ],
+    "path": "/docs/%E5%B0%8F%E8%AE%B0/@XXmapping%E6%B3%A8%E8%A7%A3.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -7955,21 +7998,43 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "",
+    "title": "Filter 过滤器",
     "headers": [
       {
-        "level": 3,
+        "level": 2,
         "title": "Filter 的生命周期",
         "slug": "filter-的生命周期",
         "link": "#filter-的生命周期",
         "children": []
       },
       {
-        "level": 3,
+        "level": 2,
         "title": "Filter 的拦截路径",
         "slug": "filter-的拦截路径",
         "link": "#filter-的拦截路径",
-        "children": []
+        "children": [
+          {
+            "level": 3,
+            "title": "精确匹配",
+            "slug": "精确匹配",
+            "link": "#精确匹配",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "目录匹配",
+            "slug": "目录匹配",
+            "link": "#目录匹配",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "后缀名匹配",
+            "slug": "后缀名匹配",
+            "link": "#后缀名匹配",
+            "children": []
+          }
+        ]
       }
     ],
     "path": "/docs/%E5%B0%8F%E8%AE%B0/Filter%20%E8%BF%87%E6%BB%A4%E5%99%A8.html",
@@ -8234,9 +8299,103 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "",
+    "title": "resultType=int 返回值是 null",
     "headers": [],
     "path": "/docs/%E5%B0%8F%E8%AE%B0/resultType=int%20%E8%BF%94%E5%9B%9E%E5%80%BC%E6%98%AF%20null.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Sentinel 规则持久化",
+    "headers": [
+      {
+        "level": 2,
+        "title": "一、修改 order-service 服务",
+        "slug": "一、修改-order-service-服务",
+        "link": "#一、修改-order-service-服务",
+        "children": [
+          {
+            "level": 3,
+            "title": "1.引入依赖",
+            "slug": "_1-引入依赖",
+            "link": "#_1-引入依赖",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.配置 nacos 地址",
+            "slug": "_2-配置-nacos-地址",
+            "link": "#_2-配置-nacos-地址",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "二、修改 sentinel-dashboard 源码",
+        "slug": "二、修改-sentinel-dashboard-源码",
+        "link": "#二、修改-sentinel-dashboard-源码",
+        "children": [
+          {
+            "level": 3,
+            "title": "1.解压",
+            "slug": "_1-解压",
+            "link": "#_1-解压",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.修改 nacos 依赖",
+            "slug": "_2-修改-nacos-依赖",
+            "link": "#_2-修改-nacos-依赖",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.添加 nacos 支持",
+            "slug": "_3-添加-nacos-支持",
+            "link": "#_3-添加-nacos-支持",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "4.修改 nacos 地址",
+            "slug": "_4-修改-nacos-地址",
+            "link": "#_4-修改-nacos-地址",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "5.配置 nacos 数据源",
+            "slug": "_5-配置-nacos-数据源",
+            "link": "#_5-配置-nacos-数据源",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "6.修改前端页面",
+            "slug": "_6-修改前端页面",
+            "link": "#_6-修改前端页面",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "7.重新编译、打包项目",
+            "slug": "_7-重新编译、打包项目",
+            "link": "#_7-重新编译、打包项目",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "8.启动",
+            "slug": "_8-启动",
+            "link": "#_8-启动",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/docs/%E5%B0%8F%E8%AE%B0/sentinel%E8%A7%84%E5%88%99%E6%8C%81%E4%B9%85%E5%8C%96.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -8270,15 +8429,22 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "",
+    "title": "TypeReference 获取泛型属性",
     "headers": [],
     "path": "/docs/%E5%B0%8F%E8%AE%B0/TypeReference%20%E8%8E%B7%E5%8F%96%E6%B3%9B%E5%9E%8B%E5%B1%9E%E6%80%A7.html",
     "pathLocale": "/",
     "extraFields": []
   },
   {
-    "title": "",
+    "title": "v-modeldisabled 和 disabled 踩坑",
     "headers": [
+      {
+        "level": 2,
+        "title": "双向绑定基本知识",
+        "slug": "双向绑定基本知识",
+        "link": "#双向绑定基本知识",
+        "children": []
+      },
       {
         "level": 2,
         "title": "踩坑",
@@ -8303,42 +8469,6 @@ export const searchIndex = [
       }
     ],
     "path": "/docs/%E5%B0%8F%E8%AE%B0/v-modeldisabled%20%E5%92%8C%20disabled%20%E8%B8%A9%E5%9D%91.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "@**Mapping",
-    "headers": [
-      {
-        "level": 2,
-        "title": "method 属性",
-        "slug": "method-属性",
-        "link": "#method-属性",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "params 属性",
-        "slug": "params-属性",
-        "link": "#params-属性",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "RequestParam 注解",
-        "slug": "requestparam-注解",
-        "link": "#requestparam-注解",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "ant 风格的路径",
-        "slug": "ant-风格的路径",
-        "link": "#ant-风格的路径",
-        "children": []
-      }
-    ],
-    "path": "/docs/%E5%B0%8F%E8%AE%B0/XXmapping%E6%B3%A8%E8%A7%A3.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -12609,6 +12739,173 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "34. 微服务保护",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1.初识 Sentinel",
+        "slug": "_1-初识-sentinel",
+        "link": "#_1-初识-sentinel",
+        "children": [
+          {
+            "level": 3,
+            "title": "1.1.雪崩问题及解决方案",
+            "slug": "_1-1-雪崩问题及解决方案",
+            "link": "#_1-1-雪崩问题及解决方案",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "1.2.服务保护技术对比",
+            "slug": "_1-2-服务保护技术对比",
+            "link": "#_1-2-服务保护技术对比",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "1.3.Sentinel 介绍和安装",
+            "slug": "_1-3-sentinel-介绍和安装",
+            "link": "#_1-3-sentinel-介绍和安装",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "1.4.微服务整合 Sentinel",
+            "slug": "_1-4-微服务整合-sentinel",
+            "link": "#_1-4-微服务整合-sentinel",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "2.流量控制",
+        "slug": "_2-流量控制",
+        "link": "#_2-流量控制",
+        "children": [
+          {
+            "level": 3,
+            "title": "2.1.簇点链路",
+            "slug": "_2-1-簇点链路",
+            "link": "#_2-1-簇点链路",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.1.快速入门",
+            "slug": "_2-1-快速入门",
+            "link": "#_2-1-快速入门",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.2.流控模式",
+            "slug": "_2-2-流控模式",
+            "link": "#_2-2-流控模式",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.3.流控效果",
+            "slug": "_2-3-流控效果",
+            "link": "#_2-3-流控效果",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.4.热点参数限流",
+            "slug": "_2-4-热点参数限流",
+            "link": "#_2-4-热点参数限流",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.4.3.案例",
+            "slug": "_2-4-3-案例",
+            "link": "#_2-4-3-案例",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "3.隔离和降级",
+        "slug": "_3-隔离和降级",
+        "link": "#_3-隔离和降级",
+        "children": [
+          {
+            "level": 3,
+            "title": "3.1.FeignClient 整合 Sentinel",
+            "slug": "_3-1-feignclient-整合-sentinel",
+            "link": "#_3-1-feignclient-整合-sentinel",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.2.线程隔离（舱壁模式）",
+            "slug": "_3-2-线程隔离-舱壁模式",
+            "link": "#_3-2-线程隔离-舱壁模式",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.3.熔断降级",
+            "slug": "_3-3-熔断降级",
+            "link": "#_3-3-熔断降级",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "4.授权规则",
+        "slug": "_4-授权规则",
+        "link": "#_4-授权规则",
+        "children": [
+          {
+            "level": 3,
+            "title": "4.1.授权规则",
+            "slug": "_4-1-授权规则",
+            "link": "#_4-1-授权规则",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "4.2.自定义异常结果",
+            "slug": "_4-2-自定义异常结果",
+            "link": "#_4-2-自定义异常结果",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "5.规则持久化",
+        "slug": "_5-规则持久化",
+        "link": "#_5-规则持久化",
+        "children": [
+          {
+            "level": 3,
+            "title": "5.1.规则管理模式",
+            "slug": "_5-1-规则管理模式",
+            "link": "#_5-1-规则管理模式",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "5.2.实现 push 模式",
+            "slug": "_5-2-实现-push-模式",
+            "link": "#_5-2-实现-push-模式",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/docs/Spring%E7%B3%BB%E5%88%97/SpringCloud/34.%20%E5%BE%AE%E6%9C%8D%E5%8A%A1%E4%BF%9D%E6%8A%A4.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "4. Ribbon 负载均衡",
     "headers": [
       {
@@ -13700,16 +13997,16 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "node 分类",
+    "title": "note 分类",
     "headers": [],
-    "path": "/category/node/",
+    "path": "/category/note/",
     "pathLocale": "/",
     "extraFields": []
   },
   {
-    "title": "SSM 分类",
+    "title": "node 分类",
     "headers": [],
-    "path": "/category/ssm/",
+    "path": "/category/node/",
     "pathLocale": "/",
     "extraFields": []
   },

@@ -2,8 +2,14 @@
 <p>先来看我们以前利用 RestTemplate 发起远程调用的代码：</p>
 <p><img src="https://gcore.jsdelivr.net/gh/SurplusFate/guide_img@main/img/image-20210714174814204.png" alt="image-20210714174814204"></p>
 <p>存在下面的问题：</p>
-<p>•代码可读性差，编程体验不统一</p>
-<p>•参数复杂 URL 难以维护</p>
+<ul>
+<li>
+<p>代码可读性差，编程体验不统一</p>
+</li>
+<li>
+<p>参数复杂 URL 难以维护</p>
+</li>
+</ul>
 <p>Feign 是一个声明式的 http 客户端，官方地址：<a href="https://github.com/OpenFeign/feign" target="_blank" rel="noopener noreferrer">https://github.com/OpenFeign/feign<ExternalLinkIcon/></a></p>
 <p>其作用就是帮助我们优雅的实现 http 请求的发送，解决上面提到的问题。</p>
 <p><img src="https://gcore.jsdelivr.net/gh/SurplusFate/guide_img@main/img/image-20210714174918088.png" alt="image-20210714174918088"></p>

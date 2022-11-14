@@ -1,5 +1,6 @@
 <template><div><h1 id="_6-nacos-配置管理" tabindex="-1"><a class="header-anchor" href="#_6-nacos-配置管理" aria-hidden="true">#</a> 6. Nacos 配置管理</h1>
 <p>Nacos 除了可以做注册中心，同样可以做配置管理来使用。</p>
+<p>官方文档: <a href="https://github.com/alibaba/spring-cloud-alibaba/wiki/Nacos-config" target="_blank" rel="noopener noreferrer">Nacos config · alibaba/spring-cloud-alibaba Wiki (github.com)<ExternalLinkIcon/></a></p>
 <h2 id="_6-1-统一配置管理" tabindex="-1"><a class="header-anchor" href="#_6-1-统一配置管理" aria-hidden="true">#</a> 6.1.统一配置管理</h2>
 <p>当微服务部署的实例越来越多，达到数十、数百时，逐个修改微服务配置就会让人抓狂，而且很容易出错。我们需要一种统一配置管理方案，可以集中管理所有实例的配置。</p>
 <p><img src="https://gcore.jsdelivr.net/gh/SurplusFate/guide_img@main/img/image-20210714164426792.png" alt="image-20210714164426792"></p>

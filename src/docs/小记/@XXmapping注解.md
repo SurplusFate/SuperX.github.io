@@ -1,9 +1,7 @@
 ---
 icon: note
-date: 2022-09-24
-order: 2
 category:
-  - SSM
+  - note
 ---
 
 # @\*\*Mapping

@@ -1,4 +1,12 @@
-##双向绑定基本知识
+---
+icon: note
+category:
+  - note
+---
+
+# v-modeldisabled 和 disabled 踩坑
+
+## 双向绑定基本知识
 
 `v-model` 是 `:value` 和 `@input` 的结合, 相当于语法糖.
 
@@ -33,7 +41,7 @@
 - `<input type="checkbox">` 和 `<input type="radio">` 会绑定 `checked` 属性并侦听 `change` 事件；
 - `<select>` 会绑定 `value` 属性并侦听 `change` 事件：
 
-> v-model 会忽略任何表单元素上初始的 value、checked 或 selected attribute。它将始终将当前绑定的 JavaScript 状态视为数据的正确来源。你应该在 JavaScript 中使用data 选项来声明该初始值。
+> v-model 会忽略任何表单元素上初始的 value、checked 或 selected attribute。它将始终将当前绑定的 JavaScript 状态视为数据的正确来源。你应该在 JavaScript 中使用 data 选项来声明该初始值。
 
 ## 踩坑
 
@@ -43,9 +51,9 @@
 
 ```html
 <div class="alert-input-agree">
-	<input :checked="isOk.isAgree" name="isAgree" type="checkbox"/>
-	我已阅读并同意
-	<a href="javascript:;" target="_blank">《动力金融网注册服务协议》</a>
+  <input :checked="isOk.isAgree" name="isAgree" type="checkbox" />
+  我已阅读并同意
+  <a href="javascript:;" target="_blank">《动力金融网注册服务协议》</a>
 </div>
 ```
 
@@ -55,7 +63,7 @@
       deep: true,
       handler() {
         console.log(this.isOk.isAgree + "--------------------")
-		...
+        ...
       },
     },
   },
@@ -65,9 +73,9 @@
 
 ```html
 <div class="alert-input-agree">
-	<input v-model:checked="isOk.isAgree" name="isAgree" type="checkbox"/>
-	我已阅读并同意
-	<a href="javascript:;" target="_blank">《动力金融网注册服务协议》</a>
+  <input v-model:checked="isOk.isAgree" name="isAgree" type="checkbox" />
+  我已阅读并同意
+  <a href="javascript:;" target="_blank">《动力金融网注册服务协议》</a>
 </div>
 ```
 
@@ -77,9 +85,13 @@
 
 ```html
 <div class="alert-input-btn">
-	<input :disabled="isDisabledSub"
-	:style="{background: isDisabledSubColor}"
-	class="login-submit" type="submit" value="注册">
+  <input
+    :disabled="isDisabledSub"
+    :style="{background: isDisabledSubColor}"
+    class="login-submit"
+    type="submit"
+    value="注册"
+  />
 </div>
 ```
 
@@ -89,9 +101,13 @@
 
 ```html
 <div class="alert-input-btn">
-	<input v-model:disabled="isDisabledSub"
-	:style="{background: isDisabledSubColor}"
-	class="login-submit" type="submit" value="注册">
+  <input
+    v-model:disabled="isDisabledSub"
+    :style="{background: isDisabledSubColor}"
+    class="login-submit"
+    type="submit"
+    value="注册"
+  />
 </div>
 ```
 

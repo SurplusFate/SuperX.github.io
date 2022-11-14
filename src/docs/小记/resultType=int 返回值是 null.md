@@ -1,3 +1,11 @@
+---
+icon: note
+category:
+  - note
+---
+
+# resultType=int 返回值是 null
+
 在 xml 中写 SQL 语句时, 指定的 `resultType="int"` 当 `mysql` 中没查到数据时返回值不是 -1, 也不是 0, 而是 `null`.
 
 原因:
@@ -14,4 +22,4 @@ mybatis 对 `resultType` 的官方描述
 | `_integer` | `int`      |
 | `int`      | `Integer`  |
 
-`int` 对应的是 `Integer`对象, 所以最后返回 `null`.
+`int` 对应的是 `Integer` 对象, 所以最后返回 `null`.

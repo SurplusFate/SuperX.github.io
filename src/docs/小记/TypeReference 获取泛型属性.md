@@ -1,3 +1,11 @@
+---
+icon: note
+category:
+  - note
+---
+
+# TypeReference 获取泛型属性
+
 当一个对象含有的属性有泛型时, 反序列化该对象可以尝试使用 `TypeReference`.
 
 例如:
@@ -30,19 +38,16 @@ FastJson 中的 `TypeReference`.
 
 ```java
 protected TypeReference(){
-	Type superClass = getClass().getGenericSuperclass();
 
-	Type type = ((ParameterizedType) superClass).getActualTypeArguments()[0];
-
-	Type cachedType = classTypeCache.get(type);
-	if (cachedType == null) {
-		classTypeCache.putIfAbsent(type, type);
-		cachedType = classTypeCache.get(type);
-	}
-
-	this.type = cachedType;
+    Type superClass = getClass().getGenericSuperclass();
+    Type type = ((ParameterizedType) superClass).getActualTypeArguments()[0];
+    Type cachedType = classTypeCache.get(type);
+    if (cachedType == null) {
+        classTypeCache.putIfAbsent(type, type);
+        cachedType = classTypeCache.get(type);
+    }
+    this.type = cachedType;
 }
-
 ```
 
 `Type[] getActualTypeArguments`
@@ -62,44 +67,43 @@ protected TypeReference(){
 ```java
 public static void main(String[] args) {
 
-	class IntMap extends HashMap<String,Integer> {
+    class IntMap extends HashMap<String,Integer> {
 
-	}
-	IntMap intMap = new IntMap();
-	System.out.println("superClass："+intMap.getClass().getSuperclass());
+    }
+    IntMap intMap = new IntMap();
+    System.out.println("superClass："+intMap.getClass().getSuperclass());
 
-	Type type = intMap.getClass().getGenericSuperclass();
-	if(type instanceof ParameterizedType){
-		ParameterizedType p = (ParameterizedType) type;
-		for (Type t : p.getActualTypeArguments()){
-			System.out.println(t);
-		}
-	}
+    Type type = intMap.getClass().getGenericSuperclass();
+    if(type instanceof ParameterizedType){
+        ParameterizedType p = (ParameterizedType) type;
+        for (Type t : p.getActualTypeArguments()){
+            System.out.println(t);
+        }
+    }
 
-	System.out.println("=====newclass=====");
-	Map<String,Integer> newIntMap = new HashMap<>();
-	System.out.println(newIntMap.getClass().getSuperclass());
+    System.out.println("=====newclass=====");
+    Map<String,Integer> newIntMap = new HashMap<>();
+    System.out.println(newIntMap.getClass().getSuperclass());
 
-	Type newClassType = newIntMap.getClass().getGenericSuperclass();
-	if(newClassType instanceof ParameterizedType){
-		ParameterizedType p = (ParameterizedType) newClassType;
-		for (Type t : p.getActualTypeArguments()){
-			System.out.println(t);
-		}
-	}
+    Type newClassType = newIntMap.getClass().getGenericSuperclass();
+    if(newClassType instanceof ParameterizedType){
+        ParameterizedType p = (ParameterizedType) newClassType;
+            for (Type t : p.getActualTypeArguments()){
+                System.out.println(t);
+        }
+    }
 
-	System.out.println("=====subclass=====");
-	HashMap<String,Integer> subIntMap = new HashMap<String,Integer>(){};
-	System.out.println(subIntMap.getClass().getSuperclass());
+    System.out.println("=====subclass=====");
+    HashMap<String,Integer> subIntMap = new HashMap<String,Integer>(){};
+    System.out.println(subIntMap.getClass().getSuperclass());
 
-	Type subClassType = subIntMap.getClass().getGenericSuperclass();
-	if(subClassType instanceof ParameterizedType){
-		ParameterizedType p = (ParameterizedType) subClassType;
-		for (Type t : p.getActualTypeArguments()){
-			System.out.println(t);
-		}
-	}
-
+    Type subClassType = subIntMap.getClass().getGenericSuperclass();
+    if(subClassType instanceof ParameterizedType){
+        ParameterizedType p = (ParameterizedType) subClassType;
+        for (Type t : p.getActualTypeArguments()){
+            System.out.println(t);
+        }
+    }
 }
 ```
 
@@ -119,4 +123,4 @@ class java.lang.String
 class java.lang.Integer
 ```
 
-参考文章: https://blog.csdn.net/u014764107/article/details/116933951
+参考文章: <https://blog.csdn.net/u014764107/article/details/116933951>

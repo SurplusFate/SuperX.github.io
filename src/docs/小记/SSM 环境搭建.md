@@ -1,3 +1,9 @@
+---
+icon: note
+category:
+  - note
+---
+
 # 环境搭建
 
 创建 web 项目并添加相关依赖.

@@ -1,3 +1,11 @@
+---
+icon: note
+category:
+  - node
+---
+
+# Filter 过滤器
+
 > 1. Filter 过滤器它是 JavaWeb 的三大组件之一。三大组件分别是：Servlet 程序、Listener 监听器、Filter 过滤器。
 > 2. Filter 过滤器它是 JavaEE 的规范。也就是接口
 > 3. Filter 过滤器它的作用是：拦截请求，过滤响应。
@@ -54,7 +62,7 @@ web.xml 中的配置：
         </filter-mapping>
 ```
 
-### Filter 的生命周期
+## Filter 的生命周期
 
 Filter 的生命周期包含几个方法
 
@@ -66,19 +74,19 @@ Filter 的生命周期包含几个方法
 4. destroy 销毁
    第 4 步，停止 web 工程的时候，就会执行（停止 web 工程，也会销毁 Filter 过滤器）
 
-### Filter 的拦截路径
+## Filter 的拦截路径
 
-#### 精确匹配
+### 精确匹配
 
 `<url-pattern>/target.jsp</url-pattern>`
 以上配置的路径，表示请求地址必须为：<http://ip:port/工程路径/target.jsp>
 
-#### 目录匹配
+### 目录匹配
 
 `<url-pattern>/admin/*</url-pattern>`
 以上配置的路径，表示请求地址必须为：<http://ip:port/工程路径/admin/*>
 
-#### 后缀名匹配
+### 后缀名匹配
 
 `<url-pattern>*.html</url-pattern>`
 以上配置的路径，表示请求地址必须以.html 结尾才会拦截到

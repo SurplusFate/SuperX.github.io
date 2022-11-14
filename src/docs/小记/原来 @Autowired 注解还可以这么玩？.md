@@ -1,3 +1,9 @@
+---
+icon: note
+category:
+  - note
+---
+
 # 原来 @Autowired 注解还可以这么玩？
 
 ## @Autowired 字段

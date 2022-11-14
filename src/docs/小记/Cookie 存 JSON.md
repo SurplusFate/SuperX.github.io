@@ -1,7 +1,5 @@
 ---
 icon: note
-date: 2022-09-24
-order: 3
 category:
   - node
 ---

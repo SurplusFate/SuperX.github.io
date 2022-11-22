@@ -96,6 +96,16 @@ export default navbar([
     link: "/docs/Dubbo/",
   },
   {
+    text: "设计模式",
+    icon: "tool",
+    link: "/docs/设计模式/1.设计模式七大原则",
+  },
+  {
+    text: "项目笔记",
+    icon: "tool",
+    link: "/docs/项目笔记/谷粒商城",
+  },
+  {
     text: "小记",
     icon: "write",
     link: "/docs/小记/",

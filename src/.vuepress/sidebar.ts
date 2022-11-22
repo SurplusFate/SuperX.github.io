@@ -13,6 +13,8 @@ export default sidebar({
   "/docs/Vue/": "structure",
   "/docs/Git/": "structure",
   "/docs/Linux/": "structure",
+  "/docs/设计模式/": "structure",
+  "/docs/项目笔记/": "structure",
   "/docs/Dubbo/": "structure",
   "/docs/Redis/Redis 基础/": "structure",
   "/docs/Redis/Redis 实战/": "structure",

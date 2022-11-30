@@ -12,24 +12,31 @@ export default navbar([
     link: "/docs/guide/",
   },
   {
-    text: "JavaSE",
+    text: "Java 基础",
     icon: "java",
-    link: "/docs/java/1. Java语言概述与开发环境",
-  },
-  {
-    text: "MySQL",
-    icon: "mysql",
-    link: "/docs/MySQL/1. 创建与管理数据库",
-  },
-  {
-    text: "JavaWeb",
-    icon: "Apache",
-    link: "/docs/JavaWeb/0. Maven",
-  },
-  {
-    text: "Mybatis",
-    icon: "stack",
-    link: "/docs/Mybatis/",
+    prefix: "/docs/Java 基础",
+    children: [
+      {
+        text: "JavaSE",
+        icon: "java",
+        link: "/java/1. Java语言概述与开发环境",
+      },
+      {
+        text: "MySQL",
+        icon: "mysql",
+        link: "/MySQL/1. 创建与管理数据库",
+      },
+      {
+        text: "JavaWeb",
+        icon: "Apache",
+        link: "/JavaWeb/0. Maven",
+      },
+      {
+        text: "Mybatis",
+        icon: "stack",
+        link: "/Mybatis/",
+      },
+    ],
   },
   {
     text: "Spring系列",
@@ -49,7 +56,18 @@ export default navbar([
       {
         text: "SpringBoot",
         icon: "module",
-        link: "SpringBoot/",
+        children: [
+          {
+            text: "SpringBoot",
+            icon: "module",
+            link: "SpringBoot/",
+          },
+          {
+            text: "Dubbo",
+            icon: "tool",
+            link: "SpringBoot/Dubbo/",
+          },
+        ],
       },
       {
         text: "SpringCloud",
@@ -89,11 +107,6 @@ export default navbar([
         link: "Redis 实战/1. 短信登录",
       },
     ],
-  },
-  {
-    text: "Dubbo",
-    icon: "tool",
-    link: "/docs/Dubbo/",
   },
   {
     text: "设计模式",

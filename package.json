@@ -21,7 +21,7 @@
     "vuepress-theme-hope": "2.0.0-beta.114"
   },
   "dependencies": {
-    "pnpm": "^7.17.0",
+    "pnpm": "^7.17.1",
     "yarn": "^1.22.19"
   }
 }

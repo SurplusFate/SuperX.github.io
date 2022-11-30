@@ -1,243 +1,5 @@
 export const searchIndex = [
   {
-    "title": "Git",
-    "headers": [
-      {
-        "level": 2,
-        "title": "基础篇",
-        "slug": "基础篇",
-        "link": "#基础篇",
-        "children": [
-          {
-            "level": 3,
-            "title": "分支与合并",
-            "slug": "分支与合并",
-            "link": "#分支与合并",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "高级篇",
-        "slug": "高级篇",
-        "link": "#高级篇",
-        "children": [
-          {
-            "level": 3,
-            "title": "HEAD 引用",
-            "slug": "head-引用",
-            "link": "#head-引用",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "相对引用",
-            "slug": "相对引用",
-            "link": "#相对引用",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "撤销变更",
-            "slug": "撤销变更",
-            "link": "#撤销变更",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "其他",
-        "slug": "其他",
-        "link": "#其他",
-        "children": [
-          {
-            "level": 3,
-            "title": "整理提交记录",
-            "slug": "整理提交记录",
-            "link": "#整理提交记录",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "交互式的 rebase",
-            "slug": "交互式的-rebase",
-            "link": "#交互式的-rebase",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "标签",
-            "slug": "标签",
-            "link": "#标签",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "锚点",
-            "slug": "锚点",
-            "link": "#锚点",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "选择父提交记录",
-            "slug": "选择父提交记录",
-            "link": "#选择父提交记录",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "远程仓库",
-        "slug": "远程仓库",
-        "link": "#远程仓库",
-        "children": [
-          {
-            "level": 3,
-            "title": "注册远程账号",
-            "slug": "注册远程账号",
-            "link": "#注册远程账号",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "关联远程仓库",
-            "slug": "关联远程仓库",
-            "link": "#关联远程仓库",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "删除关联关系",
-            "slug": "删除关联关系",
-            "link": "#删除关联关系",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "克隆",
-            "slug": "克隆",
-            "link": "#克隆",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "远程分支",
-            "slug": "远程分支",
-            "link": "#远程分支",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "删除远程分支",
-            "slug": "删除远程分支",
-            "link": "#删除远程分支",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "从远程仓库获取数据",
-            "slug": "从远程仓库获取数据",
-            "link": "#从远程仓库获取数据",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "合并数据",
-            "slug": "合并数据",
-            "link": "#合并数据",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "推送本地代码到远程仓库中",
-            "slug": "推送本地代码到远程仓库中",
-            "link": "#推送本地代码到远程仓库中",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "历史偏离",
-            "slug": "历史偏离",
-            "link": "#历史偏离",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "远程服务器拒绝",
-        "slug": "远程服务器拒绝",
-        "link": "#远程服务器拒绝",
-        "children": [
-          {
-            "level": 3,
-            "title": "为什么会被拒绝？",
-            "slug": "为什么会被拒绝",
-            "link": "#为什么会被拒绝",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "解决办法",
-            "slug": "解决办法",
-            "link": "#解决办法",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "公司多人合作项目 Git 基本操作流程",
-        "slug": "公司多人合作项目-git-基本操作流程",
-        "link": "#公司多人合作项目-git-基本操作流程",
-        "children": [
-          {
-            "level": 3,
-            "title": "前言",
-            "slug": "前言",
-            "link": "#前言",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Git 工具下载",
-            "slug": "git-工具下载",
-            "link": "#git-工具下载",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "配置 Git 用户信息",
-            "slug": "配置-git-用户信息",
-            "link": "#配置-git-用户信息",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "重点",
-            "slug": "重点",
-            "link": "#重点",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "同步Fork仓库 git upstream",
-        "slug": "同步fork仓库-git-upstream",
-        "link": "#同步fork仓库-git-upstream",
-        "children": []
-      }
-    ],
-    "path": "/docs/Git/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "Dubbo 框架",
     "headers": [
       {
@@ -621,6 +383,244 @@ export const searchIndex = [
       }
     ],
     "path": "/docs/Dubbo/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Git",
+    "headers": [
+      {
+        "level": 2,
+        "title": "基础篇",
+        "slug": "基础篇",
+        "link": "#基础篇",
+        "children": [
+          {
+            "level": 3,
+            "title": "分支与合并",
+            "slug": "分支与合并",
+            "link": "#分支与合并",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "高级篇",
+        "slug": "高级篇",
+        "link": "#高级篇",
+        "children": [
+          {
+            "level": 3,
+            "title": "HEAD 引用",
+            "slug": "head-引用",
+            "link": "#head-引用",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "相对引用",
+            "slug": "相对引用",
+            "link": "#相对引用",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "撤销变更",
+            "slug": "撤销变更",
+            "link": "#撤销变更",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "其他",
+        "slug": "其他",
+        "link": "#其他",
+        "children": [
+          {
+            "level": 3,
+            "title": "整理提交记录",
+            "slug": "整理提交记录",
+            "link": "#整理提交记录",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "交互式的 rebase",
+            "slug": "交互式的-rebase",
+            "link": "#交互式的-rebase",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "标签",
+            "slug": "标签",
+            "link": "#标签",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "锚点",
+            "slug": "锚点",
+            "link": "#锚点",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "选择父提交记录",
+            "slug": "选择父提交记录",
+            "link": "#选择父提交记录",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "远程仓库",
+        "slug": "远程仓库",
+        "link": "#远程仓库",
+        "children": [
+          {
+            "level": 3,
+            "title": "注册远程账号",
+            "slug": "注册远程账号",
+            "link": "#注册远程账号",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "关联远程仓库",
+            "slug": "关联远程仓库",
+            "link": "#关联远程仓库",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "删除关联关系",
+            "slug": "删除关联关系",
+            "link": "#删除关联关系",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "克隆",
+            "slug": "克隆",
+            "link": "#克隆",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "远程分支",
+            "slug": "远程分支",
+            "link": "#远程分支",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "删除远程分支",
+            "slug": "删除远程分支",
+            "link": "#删除远程分支",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "从远程仓库获取数据",
+            "slug": "从远程仓库获取数据",
+            "link": "#从远程仓库获取数据",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "合并数据",
+            "slug": "合并数据",
+            "link": "#合并数据",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "推送本地代码到远程仓库中",
+            "slug": "推送本地代码到远程仓库中",
+            "link": "#推送本地代码到远程仓库中",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "历史偏离",
+            "slug": "历史偏离",
+            "link": "#历史偏离",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "远程服务器拒绝",
+        "slug": "远程服务器拒绝",
+        "link": "#远程服务器拒绝",
+        "children": [
+          {
+            "level": 3,
+            "title": "为什么会被拒绝？",
+            "slug": "为什么会被拒绝",
+            "link": "#为什么会被拒绝",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "解决办法",
+            "slug": "解决办法",
+            "link": "#解决办法",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "公司多人合作项目 Git 基本操作流程",
+        "slug": "公司多人合作项目-git-基本操作流程",
+        "link": "#公司多人合作项目-git-基本操作流程",
+        "children": [
+          {
+            "level": 3,
+            "title": "前言",
+            "slug": "前言",
+            "link": "#前言",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Git 工具下载",
+            "slug": "git-工具下载",
+            "link": "#git-工具下载",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "配置 Git 用户信息",
+            "slug": "配置-git-用户信息",
+            "link": "#配置-git-用户信息",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "重点",
+            "slug": "重点",
+            "link": "#重点",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "同步Fork仓库 git upstream",
+        "slug": "同步fork仓库-git-upstream",
+        "link": "#同步fork仓库-git-upstream",
+        "children": []
+      }
+    ],
+    "path": "/docs/Git/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -3555,6 +3555,1172 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "VMware",
+    "headers": [
+      {
+        "level": 2,
+        "title": "虚拟化检查",
+        "slug": "虚拟化检查",
+        "link": "#虚拟化检查",
+        "children": [
+          {
+            "level": 3,
+            "title": "虚拟机和 window 的关系",
+            "slug": "虚拟机和-window-的关系",
+            "link": "#虚拟机和-window-的关系",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "检查是否支持虚拟化",
+            "slug": "检查是否支持虚拟化",
+            "link": "#检查是否支持虚拟化",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "下载 Linux 镜像",
+        "slug": "下载-linux-镜像",
+        "link": "#下载-linux-镜像",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "安装 VMware",
+        "slug": "安装-vmware",
+        "link": "#安装-vmware",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "安装 CentOS",
+        "slug": "安装-centos",
+        "link": "#安装-centos",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "系统配置",
+        "slug": "系统配置",
+        "link": "#系统配置",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "安装信息摘要",
+        "slug": "安装信息摘要",
+        "link": "#安装信息摘要",
+        "children": [
+          {
+            "level": 3,
+            "title": "本地化",
+            "slug": "本地化",
+            "link": "#本地化",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "软件选择",
+            "slug": "软件选择",
+            "link": "#软件选择",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "系统设置",
+            "slug": "系统设置",
+            "link": "#系统设置",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "网络连接的三种方式",
+        "slug": "网络连接的三种方式",
+        "link": "#网络连接的三种方式",
+        "children": [
+          {
+            "level": 3,
+            "title": "桥接模式",
+            "slug": "桥接模式",
+            "link": "#桥接模式",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "NAT 模式",
+            "slug": "nat-模式",
+            "link": "#nat-模式",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "仅主机模式",
+            "slug": "仅主机模式",
+            "link": "#仅主机模式",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "虚拟机克隆",
+        "slug": "虚拟机克隆",
+        "link": "#虚拟机克隆",
+        "children": [
+          {
+            "level": 3,
+            "title": "直接复制",
+            "slug": "直接复制",
+            "link": "#直接复制",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "VMware 克隆",
+            "slug": "vmware-克隆",
+            "link": "#vmware-克隆",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "虚拟机快照",
+        "slug": "虚拟机快照",
+        "link": "#虚拟机快照",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "虚拟机迁移删除",
+        "slug": "虚拟机迁移删除",
+        "link": "#虚拟机迁移删除",
+        "children": [
+          {
+            "level": 3,
+            "title": "迁移",
+            "slug": "迁移",
+            "link": "#迁移",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "删除",
+            "slug": "删除",
+            "link": "#删除",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "vmtools",
+        "slug": "vmtools",
+        "link": "#vmtools",
+        "children": [
+          {
+            "level": 3,
+            "title": "检查 GCC",
+            "slug": "检查-gcc",
+            "link": "#检查-gcc",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "安装 vmtools",
+            "slug": "安装-vmtools",
+            "link": "#安装-vmtools",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "设置共享文件夹",
+            "slug": "设置共享文件夹",
+            "link": "#设置共享文件夹",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/docs/Linux/1.%20VMware.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "文件管理",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Linux 目录结构",
+        "slug": "linux-目录结构",
+        "link": "#linux-目录结构",
+        "children": [
+          {
+            "level": 3,
+            "title": "目录结构",
+            "slug": "目录结构",
+            "link": "#目录结构",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "详情",
+            "slug": "详情",
+            "link": "#详情",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "VI/VIM",
+        "slug": "vi-vim",
+        "link": "#vi-vim",
+        "children": [
+          {
+            "level": 3,
+            "title": "三种模式",
+            "slug": "三种模式",
+            "link": "#三种模式",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "正常模式",
+            "slug": "正常模式",
+            "link": "#正常模式",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "插入模式",
+            "slug": "插入模式",
+            "link": "#插入模式",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "命令行模式",
+            "slug": "命令行模式",
+            "link": "#命令行模式",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "键盘图",
+            "slug": "键盘图",
+            "link": "#键盘图",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "文件传输",
+        "slug": "文件传输",
+        "link": "#文件传输",
+        "children": [
+          {
+            "level": 3,
+            "title": "使用 rzsz",
+            "slug": "使用-rzsz",
+            "link": "#使用-rzsz",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "使用 XFTP",
+            "slug": "使用-xftp",
+            "link": "#使用-xftp",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "帮助命令",
+        "slug": "帮助命令",
+        "link": "#帮助命令",
+        "children": [
+          {
+            "level": 3,
+            "title": "man",
+            "slug": "man",
+            "link": "#man",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "help",
+            "slug": "help",
+            "link": "#help",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "history",
+            "slug": "history",
+            "link": "#history",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "常用快捷键",
+            "slug": "常用快捷键",
+            "link": "#常用快捷键",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "文件目录类",
+        "slug": "文件目录类",
+        "link": "#文件目录类",
+        "children": [
+          {
+            "level": 3,
+            "title": "pwd 显示绝对路径",
+            "slug": "pwd-显示绝对路径",
+            "link": "#pwd-显示绝对路径",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "ls 列出目录的内容",
+            "slug": "ls-列出目录的内容",
+            "link": "#ls-列出目录的内容",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "cd 切换目录",
+            "slug": "cd-切换目录",
+            "link": "#cd-切换目录",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "mkdir 创建一个新的目录",
+            "slug": "mkdir-创建一个新的目录",
+            "link": "#mkdir-创建一个新的目录",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "rmdir 删除一个空的目录",
+            "slug": "rmdir-删除一个空的目录",
+            "link": "#rmdir-删除一个空的目录",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "touch 创建空文件",
+            "slug": "touch-创建空文件",
+            "link": "#touch-创建空文件",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "cp 复制文件或目录",
+            "slug": "cp-复制文件或目录",
+            "link": "#cp-复制文件或目录",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "alias 查看命令缩写",
+            "slug": "alias-查看命令缩写",
+            "link": "#alias-查看命令缩写",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "rm 删除文件或目录",
+            "slug": "rm-删除文件或目录",
+            "link": "#rm-删除文件或目录",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "mv 移动文件或目录或重命名",
+            "slug": "mv-移动文件或目录或重命名",
+            "link": "#mv-移动文件或目录或重命名",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "cat 查看文件内容",
+            "slug": "cat-查看文件内容",
+            "link": "#cat-查看文件内容",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "more 文件内容分屏查看器",
+            "slug": "more-文件内容分屏查看器",
+            "link": "#more-文件内容分屏查看器",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "less 分屏显示文件内容（查看大文件）",
+            "slug": "less-分屏显示文件内容-查看大文件",
+            "link": "#less-分屏显示文件内容-查看大文件",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "echo 输出",
+            "slug": "echo-输出",
+            "link": "#echo-输出",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "head 显示文件头部内容",
+            "slug": "head-显示文件头部内容",
+            "link": "#head-显示文件头部内容",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "tail 显示文件尾部内容",
+            "slug": "tail-显示文件尾部内容",
+            "link": "#tail-显示文件尾部内容",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "输出重定向和追加",
+            "slug": "输出重定向和追加",
+            "link": "#输出重定向和追加",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "ln 软链接",
+            "slug": "ln-软链接",
+            "link": "#ln-软链接",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "find 查找",
+            "slug": "find-查找",
+            "link": "#find-查找",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "whereis 查找",
+            "slug": "whereis-查找",
+            "link": "#whereis-查找",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "locate 查找",
+            "slug": "locate-查找",
+            "link": "#locate-查找",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "which 查找",
+            "slug": "which-查找",
+            "link": "#which-查找",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "grep 查找",
+            "slug": "grep-查找",
+            "link": "#grep-查找",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "压缩和解压",
+            "slug": "压缩和解压",
+            "link": "#压缩和解压",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/docs/Linux/2.%20%E6%96%87%E4%BB%B6%E7%AE%A1%E7%90%86.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "系统管理",
+    "headers": [
+      {
+        "level": 2,
+        "title": "设置远程连接",
+        "slug": "设置远程连接",
+        "link": "#设置远程连接",
+        "children": [
+          {
+            "level": 3,
+            "title": "获取 ip 地址",
+            "slug": "获取-ip-地址",
+            "link": "#获取-ip-地址",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "使用 Xhell",
+            "slug": "使用-xhell",
+            "link": "#使用-xhell",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "关机重启",
+        "slug": "关机重启",
+        "link": "#关机重启",
+        "children": [
+          {
+            "level": 3,
+            "title": "基本命令",
+            "slug": "基本命令",
+            "link": "#基本命令",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "运行级别",
+        "slug": "运行级别",
+        "link": "#运行级别",
+        "children": [
+          {
+            "level": 3,
+            "title": "Linux 运行级别",
+            "slug": "linux-运行级别",
+            "link": "#linux-运行级别",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "CentOS7 的运行级别",
+            "slug": "centos7-的运行级别",
+            "link": "#centos7-的运行级别",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "查看运行级别",
+            "slug": "查看运行级别",
+            "link": "#查看运行级别",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "修改运行级别",
+            "slug": "修改运行级别",
+            "link": "#修改运行级别",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "找回 root 密码",
+        "slug": "找回-root-密码",
+        "link": "#找回-root-密码",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "时间日期类",
+        "slug": "时间日期类",
+        "link": "#时间日期类",
+        "children": [
+          {
+            "level": 3,
+            "title": "date 显示当前时间",
+            "slug": "date-显示当前时间",
+            "link": "#date-显示当前时间",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "cal 查看日历",
+            "slug": "cal-查看日历",
+            "link": "#cal-查看日历",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "系统定时任务",
+        "slug": "系统定时任务",
+        "link": "#系统定时任务",
+        "children": [
+          {
+            "level": 3,
+            "title": "crontab 服务管理",
+            "slug": "crontab-服务管理",
+            "link": "#crontab-服务管理",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "at 定时任务",
+            "slug": "at-定时任务",
+            "link": "#at-定时任务",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "磁盘管理",
+        "slug": "磁盘管理",
+        "link": "#磁盘管理",
+        "children": [
+          {
+            "level": 3,
+            "title": "分区信息",
+            "slug": "分区信息",
+            "link": "#分区信息",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "添加磁盘",
+            "slug": "添加磁盘",
+            "link": "#添加磁盘",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "磁盘分区",
+            "slug": "磁盘分区",
+            "link": "#磁盘分区",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "挂载/卸载",
+            "slug": "挂载-卸载",
+            "link": "#挂载-卸载",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "查看磁盘空间使用情况",
+            "slug": "查看磁盘空间使用情况",
+            "link": "#查看磁盘空间使用情况",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "查看文件和目录占用的磁盘空间",
+            "slug": "查看文件和目录占用的磁盘空间",
+            "link": "#查看文件和目录占用的磁盘空间",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "网络配置",
+        "slug": "网络配置",
+        "link": "#网络配置",
+        "children": [
+          {
+            "level": 3,
+            "title": "配置网络 ip",
+            "slug": "配置网络-ip",
+            "link": "#配置网络-ip",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "配置主机名",
+            "slug": "配置主机名",
+            "link": "#配置主机名",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "进程和服务",
+        "slug": "进程和服务",
+        "link": "#进程和服务",
+        "children": [
+          {
+            "level": 3,
+            "title": "进程管理类",
+            "slug": "进程管理类",
+            "link": "#进程管理类",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "查看当前系统进程状态",
+            "slug": "查看当前系统进程状态",
+            "link": "#查看当前系统进程状态",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "kill 终止进程",
+            "slug": "kill-终止进程",
+            "link": "#kill-终止进程",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "pstree 查看进程树",
+            "slug": "pstree-查看进程树",
+            "link": "#pstree-查看进程树",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "top 实施监控系统进程状态",
+            "slug": "top-实施监控系统进程状态",
+            "link": "#top-实施监控系统进程状态",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "netstat 显示网络状态和端口占用信息",
+            "slug": "netstat-显示网络状态和端口占用信息",
+            "link": "#netstat-显示网络状态和端口占用信息",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "service 服务管理",
+            "slug": "service-服务管理",
+            "link": "#service-服务管理",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "chkconfig 设置后台服务的自启配置",
+            "slug": "chkconfig-设置后台服务的自启配置",
+            "link": "#chkconfig-设置后台服务的自启配置",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "systemctl",
+            "slug": "systemctl",
+            "link": "#systemctl",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "systemctl 设置后台服务的自启配置",
+            "slug": "systemctl-设置后台服务的自启配置",
+            "link": "#systemctl-设置后台服务的自启配置",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/docs/Linux/3.%20%E7%B3%BB%E7%BB%9F%E7%AE%A1%E7%90%86.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "用户和组",
+    "headers": [
+      {
+        "level": 2,
+        "title": "用户管理",
+        "slug": "用户管理",
+        "link": "#用户管理",
+        "children": [
+          {
+            "level": 3,
+            "title": "管理用户",
+            "slug": "管理用户",
+            "link": "#管理用户",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "用户组",
+            "slug": "用户组",
+            "link": "#用户组",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "相关文件",
+            "slug": "相关文件",
+            "link": "#相关文件",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "组管理",
+        "slug": "组管理",
+        "link": "#组管理",
+        "children": [
+          {
+            "level": 3,
+            "title": "所有者",
+            "slug": "所有者",
+            "link": "#所有者",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "所在组",
+            "slug": "所在组",
+            "link": "#所在组",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "其他组",
+            "slug": "其他组",
+            "link": "#其他组",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "修改用户所在组",
+            "slug": "修改用户所在组",
+            "link": "#修改用户所在组",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "文件权限类",
+        "slug": "文件权限类",
+        "link": "#文件权限类",
+        "children": [
+          {
+            "level": 3,
+            "title": "文件属性",
+            "slug": "文件属性",
+            "link": "#文件属性",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "chmod 改变权限",
+            "slug": "chmod-改变权限",
+            "link": "#chmod-改变权限",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/docs/Linux/4.%20%E7%94%A8%E6%88%B7%E5%92%8C%E7%BB%84.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "软件包管理",
+    "headers": [
+      {
+        "level": 2,
+        "title": "RPM",
+        "slug": "rpm",
+        "link": "#rpm",
+        "children": [
+          {
+            "level": 3,
+            "title": "概述",
+            "slug": "概述",
+            "link": "#概述",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "查询命令",
+            "slug": "查询命令",
+            "link": "#查询命令",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "卸载命令",
+            "slug": "卸载命令",
+            "link": "#卸载命令",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "安装命令",
+            "slug": "安装命令",
+            "link": "#安装命令",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "仓库配置",
+        "slug": "仓库配置",
+        "link": "#仓库配置",
+        "children": [
+          {
+            "level": 3,
+            "title": "YUM 概述",
+            "slug": "yum-概述",
+            "link": "#yum-概述",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "YUM 的常用命令",
+            "slug": "yum-的常用命令",
+            "link": "#yum-的常用命令",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "修改网络 YUM 源",
+            "slug": "修改网络-yum-源",
+            "link": "#修改网络-yum-源",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/docs/Linux/5.%20%E8%BD%AF%E4%BB%B6%E5%8C%85%E7%AE%A1%E7%90%86.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "JavaEE 环境搭建",
+    "headers": [
+      {
+        "level": 2,
+        "title": "安装 JDK",
+        "slug": "安装-jdk",
+        "link": "#安装-jdk",
+        "children": [
+          {
+            "level": 3,
+            "title": "第一种方式：yum 命令安装",
+            "slug": "第一种方式-yum-命令安装",
+            "link": "#第一种方式-yum-命令安装",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "第二种方式：下载后安装",
+            "slug": "第二种方式-下载后安装",
+            "link": "#第二种方式-下载后安装",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "安装 MySQL",
+        "slug": "安装-mysql",
+        "link": "#安装-mysql",
+        "children": [
+          {
+            "level": 3,
+            "title": "更新 yum",
+            "slug": "更新-yum",
+            "link": "#更新-yum",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "安装 wget 工具",
+            "slug": "安装-wget-工具",
+            "link": "#安装-wget-工具",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "使用 wget 下载 mysql yum 源",
+            "slug": "使用-wget-下载-mysql-yum-源",
+            "link": "#使用-wget-下载-mysql-yum-源",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "添加 mysql yum 源",
+            "slug": "添加-mysql-yum-源",
+            "link": "#添加-mysql-yum-源",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "安装 yum 工具 yum-utils",
+            "slug": "安装-yum-工具-yum-utils",
+            "link": "#安装-yum-工具-yum-utils",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "查看可用的 mysql",
+            "slug": "查看可用的-mysql",
+            "link": "#查看可用的-mysql",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "查看所有的 mysql 版本",
+            "slug": "查看所有的-mysql-版本",
+            "link": "#查看所有的-mysql-版本",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "使用指定版本 MySQL",
+            "slug": "使用指定版本-mysql",
+            "link": "#使用指定版本-mysql",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "查看当前启用的 MySQL 版本",
+            "slug": "查看当前启用的-mysql-版本",
+            "link": "#查看当前启用的-mysql-版本",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "安装 MySQL",
+            "slug": "安装-mysql-1",
+            "link": "#安装-mysql-1",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "有些同学会出现此问题",
+            "slug": "有些同学会出现此问题",
+            "link": "#有些同学会出现此问题",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "启动 MySQL",
+            "slug": "启动-mysql",
+            "link": "#启动-mysql",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "查看 MySQL 服务状态",
+            "slug": "查看-mysql-服务状态",
+            "link": "#查看-mysql-服务状态",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "初始化 MySQL",
+            "slug": "初始化-mysql",
+            "link": "#初始化-mysql",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "设置 MySQL 密码策略",
+            "slug": "设置-mysql-密码策略",
+            "link": "#设置-mysql-密码策略",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "设置简单密码",
+            "slug": "设置简单密码",
+            "link": "#设置简单密码",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "远程连接",
+            "slug": "远程连接",
+            "link": "#远程连接",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "刷新权限",
+            "slug": "刷新权限",
+            "link": "#刷新权限",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "开机启动",
+            "slug": "开机启动",
+            "link": "#开机启动",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "配置防火墙",
+            "slug": "配置防火墙",
+            "link": "#配置防火墙",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "测试链接",
+            "slug": "测试链接",
+            "link": "#测试链接",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "安装 TOMCAT",
+        "slug": "安装-tomcat",
+        "link": "#安装-tomcat",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "查看文件安装路径",
+        "slug": "查看文件安装路径",
+        "link": "#查看文件安装路径",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "查询运行文件所在路径",
+        "slug": "查询运行文件所在路径",
+        "link": "#查询运行文件所在路径",
+        "children": []
+      }
+    ],
+    "path": "/docs/Linux/6.%20JavaEE%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Linux",
+    "headers": [],
+    "path": "/docs/Linux/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "0 .Maven",
     "headers": [
       {
@@ -4890,1172 +6056,6 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "VMware",
-    "headers": [
-      {
-        "level": 2,
-        "title": "虚拟化检查",
-        "slug": "虚拟化检查",
-        "link": "#虚拟化检查",
-        "children": [
-          {
-            "level": 3,
-            "title": "虚拟机和 window 的关系",
-            "slug": "虚拟机和-window-的关系",
-            "link": "#虚拟机和-window-的关系",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "检查是否支持虚拟化",
-            "slug": "检查是否支持虚拟化",
-            "link": "#检查是否支持虚拟化",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "下载 Linux 镜像",
-        "slug": "下载-linux-镜像",
-        "link": "#下载-linux-镜像",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "安装 VMware",
-        "slug": "安装-vmware",
-        "link": "#安装-vmware",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "安装 CentOS",
-        "slug": "安装-centos",
-        "link": "#安装-centos",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "系统配置",
-        "slug": "系统配置",
-        "link": "#系统配置",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "安装信息摘要",
-        "slug": "安装信息摘要",
-        "link": "#安装信息摘要",
-        "children": [
-          {
-            "level": 3,
-            "title": "本地化",
-            "slug": "本地化",
-            "link": "#本地化",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "软件选择",
-            "slug": "软件选择",
-            "link": "#软件选择",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "系统设置",
-            "slug": "系统设置",
-            "link": "#系统设置",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "网络连接的三种方式",
-        "slug": "网络连接的三种方式",
-        "link": "#网络连接的三种方式",
-        "children": [
-          {
-            "level": 3,
-            "title": "桥接模式",
-            "slug": "桥接模式",
-            "link": "#桥接模式",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "NAT 模式",
-            "slug": "nat-模式",
-            "link": "#nat-模式",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "仅主机模式",
-            "slug": "仅主机模式",
-            "link": "#仅主机模式",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "虚拟机克隆",
-        "slug": "虚拟机克隆",
-        "link": "#虚拟机克隆",
-        "children": [
-          {
-            "level": 3,
-            "title": "直接复制",
-            "slug": "直接复制",
-            "link": "#直接复制",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "VMware 克隆",
-            "slug": "vmware-克隆",
-            "link": "#vmware-克隆",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "虚拟机快照",
-        "slug": "虚拟机快照",
-        "link": "#虚拟机快照",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "虚拟机迁移删除",
-        "slug": "虚拟机迁移删除",
-        "link": "#虚拟机迁移删除",
-        "children": [
-          {
-            "level": 3,
-            "title": "迁移",
-            "slug": "迁移",
-            "link": "#迁移",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "删除",
-            "slug": "删除",
-            "link": "#删除",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "vmtools",
-        "slug": "vmtools",
-        "link": "#vmtools",
-        "children": [
-          {
-            "level": 3,
-            "title": "检查 GCC",
-            "slug": "检查-gcc",
-            "link": "#检查-gcc",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "安装 vmtools",
-            "slug": "安装-vmtools",
-            "link": "#安装-vmtools",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "设置共享文件夹",
-            "slug": "设置共享文件夹",
-            "link": "#设置共享文件夹",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/docs/Linux/1.%20VMware.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "文件管理",
-    "headers": [
-      {
-        "level": 2,
-        "title": "Linux 目录结构",
-        "slug": "linux-目录结构",
-        "link": "#linux-目录结构",
-        "children": [
-          {
-            "level": 3,
-            "title": "目录结构",
-            "slug": "目录结构",
-            "link": "#目录结构",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "详情",
-            "slug": "详情",
-            "link": "#详情",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "VI/VIM",
-        "slug": "vi-vim",
-        "link": "#vi-vim",
-        "children": [
-          {
-            "level": 3,
-            "title": "三种模式",
-            "slug": "三种模式",
-            "link": "#三种模式",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "正常模式",
-            "slug": "正常模式",
-            "link": "#正常模式",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "插入模式",
-            "slug": "插入模式",
-            "link": "#插入模式",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "命令行模式",
-            "slug": "命令行模式",
-            "link": "#命令行模式",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "键盘图",
-            "slug": "键盘图",
-            "link": "#键盘图",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "文件传输",
-        "slug": "文件传输",
-        "link": "#文件传输",
-        "children": [
-          {
-            "level": 3,
-            "title": "使用 rzsz",
-            "slug": "使用-rzsz",
-            "link": "#使用-rzsz",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "使用 XFTP",
-            "slug": "使用-xftp",
-            "link": "#使用-xftp",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "帮助命令",
-        "slug": "帮助命令",
-        "link": "#帮助命令",
-        "children": [
-          {
-            "level": 3,
-            "title": "man",
-            "slug": "man",
-            "link": "#man",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "help",
-            "slug": "help",
-            "link": "#help",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "history",
-            "slug": "history",
-            "link": "#history",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "常用快捷键",
-            "slug": "常用快捷键",
-            "link": "#常用快捷键",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "文件目录类",
-        "slug": "文件目录类",
-        "link": "#文件目录类",
-        "children": [
-          {
-            "level": 3,
-            "title": "pwd 显示绝对路径",
-            "slug": "pwd-显示绝对路径",
-            "link": "#pwd-显示绝对路径",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "ls 列出目录的内容",
-            "slug": "ls-列出目录的内容",
-            "link": "#ls-列出目录的内容",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "cd 切换目录",
-            "slug": "cd-切换目录",
-            "link": "#cd-切换目录",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "mkdir 创建一个新的目录",
-            "slug": "mkdir-创建一个新的目录",
-            "link": "#mkdir-创建一个新的目录",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "rmdir 删除一个空的目录",
-            "slug": "rmdir-删除一个空的目录",
-            "link": "#rmdir-删除一个空的目录",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "touch 创建空文件",
-            "slug": "touch-创建空文件",
-            "link": "#touch-创建空文件",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "cp 复制文件或目录",
-            "slug": "cp-复制文件或目录",
-            "link": "#cp-复制文件或目录",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "alias 查看命令缩写",
-            "slug": "alias-查看命令缩写",
-            "link": "#alias-查看命令缩写",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "rm 删除文件或目录",
-            "slug": "rm-删除文件或目录",
-            "link": "#rm-删除文件或目录",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "mv 移动文件或目录或重命名",
-            "slug": "mv-移动文件或目录或重命名",
-            "link": "#mv-移动文件或目录或重命名",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "cat 查看文件内容",
-            "slug": "cat-查看文件内容",
-            "link": "#cat-查看文件内容",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "more 文件内容分屏查看器",
-            "slug": "more-文件内容分屏查看器",
-            "link": "#more-文件内容分屏查看器",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "less 分屏显示文件内容（查看大文件）",
-            "slug": "less-分屏显示文件内容-查看大文件",
-            "link": "#less-分屏显示文件内容-查看大文件",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "echo 输出",
-            "slug": "echo-输出",
-            "link": "#echo-输出",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "head 显示文件头部内容",
-            "slug": "head-显示文件头部内容",
-            "link": "#head-显示文件头部内容",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "tail 显示文件尾部内容",
-            "slug": "tail-显示文件尾部内容",
-            "link": "#tail-显示文件尾部内容",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "输出重定向和追加",
-            "slug": "输出重定向和追加",
-            "link": "#输出重定向和追加",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "ln 软链接",
-            "slug": "ln-软链接",
-            "link": "#ln-软链接",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "find 查找",
-            "slug": "find-查找",
-            "link": "#find-查找",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "whereis 查找",
-            "slug": "whereis-查找",
-            "link": "#whereis-查找",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "locate 查找",
-            "slug": "locate-查找",
-            "link": "#locate-查找",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "which 查找",
-            "slug": "which-查找",
-            "link": "#which-查找",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "grep 查找",
-            "slug": "grep-查找",
-            "link": "#grep-查找",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "压缩和解压",
-            "slug": "压缩和解压",
-            "link": "#压缩和解压",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/docs/Linux/2.%20%E6%96%87%E4%BB%B6%E7%AE%A1%E7%90%86.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "系统管理",
-    "headers": [
-      {
-        "level": 2,
-        "title": "设置远程连接",
-        "slug": "设置远程连接",
-        "link": "#设置远程连接",
-        "children": [
-          {
-            "level": 3,
-            "title": "获取 ip 地址",
-            "slug": "获取-ip-地址",
-            "link": "#获取-ip-地址",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "使用 Xhell",
-            "slug": "使用-xhell",
-            "link": "#使用-xhell",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "关机重启",
-        "slug": "关机重启",
-        "link": "#关机重启",
-        "children": [
-          {
-            "level": 3,
-            "title": "基本命令",
-            "slug": "基本命令",
-            "link": "#基本命令",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "运行级别",
-        "slug": "运行级别",
-        "link": "#运行级别",
-        "children": [
-          {
-            "level": 3,
-            "title": "Linux 运行级别",
-            "slug": "linux-运行级别",
-            "link": "#linux-运行级别",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "CentOS7 的运行级别",
-            "slug": "centos7-的运行级别",
-            "link": "#centos7-的运行级别",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "查看运行级别",
-            "slug": "查看运行级别",
-            "link": "#查看运行级别",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "修改运行级别",
-            "slug": "修改运行级别",
-            "link": "#修改运行级别",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "找回 root 密码",
-        "slug": "找回-root-密码",
-        "link": "#找回-root-密码",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "时间日期类",
-        "slug": "时间日期类",
-        "link": "#时间日期类",
-        "children": [
-          {
-            "level": 3,
-            "title": "date 显示当前时间",
-            "slug": "date-显示当前时间",
-            "link": "#date-显示当前时间",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "cal 查看日历",
-            "slug": "cal-查看日历",
-            "link": "#cal-查看日历",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "系统定时任务",
-        "slug": "系统定时任务",
-        "link": "#系统定时任务",
-        "children": [
-          {
-            "level": 3,
-            "title": "crontab 服务管理",
-            "slug": "crontab-服务管理",
-            "link": "#crontab-服务管理",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "at 定时任务",
-            "slug": "at-定时任务",
-            "link": "#at-定时任务",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "磁盘管理",
-        "slug": "磁盘管理",
-        "link": "#磁盘管理",
-        "children": [
-          {
-            "level": 3,
-            "title": "分区信息",
-            "slug": "分区信息",
-            "link": "#分区信息",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "添加磁盘",
-            "slug": "添加磁盘",
-            "link": "#添加磁盘",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "磁盘分区",
-            "slug": "磁盘分区",
-            "link": "#磁盘分区",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "挂载/卸载",
-            "slug": "挂载-卸载",
-            "link": "#挂载-卸载",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "查看磁盘空间使用情况",
-            "slug": "查看磁盘空间使用情况",
-            "link": "#查看磁盘空间使用情况",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "查看文件和目录占用的磁盘空间",
-            "slug": "查看文件和目录占用的磁盘空间",
-            "link": "#查看文件和目录占用的磁盘空间",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "网络配置",
-        "slug": "网络配置",
-        "link": "#网络配置",
-        "children": [
-          {
-            "level": 3,
-            "title": "配置网络 ip",
-            "slug": "配置网络-ip",
-            "link": "#配置网络-ip",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "配置主机名",
-            "slug": "配置主机名",
-            "link": "#配置主机名",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "进程和服务",
-        "slug": "进程和服务",
-        "link": "#进程和服务",
-        "children": [
-          {
-            "level": 3,
-            "title": "进程管理类",
-            "slug": "进程管理类",
-            "link": "#进程管理类",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "查看当前系统进程状态",
-            "slug": "查看当前系统进程状态",
-            "link": "#查看当前系统进程状态",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "kill 终止进程",
-            "slug": "kill-终止进程",
-            "link": "#kill-终止进程",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "pstree 查看进程树",
-            "slug": "pstree-查看进程树",
-            "link": "#pstree-查看进程树",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "top 实施监控系统进程状态",
-            "slug": "top-实施监控系统进程状态",
-            "link": "#top-实施监控系统进程状态",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "netstat 显示网络状态和端口占用信息",
-            "slug": "netstat-显示网络状态和端口占用信息",
-            "link": "#netstat-显示网络状态和端口占用信息",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "service 服务管理",
-            "slug": "service-服务管理",
-            "link": "#service-服务管理",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "chkconfig 设置后台服务的自启配置",
-            "slug": "chkconfig-设置后台服务的自启配置",
-            "link": "#chkconfig-设置后台服务的自启配置",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "systemctl",
-            "slug": "systemctl",
-            "link": "#systemctl",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "systemctl 设置后台服务的自启配置",
-            "slug": "systemctl-设置后台服务的自启配置",
-            "link": "#systemctl-设置后台服务的自启配置",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/docs/Linux/3.%20%E7%B3%BB%E7%BB%9F%E7%AE%A1%E7%90%86.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "用户和组",
-    "headers": [
-      {
-        "level": 2,
-        "title": "用户管理",
-        "slug": "用户管理",
-        "link": "#用户管理",
-        "children": [
-          {
-            "level": 3,
-            "title": "管理用户",
-            "slug": "管理用户",
-            "link": "#管理用户",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "用户组",
-            "slug": "用户组",
-            "link": "#用户组",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "相关文件",
-            "slug": "相关文件",
-            "link": "#相关文件",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "组管理",
-        "slug": "组管理",
-        "link": "#组管理",
-        "children": [
-          {
-            "level": 3,
-            "title": "所有者",
-            "slug": "所有者",
-            "link": "#所有者",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "所在组",
-            "slug": "所在组",
-            "link": "#所在组",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "其他组",
-            "slug": "其他组",
-            "link": "#其他组",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "修改用户所在组",
-            "slug": "修改用户所在组",
-            "link": "#修改用户所在组",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "文件权限类",
-        "slug": "文件权限类",
-        "link": "#文件权限类",
-        "children": [
-          {
-            "level": 3,
-            "title": "文件属性",
-            "slug": "文件属性",
-            "link": "#文件属性",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "chmod 改变权限",
-            "slug": "chmod-改变权限",
-            "link": "#chmod-改变权限",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/docs/Linux/4.%20%E7%94%A8%E6%88%B7%E5%92%8C%E7%BB%84.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "软件包管理",
-    "headers": [
-      {
-        "level": 2,
-        "title": "RPM",
-        "slug": "rpm",
-        "link": "#rpm",
-        "children": [
-          {
-            "level": 3,
-            "title": "概述",
-            "slug": "概述",
-            "link": "#概述",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "查询命令",
-            "slug": "查询命令",
-            "link": "#查询命令",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "卸载命令",
-            "slug": "卸载命令",
-            "link": "#卸载命令",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "安装命令",
-            "slug": "安装命令",
-            "link": "#安装命令",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "仓库配置",
-        "slug": "仓库配置",
-        "link": "#仓库配置",
-        "children": [
-          {
-            "level": 3,
-            "title": "YUM 概述",
-            "slug": "yum-概述",
-            "link": "#yum-概述",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "YUM 的常用命令",
-            "slug": "yum-的常用命令",
-            "link": "#yum-的常用命令",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "修改网络 YUM 源",
-            "slug": "修改网络-yum-源",
-            "link": "#修改网络-yum-源",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/docs/Linux/5.%20%E8%BD%AF%E4%BB%B6%E5%8C%85%E7%AE%A1%E7%90%86.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "JavaEE 环境搭建",
-    "headers": [
-      {
-        "level": 2,
-        "title": "安装 JDK",
-        "slug": "安装-jdk",
-        "link": "#安装-jdk",
-        "children": [
-          {
-            "level": 3,
-            "title": "第一种方式：yum 命令安装",
-            "slug": "第一种方式-yum-命令安装",
-            "link": "#第一种方式-yum-命令安装",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "第二种方式：下载后安装",
-            "slug": "第二种方式-下载后安装",
-            "link": "#第二种方式-下载后安装",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "安装 MySQL",
-        "slug": "安装-mysql",
-        "link": "#安装-mysql",
-        "children": [
-          {
-            "level": 3,
-            "title": "更新 yum",
-            "slug": "更新-yum",
-            "link": "#更新-yum",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "安装 wget 工具",
-            "slug": "安装-wget-工具",
-            "link": "#安装-wget-工具",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "使用 wget 下载 mysql yum 源",
-            "slug": "使用-wget-下载-mysql-yum-源",
-            "link": "#使用-wget-下载-mysql-yum-源",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "添加 mysql yum 源",
-            "slug": "添加-mysql-yum-源",
-            "link": "#添加-mysql-yum-源",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "安装 yum 工具 yum-utils",
-            "slug": "安装-yum-工具-yum-utils",
-            "link": "#安装-yum-工具-yum-utils",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "查看可用的 mysql",
-            "slug": "查看可用的-mysql",
-            "link": "#查看可用的-mysql",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "查看所有的 mysql 版本",
-            "slug": "查看所有的-mysql-版本",
-            "link": "#查看所有的-mysql-版本",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "使用指定版本 MySQL",
-            "slug": "使用指定版本-mysql",
-            "link": "#使用指定版本-mysql",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "查看当前启用的 MySQL 版本",
-            "slug": "查看当前启用的-mysql-版本",
-            "link": "#查看当前启用的-mysql-版本",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "安装 MySQL",
-            "slug": "安装-mysql-1",
-            "link": "#安装-mysql-1",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "有些同学会出现此问题",
-            "slug": "有些同学会出现此问题",
-            "link": "#有些同学会出现此问题",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "启动 MySQL",
-            "slug": "启动-mysql",
-            "link": "#启动-mysql",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "查看 MySQL 服务状态",
-            "slug": "查看-mysql-服务状态",
-            "link": "#查看-mysql-服务状态",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "初始化 MySQL",
-            "slug": "初始化-mysql",
-            "link": "#初始化-mysql",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "设置 MySQL 密码策略",
-            "slug": "设置-mysql-密码策略",
-            "link": "#设置-mysql-密码策略",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "设置简单密码",
-            "slug": "设置简单密码",
-            "link": "#设置简单密码",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "远程连接",
-            "slug": "远程连接",
-            "link": "#远程连接",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "刷新权限",
-            "slug": "刷新权限",
-            "link": "#刷新权限",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "开机启动",
-            "slug": "开机启动",
-            "link": "#开机启动",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "配置防火墙",
-            "slug": "配置防火墙",
-            "link": "#配置防火墙",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "测试链接",
-            "slug": "测试链接",
-            "link": "#测试链接",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "安装 TOMCAT",
-        "slug": "安装-tomcat",
-        "link": "#安装-tomcat",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "查看文件安装路径",
-        "slug": "查看文件安装路径",
-        "link": "#查看文件安装路径",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "查询运行文件所在路径",
-        "slug": "查询运行文件所在路径",
-        "link": "#查询运行文件所在路径",
-        "children": []
-      }
-    ],
-    "path": "/docs/Linux/6.%20JavaEE%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Linux",
-    "headers": [],
-    "path": "/docs/Linux/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "1. 准备",
     "headers": [
       {
@@ -6168,6 +6168,305 @@ export const searchIndex = [
       }
     ],
     "path": "/docs/Mybatis/12.%20%E5%8A%A8%E6%80%81%20SQL.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "MybatisPlus 从入门到精通-基础篇",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1.概述",
+        "slug": "_1-概述",
+        "link": "#_1-概述",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2.快速入门",
+        "slug": "_2-快速入门",
+        "link": "#_2-快速入门",
+        "children": [
+          {
+            "level": 3,
+            "title": "2.0 准备工作",
+            "slug": "_2-0-准备工作",
+            "link": "#_2-0-准备工作",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.1 使用 MybatisPlus",
+            "slug": "_2-1-使用-mybatisplus",
+            "link": "#_2-1-使用-mybatisplus",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "3.常用设置",
+        "slug": "_3-常用设置",
+        "link": "#_3-常用设置",
+        "children": [
+          {
+            "level": 3,
+            "title": "3.1 设置表映射规则",
+            "slug": "_3-1-设置表映射规则",
+            "link": "#_3-1-设置表映射规则",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.2 设置主键生成策略",
+            "slug": "_3-2-设置主键生成策略",
+            "link": "#_3-2-设置主键生成策略",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.3 设置字段映射关系",
+            "slug": "_3-3-设置字段映射关系",
+            "link": "#_3-3-设置字段映射关系",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.4 设置字段和列名的驼峰映射",
+            "slug": "_3-4-设置字段和列名的驼峰映射",
+            "link": "#_3-4-设置字段和列名的驼峰映射",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.5 日志",
+            "slug": "_3-5-日志",
+            "link": "#_3-5-日志",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "4.基本使用",
+        "slug": "_4-基本使用",
+        "link": "#_4-基本使用",
+        "children": [
+          {
+            "level": 3,
+            "title": "4.1 插入数据",
+            "slug": "_4-1-插入数据",
+            "link": "#_4-1-插入数据",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "4.2 删除操作",
+            "slug": "_4-2-删除操作",
+            "link": "#_4-2-删除操作",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "4.3 更新操作",
+            "slug": "_4-3-更新操作",
+            "link": "#_4-3-更新操作",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "5.条件构造器 Wrapper",
+        "slug": "_5-条件构造器-wrapper",
+        "link": "#_5-条件构造器-wrapper",
+        "children": [
+          {
+            "level": 3,
+            "title": "5.1 概述",
+            "slug": "_5-1-概述",
+            "link": "#_5-1-概述",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "5.2 常用 AbstractWrapper 方法",
+            "slug": "_5-2-常用-abstractwrapper-方法",
+            "link": "#_5-2-常用-abstractwrapper-方法",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "5.3 常用 QueryWrapper 方法",
+            "slug": "_5-3-常用-querywrapper-方法",
+            "link": "#_5-3-常用-querywrapper-方法",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "5.4 常用 UpdateWrapper 方法",
+            "slug": "_5-4-常用-updatewrapper-方法",
+            "link": "#_5-4-常用-updatewrapper-方法",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "5.5 Lambda 条件构造器",
+            "slug": "_5-5-lambda-条件构造器",
+            "link": "#_5-5-lambda-条件构造器",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "6.自定义 SQL",
+        "slug": "_6-自定义-sql",
+        "link": "#_6-自定义-sql",
+        "children": [
+          {
+            "level": 3,
+            "title": "6.0 准备工作",
+            "slug": "_6-0-准备工作",
+            "link": "#_6-0-准备工作",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "6.1 Mybatis 方式",
+            "slug": "_6-1-mybatis-方式",
+            "link": "#_6-1-mybatis-方式",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "6.2 Mybatis 方式结合条件构造器",
+            "slug": "_6-2-mybatis-方式结合条件构造器",
+            "link": "#_6-2-mybatis-方式结合条件构造器",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "7.分页查询",
+        "slug": "_7-分页查询",
+        "link": "#_7-分页查询",
+        "children": [
+          {
+            "level": 3,
+            "title": "7.1 基本分页查询",
+            "slug": "_7-1-基本分页查询",
+            "link": "#_7-1-基本分页查询",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "7.2 多表分页查询",
+            "slug": "_7-2-多表分页查询",
+            "link": "#_7-2-多表分页查询",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "8.Service 层接口",
+        "slug": "_8-service-层接口",
+        "link": "#_8-service-层接口",
+        "children": [
+          {
+            "level": 3,
+            "title": "8.1 基本使用",
+            "slug": "_8-1-基本使用",
+            "link": "#_8-1-基本使用",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "8.2 自定义方法",
+            "slug": "_8-2-自定义方法",
+            "link": "#_8-2-自定义方法",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "9.代码生成器",
+        "slug": "_9-代码生成器",
+        "link": "#_9-代码生成器",
+        "children": [
+          {
+            "level": 3,
+            "title": "① 依赖",
+            "slug": "_1-依赖",
+            "link": "#_1-依赖",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "② 生成",
+            "slug": "_2-生成",
+            "link": "#_2-生成",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/docs/Mybatis/13.%20MybatisPlus-%E5%9F%BA%E7%A1%80%E7%AF%87.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "MybatisPlus 从入门到精通-高级篇",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1.自动填充",
+        "slug": "_1-自动填充",
+        "link": "#_1-自动填充",
+        "children": [
+          {
+            "level": 3,
+            "title": "示例",
+            "slug": "示例",
+            "link": "#示例",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "2.逻辑删除",
+        "slug": "_2-逻辑删除",
+        "link": "#_2-逻辑删除",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "3.乐观锁",
+        "slug": "_3-乐观锁",
+        "link": "#_3-乐观锁",
+        "children": [
+          {
+            "level": 3,
+            "title": "3.1 使用",
+            "slug": "_3-1-使用",
+            "link": "#_3-1-使用",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.2 多插件配置问题",
+            "slug": "_3-2-多插件配置问题",
+            "link": "#_3-2-多插件配置问题",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/docs/Mybatis/14.%20MybatisPlus-%E9%AB%98%E7%BA%A7%E7%AF%87.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -8473,6 +8772,217 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "函数式编程-Stream 流",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1. 概述",
+        "slug": "_1-概述",
+        "link": "#_1-概述",
+        "children": [
+          {
+            "level": 3,
+            "title": "1.1 为什么学？",
+            "slug": "_1-1-为什么学",
+            "link": "#_1-1-为什么学",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "1.2 函数式编程思想",
+            "slug": "_1-2-函数式编程思想",
+            "link": "#_1-2-函数式编程思想",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "2. Lambda 表达式",
+        "slug": "_2-lambda-表达式",
+        "link": "#_2-lambda-表达式",
+        "children": [
+          {
+            "level": 3,
+            "title": "2.1 概述",
+            "slug": "_2-1-概述",
+            "link": "#_2-1-概述",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.2 核心原则",
+            "slug": "_2-2-核心原则",
+            "link": "#_2-2-核心原则",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2. 3 基本格式",
+            "slug": "_2-3-基本格式",
+            "link": "#_2-3-基本格式",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.4 省略规则",
+            "slug": "_2-4-省略规则",
+            "link": "#_2-4-省略规则",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "3. Stream 流",
+        "slug": "_3-stream-流",
+        "link": "#_3-stream-流",
+        "children": [
+          {
+            "level": 3,
+            "title": "3.1 概述",
+            "slug": "_3-1-概述",
+            "link": "#_3-1-概述",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.2 案例数据准备",
+            "slug": "_3-2-案例数据准备",
+            "link": "#_3-2-案例数据准备",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.3 快速入门",
+            "slug": "_3-3-快速入门",
+            "link": "#_3-3-快速入门",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.4 常用操作",
+            "slug": "_3-4-常用操作",
+            "link": "#_3-4-常用操作",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.5 注意事项",
+            "slug": "_3-5-注意事项",
+            "link": "#_3-5-注意事项",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "4. Optional",
+        "slug": "_4-optional",
+        "link": "#_4-optional",
+        "children": [
+          {
+            "level": 3,
+            "title": "4.1 概述",
+            "slug": "_4-1-概述",
+            "link": "#_4-1-概述",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "4.2 使用",
+            "slug": "_4-2-使用",
+            "link": "#_4-2-使用",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "5. 函数式接口",
+        "slug": "_5-函数式接口",
+        "link": "#_5-函数式接口",
+        "children": [
+          {
+            "level": 3,
+            "title": "5.1 概述",
+            "slug": "_5-1-概述",
+            "link": "#_5-1-概述",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "5.2 常见函数式接口",
+            "slug": "_5-2-常见函数式接口",
+            "link": "#_5-2-常见函数式接口",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "5.3 常用的默认方法",
+            "slug": "_5-3-常用的默认方法",
+            "link": "#_5-3-常用的默认方法",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "6. 方法引用",
+        "slug": "_6-方法引用",
+        "link": "#_6-方法引用",
+        "children": [
+          {
+            "level": 3,
+            "title": "6.1 推荐用法",
+            "slug": "_6-1-推荐用法",
+            "link": "#_6-1-推荐用法",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "6.2 基本格式",
+            "slug": "_6-2-基本格式",
+            "link": "#_6-2-基本格式",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "6.3 语法详解(了解)",
+            "slug": "_6-3-语法详解-了解",
+            "link": "#_6-3-语法详解-了解",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "7. 高级用法",
+        "slug": "_7-高级用法",
+        "link": "#_7-高级用法",
+        "children": [
+          {
+            "level": 3,
+            "title": "基本数据类型优化",
+            "slug": "基本数据类型优化",
+            "link": "#基本数据类型优化",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "并行流",
+            "slug": "并行流",
+            "link": "#并行流",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/docs/%E5%B0%8F%E8%AE%B0/%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BC%96%E7%A8%8B.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "原来 @Autowired 注解还可以这么玩？",
     "headers": [
       {
@@ -8838,28 +9348,6 @@ export const searchIndex = [
     "headers": [
       {
         "level": 2,
-        "title": "项目概览",
-        "slug": "项目概览",
-        "link": "#项目概览",
-        "children": [
-          {
-            "level": 3,
-            "title": "项目架构图",
-            "slug": "项目架构图",
-            "link": "#项目架构图",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "技术栈",
-            "slug": "技术栈",
-            "link": "#技术栈",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
         "title": "环境搭建",
         "slug": "环境搭建",
         "link": "#环境搭建",
@@ -8903,29 +9391,122 @@ export const searchIndex = [
       },
       {
         "level": 2,
+        "title": "限制微服务内存使用",
+        "slug": "限制微服务内存使用",
+        "link": "#限制微服务内存使用",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Windows 端口占用",
+        "slug": "windows-端口占用",
+        "link": "#windows-端口占用",
+        "children": []
+      },
+      {
+        "level": 2,
         "title": "商品服务",
         "slug": "商品服务",
         "link": "#商品服务",
         "children": [
           {
             "level": 3,
-            "title": "递归查询父子节点",
-            "slug": "递归查询父子节点",
-            "link": "#递归查询父子节点",
+            "title": "三级分类",
+            "slug": "三级分类",
+            "link": "#三级分类",
             "children": []
           },
           {
             "level": 3,
-            "title": "逻辑删除",
-            "slug": "逻辑删除",
-            "link": "#逻辑删除",
+            "title": "品牌管理",
+            "slug": "品牌管理",
+            "link": "#品牌管理",
             "children": []
           },
           {
             "level": 3,
-            "title": "Gateway 路由配置",
-            "slug": "gateway-路由配置",
-            "link": "#gateway-路由配置",
+            "title": "属性分组",
+            "slug": "属性分组",
+            "link": "#属性分组",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "新增商品",
+            "slug": "新增商品",
+            "link": "#新增商品",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "ElasticSearch8",
+        "slug": "elasticsearch8",
+        "link": "#elasticsearch8",
+        "children": [
+          {
+            "level": 3,
+            "title": "环境准备",
+            "slug": "环境准备",
+            "link": "#环境准备",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "建立索引",
+            "slug": "建立索引",
+            "link": "#建立索引",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "按 ID 读取",
+            "slug": "按-id-读取",
+            "link": "#按-id-读取",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "搜索",
+            "slug": "搜索",
+            "link": "#搜索",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "聚合",
+            "slug": "聚合",
+            "link": "#聚合",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "检索业务",
+        "slug": "检索业务",
+        "link": "#检索业务",
+        "children": [
+          {
+            "level": 3,
+            "title": "分析",
+            "slug": "分析",
+            "link": "#分析",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "最终方案-存储结构",
+            "slug": "最终方案-存储结构",
+            "link": "#最终方案-存储结构",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "商品上架",
+            "slug": "商品上架",
+            "link": "#商品上架",
             "children": []
           }
         ]
@@ -9714,6 +10295,396 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "1. SpringBoot",
+    "headers": [
+      {
+        "level": 2,
+        "title": "介绍",
+        "slug": "介绍",
+        "link": "#介绍",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "创建 Spring Boot 项目",
+        "slug": "创建-spring-boot-项目",
+        "link": "#创建-spring-boot-项目",
+        "children": [
+          {
+            "level": 3,
+            "title": "使用 maven 创建",
+            "slug": "使用-maven-创建",
+            "link": "#使用-maven-创建",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "使用模板创建",
+            "slug": "使用模板创建",
+            "link": "#使用模板创建",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "自动装配原理",
+        "slug": "自动装配原理",
+        "link": "#自动装配原理",
+        "children": [
+          {
+            "level": 3,
+            "title": "依赖管理",
+            "slug": "依赖管理",
+            "link": "#依赖管理",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "自动装配",
+            "slug": "自动装配",
+            "link": "#自动装配",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "注解的使用",
+        "slug": "注解的使用",
+        "link": "#注解的使用",
+        "children": [
+          {
+            "level": 3,
+            "title": "@SpringBootApplication",
+            "slug": "springbootapplication",
+            "link": "#springbootapplication",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "@SpringBootConfiguration",
+            "slug": "springbootconfiguration",
+            "link": "#springbootconfiguration",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "@EnableAutoConfiguration",
+            "slug": "enableautoconfiguration",
+            "link": "#enableautoconfiguration",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "@ComponentScan",
+            "slug": "componentscan",
+            "link": "#componentscan",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "SpringBoot 的配置文件",
+        "slug": "springboot-的配置文件",
+        "link": "#springboot-的配置文件",
+        "children": [
+          {
+            "level": 3,
+            "title": "properties",
+            "slug": "properties",
+            "link": "#properties",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "yml(yaml)",
+            "slug": "yml-yaml",
+            "link": "#yml-yaml",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "多环境配置",
+        "slug": "多环境配置",
+        "link": "#多环境配置",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "@Value",
+        "slug": "value",
+        "link": "#value",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "@ConfigurationProperties",
+        "slug": "configurationproperties",
+        "link": "#configurationproperties",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "使用 jsp",
+        "slug": "使用-jsp",
+        "link": "#使用-jsp",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "使用容器",
+        "slug": "使用容器",
+        "link": "#使用容器",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "CommandLineRunner 接口 , ApplicationRunner 接口",
+        "slug": "commandlinerunner-接口-applicationrunner-接口",
+        "link": "#commandlinerunner-接口-applicationrunner-接口",
+        "children": []
+      }
+    ],
+    "path": "/docs/Spring%E7%B3%BB%E5%88%97/SpringBoot/1.%20SpringBoot.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "2. JavaConfig",
+    "headers": [
+      {
+        "level": 2,
+        "title": "JavaConfig",
+        "slug": "javaconfig",
+        "link": "#javaconfig",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "@Import",
+        "slug": "import",
+        "link": "#import",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "@Conditional",
+        "slug": "conditional",
+        "link": "#conditional",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "@ImporResource",
+        "slug": "imporresource",
+        "link": "#imporresource",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "@PropertyResource",
+        "slug": "propertyresource",
+        "link": "#propertyresource",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "@ConfigurationProperties",
+        "slug": "configurationproperties",
+        "link": "#configurationproperties",
+        "children": []
+      }
+    ],
+    "path": "/docs/Spring%E7%B3%BB%E5%88%97/SpringBoot/2.%20JavaConfig.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "3. Web 组件",
+    "headers": [
+      {
+        "level": 2,
+        "title": "拦截器",
+        "slug": "拦截器",
+        "link": "#拦截器",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Servlet",
+        "slug": "servlet",
+        "link": "#servlet",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "过滤器 Filter",
+        "slug": "过滤器-filter",
+        "link": "#过滤器-filter",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "字符集过滤器",
+        "slug": "字符集过滤器",
+        "link": "#字符集过滤器",
+        "children": []
+      }
+    ],
+    "path": "/docs/Spring%E7%B3%BB%E5%88%97/SpringBoot/3.%20Web%E7%BB%84%E4%BB%B6.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "4. ORM 操作 MySQL",
+    "headers": [
+      {
+        "level": 2,
+        "title": "准备工作",
+        "slug": "准备工作",
+        "link": "#准备工作",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "完成 mybatis 对象自动配置",
+        "slug": "完成-mybatis-对象自动配置",
+        "link": "#完成-mybatis-对象自动配置",
+        "children": [
+          {
+            "level": 3,
+            "title": "第一种方式: @Mapper",
+            "slug": "第一种方式-mapper",
+            "link": "#第一种方式-mapper",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "第二种方式 @MapperScan",
+            "slug": "第二种方式-mapperscan",
+            "link": "#第二种方式-mapperscan",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "第三种方式: Mapper 文件和 Dao 接口分开管理",
+            "slug": "第三种方式-mapper-文件和-dao-接口分开管理",
+            "link": "#第三种方式-mapper-文件和-dao-接口分开管理",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "事务",
+        "slug": "事务",
+        "link": "#事务",
+        "children": []
+      }
+    ],
+    "path": "/docs/Spring%E7%B3%BB%E5%88%97/SpringBoot/4.%20ORM%20%E6%93%8D%E4%BD%9C%20MySQL.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "5. RESTful",
+    "headers": [
+      {
+        "level": 2,
+        "title": "REST 架构风格",
+        "slug": "rest-架构风格",
+        "link": "#rest-架构风格",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "put, delete 请求",
+        "slug": "put-delete-请求",
+        "link": "#put-delete-请求",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "请求方式必须唯一",
+        "slug": "请求方式必须唯一",
+        "link": "#请求方式必须唯一",
+        "children": []
+      }
+    ],
+    "path": "/docs/Spring%E7%B3%BB%E5%88%97/SpringBoot/5.%20RESTful.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "总结",
+    "headers": [
+      {
+        "level": 2,
+        "title": "注解",
+        "slug": "注解",
+        "link": "#注解",
+        "children": [
+          {
+            "level": 3,
+            "title": "创建对象的",
+            "slug": "创建对象的",
+            "link": "#创建对象的",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "赋值的",
+            "slug": "赋值的",
+            "link": "#赋值的",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "其他",
+            "slug": "其他",
+            "link": "#其他",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "SpringBoot 中使用的注解",
+            "slug": "springboot-中使用的注解",
+            "link": "#springboot-中使用的注解",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "MyBatis 相关的注解",
+            "slug": "mybatis-相关的注解",
+            "link": "#mybatis-相关的注解",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Dubbo 注解",
+            "slug": "dubbo-注解",
+            "link": "#dubbo-注解",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/docs/Spring%E7%B3%BB%E5%88%97/SpringBoot/6.%20%E6%80%BB%E7%BB%93.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "SpringBoot2 核心技术",
+    "headers": [],
+    "path": "/docs/Spring%E7%B3%BB%E5%88%97/SpringBoot/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "1. IOC",
     "headers": [],
     "path": "/docs/Spring%E7%B3%BB%E5%88%97/Spring/1.%20IOC.html",
@@ -10242,392 +11213,385 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "1. SpringBoot",
-    "headers": [
-      {
-        "level": 2,
-        "title": "介绍",
-        "slug": "介绍",
-        "link": "#介绍",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "创建 Spring Boot 项目",
-        "slug": "创建-spring-boot-项目",
-        "link": "#创建-spring-boot-项目",
-        "children": [
-          {
-            "level": 3,
-            "title": "使用 maven 创建",
-            "slug": "使用-maven-创建",
-            "link": "#使用-maven-创建",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "使用模板创建",
-            "slug": "使用模板创建",
-            "link": "#使用模板创建",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "自动装配原理",
-        "slug": "自动装配原理",
-        "link": "#自动装配原理",
-        "children": [
-          {
-            "level": 3,
-            "title": "依赖管理",
-            "slug": "依赖管理",
-            "link": "#依赖管理",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "自动装配",
-            "slug": "自动装配",
-            "link": "#自动装配",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "注解的使用",
-        "slug": "注解的使用",
-        "link": "#注解的使用",
-        "children": [
-          {
-            "level": 3,
-            "title": "@SpringBootApplication",
-            "slug": "springbootapplication",
-            "link": "#springbootapplication",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "@SpringBootConfiguration",
-            "slug": "springbootconfiguration",
-            "link": "#springbootconfiguration",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "@EnableAutoConfiguration",
-            "slug": "enableautoconfiguration",
-            "link": "#enableautoconfiguration",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "@ComponentScan",
-            "slug": "componentscan",
-            "link": "#componentscan",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "SpringBoot 的配置文件",
-        "slug": "springboot-的配置文件",
-        "link": "#springboot-的配置文件",
-        "children": [
-          {
-            "level": 3,
-            "title": "properties",
-            "slug": "properties",
-            "link": "#properties",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "yml(yaml)",
-            "slug": "yml-yaml",
-            "link": "#yml-yaml",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "多环境配置",
-        "slug": "多环境配置",
-        "link": "#多环境配置",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "@Value",
-        "slug": "value",
-        "link": "#value",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "@ConfigurationProperties",
-        "slug": "configurationproperties",
-        "link": "#configurationproperties",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "使用 jsp",
-        "slug": "使用-jsp",
-        "link": "#使用-jsp",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "使用容器",
-        "slug": "使用容器",
-        "link": "#使用容器",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "CommandLineRunner 接口 , ApplicationRunner 接口",
-        "slug": "commandlinerunner-接口-applicationrunner-接口",
-        "link": "#commandlinerunner-接口-applicationrunner-接口",
-        "children": []
-      }
-    ],
-    "path": "/docs/Spring%E7%B3%BB%E5%88%97/SpringBoot/1.%20SpringBoot.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "2. JavaConfig",
-    "headers": [
-      {
-        "level": 2,
-        "title": "JavaConfig",
-        "slug": "javaconfig",
-        "link": "#javaconfig",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "@Import",
-        "slug": "import",
-        "link": "#import",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "@Conditional",
-        "slug": "conditional",
-        "link": "#conditional",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "@ImporResource",
-        "slug": "imporresource",
-        "link": "#imporresource",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "@PropertyResource",
-        "slug": "propertyresource",
-        "link": "#propertyresource",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "@ConfigurationProperties",
-        "slug": "configurationproperties",
-        "link": "#configurationproperties",
-        "children": []
-      }
-    ],
-    "path": "/docs/Spring%E7%B3%BB%E5%88%97/SpringBoot/2.%20JavaConfig.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "3. Web 组件",
-    "headers": [
-      {
-        "level": 2,
-        "title": "拦截器",
-        "slug": "拦截器",
-        "link": "#拦截器",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Servlet",
-        "slug": "servlet",
-        "link": "#servlet",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "过滤器 Filter",
-        "slug": "过滤器-filter",
-        "link": "#过滤器-filter",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "字符集过滤器",
-        "slug": "字符集过滤器",
-        "link": "#字符集过滤器",
-        "children": []
-      }
-    ],
-    "path": "/docs/Spring%E7%B3%BB%E5%88%97/SpringBoot/3.%20Web%E7%BB%84%E4%BB%B6.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "4. ORM 操作 MySQL",
-    "headers": [
-      {
-        "level": 2,
-        "title": "准备工作",
-        "slug": "准备工作",
-        "link": "#准备工作",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "完成 mybatis 对象自动配置",
-        "slug": "完成-mybatis-对象自动配置",
-        "link": "#完成-mybatis-对象自动配置",
-        "children": [
-          {
-            "level": 3,
-            "title": "第一种方式: @Mapper",
-            "slug": "第一种方式-mapper",
-            "link": "#第一种方式-mapper",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "第二种方式 @MapperScan",
-            "slug": "第二种方式-mapperscan",
-            "link": "#第二种方式-mapperscan",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "第三种方式: Mapper 文件和 Dao 接口分开管理",
-            "slug": "第三种方式-mapper-文件和-dao-接口分开管理",
-            "link": "#第三种方式-mapper-文件和-dao-接口分开管理",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "事务",
-        "slug": "事务",
-        "link": "#事务",
-        "children": []
-      }
-    ],
-    "path": "/docs/Spring%E7%B3%BB%E5%88%97/SpringBoot/4.%20ORM%20%E6%93%8D%E4%BD%9C%20MySQL.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "5. RESTful",
-    "headers": [
-      {
-        "level": 2,
-        "title": "REST 架构风格",
-        "slug": "rest-架构风格",
-        "link": "#rest-架构风格",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "put, delete 请求",
-        "slug": "put-delete-请求",
-        "link": "#put-delete-请求",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "请求方式必须唯一",
-        "slug": "请求方式必须唯一",
-        "link": "#请求方式必须唯一",
-        "children": []
-      }
-    ],
-    "path": "/docs/Spring%E7%B3%BB%E5%88%97/SpringBoot/5.%20RESTful.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "总结",
-    "headers": [
-      {
-        "level": 2,
-        "title": "注解",
-        "slug": "注解",
-        "link": "#注解",
-        "children": [
-          {
-            "level": 3,
-            "title": "创建对象的",
-            "slug": "创建对象的",
-            "link": "#创建对象的",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "赋值的",
-            "slug": "赋值的",
-            "link": "#赋值的",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "其他",
-            "slug": "其他",
-            "link": "#其他",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "SpringBoot 中使用的注解",
-            "slug": "springboot-中使用的注解",
-            "link": "#springboot-中使用的注解",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "MyBatis 相关的注解",
-            "slug": "mybatis-相关的注解",
-            "link": "#mybatis-相关的注解",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Dubbo 注解",
-            "slug": "dubbo-注解",
-            "link": "#dubbo-注解",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/docs/Spring%E7%B3%BB%E5%88%97/SpringBoot/6.%20%E6%80%BB%E7%BB%93.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "SpringBoot2 核心技术",
+    "title": "ThreadLocal",
     "headers": [],
-    "path": "/docs/Spring%E7%B3%BB%E5%88%97/SpringBoot/",
+    "path": "/docs/%E9%A1%B9%E7%9B%AE%E7%AC%94%E8%AE%B0/%E9%9A%BE%E7%82%B9/ThreadLocal.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "1. 第一个 SpringMVC 程序",
+    "headers": [
+      {
+        "level": 2,
+        "title": "实现步骤",
+        "slug": "实现步骤",
+        "link": "#实现步骤",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "springmvc 请求的处理流程",
+        "slug": "springmvc-请求的处理流程",
+        "link": "#springmvc-请求的处理流程",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "springmvc 执行过程源代码分析",
+        "slug": "springmvc-执行过程源代码分析",
+        "link": "#springmvc-执行过程源代码分析",
+        "children": []
+      }
+    ],
+    "path": "/docs/Spring%E7%B3%BB%E5%88%97/SpringMVC/1.%20%E7%AC%AC%E4%B8%80%E4%B8%AASpringMVC%E7%A8%8B%E5%BA%8F.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "10. 拦截器",
+    "headers": [
+      {
+        "level": 2,
+        "title": "一个拦截器的执行",
+        "slug": "一个拦截器的执行",
+        "link": "#一个拦截器的执行",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "多个拦截器的执行",
+        "slug": "多个拦截器的执行",
+        "link": "#多个拦截器的执行",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "权限拦截器举例",
+        "slug": "权限拦截器举例",
+        "link": "#权限拦截器举例",
+        "children": []
+      }
+    ],
+    "path": "/docs/Spring%E7%B3%BB%E5%88%97/SpringMVC/10.%20%E6%8B%A6%E6%88%AA%E5%99%A8.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "2. 配置视图解析器",
+    "headers": [],
+    "path": "/docs/Spring%E7%B3%BB%E5%88%97/SpringMVC/2.%20%E9%85%8D%E7%BD%AE%E8%A7%86%E5%9B%BE%E8%A7%A3%E6%9E%90%E5%99%A8.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "3. 控制请求方式",
+    "headers": [],
+    "path": "/docs/Spring%E7%B3%BB%E5%88%97/SpringMVC/3.%20%E6%8E%A7%E5%88%B6%E8%AF%B7%E6%B1%82%E6%96%B9%E5%BC%8F.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "4. 处理器方法的参数",
+    "headers": [
+      {
+        "level": 2,
+        "title": "用户提交的数据",
+        "slug": "用户提交的数据",
+        "link": "#用户提交的数据",
+        "children": [
+          {
+            "level": 3,
+            "title": "逐个接收",
+            "slug": "逐个接收",
+            "link": "#逐个接收",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "对象接收",
+            "slug": "对象接收",
+            "link": "#对象接收",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/docs/Spring%E7%B3%BB%E5%88%97/SpringMVC/4.%20%E5%A4%84%E7%90%86%E5%99%A8%E6%96%B9%E6%B3%95%E7%9A%84%E5%8F%82%E6%95%B0.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "处理器方法的返回值",
+    "headers": [
+      {
+        "level": 2,
+        "title": "返回 ModelAndView",
+        "slug": "返回-modelandview",
+        "link": "#返回-modelandview",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "返回 String",
+        "slug": "返回-string",
+        "link": "#返回-string",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "返回 void",
+        "slug": "返回-void",
+        "link": "#返回-void",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "返回对象 Object",
+        "slug": "返回对象-object",
+        "link": "#返回对象-object",
+        "children": []
+      }
+    ],
+    "path": "/docs/Spring%E7%B3%BB%E5%88%97/SpringMVC/5.%20%E5%A4%84%E7%90%86%E5%99%A8%E6%96%B9%E6%B3%95%E7%9A%84%E8%BF%94%E5%9B%9E%E5%80%BC.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "6. url-pattern",
+    "headers": [
+      {
+        "level": 2,
+        "title": "静态资源访问方式一",
+        "slug": "静态资源访问方式一",
+        "link": "#静态资源访问方式一",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "静态资源访问方式二",
+        "slug": "静态资源访问方式二",
+        "link": "#静态资源访问方式二",
+        "children": []
+      }
+    ],
+    "path": "/docs/Spring%E7%B3%BB%E5%88%97/SpringMVC/6.%20url-pattern.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "7. SSM 整合",
+    "headers": [
+      {
+        "level": 2,
+        "title": "mysql 数据库",
+        "slug": "mysql-数据库",
+        "link": "#mysql-数据库",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "maven 依赖",
+        "slug": "maven-依赖",
+        "link": "#maven-依赖",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "web.xml",
+        "slug": "web-xml",
+        "link": "#web-xml",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "创建包",
+        "slug": "创建包",
+        "link": "#创建包",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "编写配置文件",
+        "slug": "编写配置文件",
+        "link": "#编写配置文件",
+        "children": [
+          {
+            "level": 3,
+            "title": "jdbc.properties",
+            "slug": "jdbc-properties",
+            "link": "#jdbc-properties",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "mybatis.xml",
+            "slug": "mybatis-xml",
+            "link": "#mybatis-xml",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "applicationContext.xml",
+            "slug": "applicationcontext-xml",
+            "link": "#applicationcontext-xml",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "springmvc.xml",
+            "slug": "springmvc-xml",
+            "link": "#springmvc-xml",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "编写代码",
+        "slug": "编写代码",
+        "link": "#编写代码",
+        "children": [
+          {
+            "level": 3,
+            "title": "domain 层",
+            "slug": "domain-层",
+            "link": "#domain-层",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "dao 层",
+            "slug": "dao-层",
+            "link": "#dao-层",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "service 层",
+            "slug": "service-层",
+            "link": "#service-层",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "controller 层",
+            "slug": "controller-层",
+            "link": "#controller-层",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "jsp 页面",
+        "slug": "jsp-页面",
+        "link": "#jsp-页面",
+        "children": [
+          {
+            "level": 3,
+            "title": "index.jsp",
+            "slug": "index-jsp",
+            "link": "#index-jsp",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "addStudent.jsp",
+            "slug": "addstudent-jsp",
+            "link": "#addstudent-jsp",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "listStudent.jsp",
+            "slug": "liststudent-jsp",
+            "link": "#liststudent-jsp",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "WEB-INF/view/success.jsp",
+            "slug": "web-inf-view-success-jsp",
+            "link": "#web-inf-view-success-jsp",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "WEB-INF/view/fail.jsp",
+            "slug": "web-inf-view-fail-jsp",
+            "link": "#web-inf-view-fail-jsp",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/docs/Spring%E7%B3%BB%E5%88%97/SpringMVC/7.%20SSM%E6%95%B4%E5%90%88.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "8. 请求重定向和转发",
+    "headers": [
+      {
+        "level": 2,
+        "title": "请求转发",
+        "slug": "请求转发",
+        "link": "#请求转发",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "请求重定向",
+        "slug": "请求重定向",
+        "link": "#请求重定向",
+        "children": []
+      }
+    ],
+    "path": "/docs/Spring%E7%B3%BB%E5%88%97/SpringMVC/8.%20%E8%AF%B7%E6%B1%82%E9%87%8D%E5%AE%9A%E5%90%91%E5%92%8C%E8%BD%AC%E5%8F%91.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "9. 异常处理",
+    "headers": [
+      {
+        "level": 2,
+        "title": "自定义异常类",
+        "slug": "自定义异常类",
+        "link": "#自定义异常类",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "创建一个普通类, 作用全局异常处理类",
+        "slug": "创建一个普通类-作用全局异常处理类",
+        "link": "#创建一个普通类-作用全局异常处理类",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "修改 Controller 抛出异常",
+        "slug": "修改-controller-抛出异常",
+        "link": "#修改-controller-抛出异常",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "定义异常响应页面",
+        "slug": "定义异常响应页面",
+        "link": "#定义异常响应页面",
+        "children": []
+      }
+    ],
+    "path": "/docs/Spring%E7%B3%BB%E5%88%97/SpringMVC/9.%20%E5%BC%82%E5%B8%B8%E5%A4%84%E7%90%86.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "SpringMVC",
+    "headers": [],
+    "path": "/docs/Spring%E7%B3%BB%E5%88%97/SpringMVC/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -13792,389 +14756,6 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "1. 第一个 SpringMVC 程序",
-    "headers": [
-      {
-        "level": 2,
-        "title": "实现步骤",
-        "slug": "实现步骤",
-        "link": "#实现步骤",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "springmvc 请求的处理流程",
-        "slug": "springmvc-请求的处理流程",
-        "link": "#springmvc-请求的处理流程",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "springmvc 执行过程源代码分析",
-        "slug": "springmvc-执行过程源代码分析",
-        "link": "#springmvc-执行过程源代码分析",
-        "children": []
-      }
-    ],
-    "path": "/docs/Spring%E7%B3%BB%E5%88%97/SpringMVC/1.%20%E7%AC%AC%E4%B8%80%E4%B8%AASpringMVC%E7%A8%8B%E5%BA%8F.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "10. 拦截器",
-    "headers": [
-      {
-        "level": 2,
-        "title": "一个拦截器的执行",
-        "slug": "一个拦截器的执行",
-        "link": "#一个拦截器的执行",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "多个拦截器的执行",
-        "slug": "多个拦截器的执行",
-        "link": "#多个拦截器的执行",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "权限拦截器举例",
-        "slug": "权限拦截器举例",
-        "link": "#权限拦截器举例",
-        "children": []
-      }
-    ],
-    "path": "/docs/Spring%E7%B3%BB%E5%88%97/SpringMVC/10.%20%E6%8B%A6%E6%88%AA%E5%99%A8.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "2. 配置视图解析器",
-    "headers": [],
-    "path": "/docs/Spring%E7%B3%BB%E5%88%97/SpringMVC/2.%20%E9%85%8D%E7%BD%AE%E8%A7%86%E5%9B%BE%E8%A7%A3%E6%9E%90%E5%99%A8.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "3. 控制请求方式",
-    "headers": [],
-    "path": "/docs/Spring%E7%B3%BB%E5%88%97/SpringMVC/3.%20%E6%8E%A7%E5%88%B6%E8%AF%B7%E6%B1%82%E6%96%B9%E5%BC%8F.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "4. 处理器方法的参数",
-    "headers": [
-      {
-        "level": 2,
-        "title": "用户提交的数据",
-        "slug": "用户提交的数据",
-        "link": "#用户提交的数据",
-        "children": [
-          {
-            "level": 3,
-            "title": "逐个接收",
-            "slug": "逐个接收",
-            "link": "#逐个接收",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "对象接收",
-            "slug": "对象接收",
-            "link": "#对象接收",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/docs/Spring%E7%B3%BB%E5%88%97/SpringMVC/4.%20%E5%A4%84%E7%90%86%E5%99%A8%E6%96%B9%E6%B3%95%E7%9A%84%E5%8F%82%E6%95%B0.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "处理器方法的返回值",
-    "headers": [
-      {
-        "level": 2,
-        "title": "返回 ModelAndView",
-        "slug": "返回-modelandview",
-        "link": "#返回-modelandview",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "返回 String",
-        "slug": "返回-string",
-        "link": "#返回-string",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "返回 void",
-        "slug": "返回-void",
-        "link": "#返回-void",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "返回对象 Object",
-        "slug": "返回对象-object",
-        "link": "#返回对象-object",
-        "children": []
-      }
-    ],
-    "path": "/docs/Spring%E7%B3%BB%E5%88%97/SpringMVC/5.%20%E5%A4%84%E7%90%86%E5%99%A8%E6%96%B9%E6%B3%95%E7%9A%84%E8%BF%94%E5%9B%9E%E5%80%BC.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "6. url-pattern",
-    "headers": [
-      {
-        "level": 2,
-        "title": "静态资源访问方式一",
-        "slug": "静态资源访问方式一",
-        "link": "#静态资源访问方式一",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "静态资源访问方式二",
-        "slug": "静态资源访问方式二",
-        "link": "#静态资源访问方式二",
-        "children": []
-      }
-    ],
-    "path": "/docs/Spring%E7%B3%BB%E5%88%97/SpringMVC/6.%20url-pattern.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "7. SSM 整合",
-    "headers": [
-      {
-        "level": 2,
-        "title": "mysql 数据库",
-        "slug": "mysql-数据库",
-        "link": "#mysql-数据库",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "maven 依赖",
-        "slug": "maven-依赖",
-        "link": "#maven-依赖",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "web.xml",
-        "slug": "web-xml",
-        "link": "#web-xml",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "创建包",
-        "slug": "创建包",
-        "link": "#创建包",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "编写配置文件",
-        "slug": "编写配置文件",
-        "link": "#编写配置文件",
-        "children": [
-          {
-            "level": 3,
-            "title": "jdbc.properties",
-            "slug": "jdbc-properties",
-            "link": "#jdbc-properties",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "mybatis.xml",
-            "slug": "mybatis-xml",
-            "link": "#mybatis-xml",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "applicationContext.xml",
-            "slug": "applicationcontext-xml",
-            "link": "#applicationcontext-xml",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "springmvc.xml",
-            "slug": "springmvc-xml",
-            "link": "#springmvc-xml",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "编写代码",
-        "slug": "编写代码",
-        "link": "#编写代码",
-        "children": [
-          {
-            "level": 3,
-            "title": "domain 层",
-            "slug": "domain-层",
-            "link": "#domain-层",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "dao 层",
-            "slug": "dao-层",
-            "link": "#dao-层",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "service 层",
-            "slug": "service-层",
-            "link": "#service-层",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "controller 层",
-            "slug": "controller-层",
-            "link": "#controller-层",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "jsp 页面",
-        "slug": "jsp-页面",
-        "link": "#jsp-页面",
-        "children": [
-          {
-            "level": 3,
-            "title": "index.jsp",
-            "slug": "index-jsp",
-            "link": "#index-jsp",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "addStudent.jsp",
-            "slug": "addstudent-jsp",
-            "link": "#addstudent-jsp",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "listStudent.jsp",
-            "slug": "liststudent-jsp",
-            "link": "#liststudent-jsp",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "WEB-INF/view/success.jsp",
-            "slug": "web-inf-view-success-jsp",
-            "link": "#web-inf-view-success-jsp",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "WEB-INF/view/fail.jsp",
-            "slug": "web-inf-view-fail-jsp",
-            "link": "#web-inf-view-fail-jsp",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/docs/Spring%E7%B3%BB%E5%88%97/SpringMVC/7.%20SSM%E6%95%B4%E5%90%88.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "8. 请求重定向和转发",
-    "headers": [
-      {
-        "level": 2,
-        "title": "请求转发",
-        "slug": "请求转发",
-        "link": "#请求转发",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "请求重定向",
-        "slug": "请求重定向",
-        "link": "#请求重定向",
-        "children": []
-      }
-    ],
-    "path": "/docs/Spring%E7%B3%BB%E5%88%97/SpringMVC/8.%20%E8%AF%B7%E6%B1%82%E9%87%8D%E5%AE%9A%E5%90%91%E5%92%8C%E8%BD%AC%E5%8F%91.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "9. 异常处理",
-    "headers": [
-      {
-        "level": 2,
-        "title": "自定义异常类",
-        "slug": "自定义异常类",
-        "link": "#自定义异常类",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "创建一个普通类, 作用全局异常处理类",
-        "slug": "创建一个普通类-作用全局异常处理类",
-        "link": "#创建一个普通类-作用全局异常处理类",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "修改 Controller 抛出异常",
-        "slug": "修改-controller-抛出异常",
-        "link": "#修改-controller-抛出异常",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "定义异常响应页面",
-        "slug": "定义异常响应页面",
-        "link": "#定义异常响应页面",
-        "children": []
-      }
-    ],
-    "path": "/docs/Spring%E7%B3%BB%E5%88%97/SpringMVC/9.%20%E5%BC%82%E5%B8%B8%E5%A4%84%E7%90%86.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "SpringMVC",
-    "headers": [],
-    "path": "/docs/Spring%E7%B3%BB%E5%88%97/SpringMVC/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "ThreadLocal",
-    "headers": [],
-    "path": "/docs/%E9%A1%B9%E7%9B%AE%E7%AC%94%E8%AE%B0/%E9%9A%BE%E7%82%B9/ThreadLocal.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "",
     "headers": [],
     "path": "/404.html",
@@ -14245,16 +14826,16 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "JavaWeb 分类",
+    "title": "linux 分类",
     "headers": [],
-    "path": "/category/javaweb/",
+    "path": "/category/linux/",
     "pathLocale": "/",
     "extraFields": []
   },
   {
-    "title": "linux 分类",
+    "title": "JavaWeb 分类",
     "headers": [],
-    "path": "/category/linux/",
+    "path": "/category/javaweb/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -14301,13 +14882,6 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "Spring 分类",
-    "headers": [],
-    "path": "/category/spring/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "SpringBoot 分类",
     "headers": [],
     "path": "/category/springboot/",
@@ -14315,9 +14889,9 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "SpringCloud 分类",
+    "title": "Spring 分类",
     "headers": [],
-    "path": "/category/springcloud/",
+    "path": "/category/spring/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -14325,6 +14899,13 @@ export const searchIndex = [
     "title": "SpringMVC 分类",
     "headers": [],
     "path": "/category/springmvc/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "SpringCloud 分类",
+    "headers": [],
+    "path": "/category/springcloud/",
     "pathLocale": "/",
     "extraFields": []
   }

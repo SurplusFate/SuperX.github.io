@@ -28,7 +28,7 @@
 <li>在 web.xml 注册 servlet ,使用</li>
 </ol>
 <div class="language-xml line-numbers-mode" data-ext="xml"><pre v-pre class="language-xml"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>servlet-name</span><span class="token punctuation">></span></span> myservlet <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>servlet-name</span><span class="token punctuation">></span></span>
-<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>servelt-class</span><span class="token punctuation">></span></span>com.bjpwernode.controller.MyServlet1<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>servlet-class</span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>servelt-class</span><span class="token punctuation">></span></span>com.bjpwernode.controller.MyServlet1<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>servelt-class</span><span class="token punctuation">></span></span>
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><ol>
 <li>没有创建 Servlet 对象, 没有 <code v-pre>MyServlet myservlet = new MyServlet()</code></li>
 <li>Servlet 是 Tomcat 服务器它为你创建的 Tomcat 也称为容器</li>

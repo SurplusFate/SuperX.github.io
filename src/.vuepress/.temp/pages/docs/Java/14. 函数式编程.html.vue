@@ -1723,10 +1723,10 @@ OptionalDouble.empty
     <span class="token punctuation">}</span>
 <span class="token punctuation">}</span>
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>输出结果：</p>
-<div class="language-text line-numbers-mode" data-ext="text"><pre v-pre class="language-text"><code>258
-258
-258
-242
+<div class="language-bash line-numbers-mode" data-ext="sh"><pre v-pre class="language-bash"><code><span class="token number">258</span>
+<span class="token number">258</span>
+<span class="token number">258</span>
+<span class="token number">242</span>
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>无论流是否为并行化，<code v-pre>findFirst()</code> 总是会选择流中的第一个元素。对于非并行流，<code v-pre>findAny()</code> 会选择流中的第一个元素（即使从定义上来看是选择任意元素）。在这个例子中，用 <code v-pre>parallel()</code> 将流并行化，以展示 <code v-pre>findAny()</code> 不选择流的第一个元素的可能性。</p>
 <p>如果必须选择流中最后一个元素，那就使用 <code v-pre>reduce()</code>。代码示例：</p>
 <div class="language-java line-numbers-mode" data-ext="java"><pre v-pre class="language-java"><code><span class="token keyword">import</span> <span class="token import"><span class="token namespace">java<span class="token punctuation">.</span>util<span class="token punctuation">.</span></span><span class="token operator">*</span></span><span class="token punctuation">;</span>
@@ -1745,7 +1745,7 @@ OptionalDouble.empty
     <span class="token punctuation">}</span>
 <span class="token punctuation">}</span>
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>输出结果：</p>
-<div class="language-text line-numbers-mode" data-ext="text"><pre v-pre class="language-text"><code>19
+<div class="language-bash line-numbers-mode" data-ext="sh"><pre v-pre class="language-bash"><code><span class="token number">19</span>
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p><code v-pre>reduce()</code> 的参数只是用最后一个元素替换了最后两个元素，最终只生成最后一个元素。如果为数字流，你必须使用相近的数字 <strong>Optional</strong> 类型（ numeric optional type），否则使用 <strong>Optional</strong> 类型，就像上例中的 <code v-pre>Optional&lt;String&gt;</code>。</p>
 <h4 id="信息" tabindex="-1"><a class="header-anchor" href="#信息" aria-hidden="true">#</a> 信息</h4>
 <ul>
@@ -1773,7 +1773,7 @@ OptionalDouble.empty
     <span class="token punctuation">}</span>
 <span class="token punctuation">}</span>
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>输出结果：</p>
-<div class="language-text line-numbers-mode" data-ext="text"><pre v-pre class="language-text"><code>32
+<div class="language-bash line-numbers-mode" data-ext="sh"><pre v-pre class="language-bash"><code><span class="token number">32</span>
 a
 you
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><code v-pre>min()</code> 和 <code v-pre>max()</code> 的返回类型为 <strong>Optional</strong>，这需要我们使用 <code v-pre>orElse()</code> 来解包。</p>
@@ -1796,11 +1796,11 @@ you
     <span class="token punctuation">}</span>
 <span class="token punctuation">}</span>复制<span class="token class-name">ErrorOK</span><span class="token operator">!</span>
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>输出结果：</p>
-<div class="language-text line-numbers-mode" data-ext="text"><pre v-pre class="language-text"><code>507.94
-998
-8
-50794
-IntSummaryStatistics{count=100, sum=50794, min=8, average=507.940000, max=998}
+<div class="language-bash line-numbers-mode" data-ext="sh"><pre v-pre class="language-bash"><code><span class="token number">507.94</span>
+<span class="token number">998</span>
+<span class="token number">8</span>
+<span class="token number">50794</span>
+IntSummaryStatistics<span class="token punctuation">{</span>count<span class="token operator">=</span><span class="token number">100</span>, <span class="token assign-left variable">sum</span><span class="token operator">=</span><span class="token number">50794</span>, <span class="token assign-left variable">min</span><span class="token operator">=</span><span class="token number">8</span>, <span class="token assign-left variable">average</span><span class="token operator">=</span><span class="token number">507.940000</span>, <span class="token assign-left variable">max</span><span class="token operator">=</span><span class="token number">998</span><span class="token punctuation">}</span>
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>上例操作对于 <strong>LongStream</strong> 和 <strong>DoubleStream</strong> 同样适用。</p>
 </div></template>
 

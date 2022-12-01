@@ -41,7 +41,7 @@ export default navbar([
   {
     text: "Spring系列",
     icon: "stack",
-    prefix: "/docs/Spring系列/",
+    prefix: "/docs/Spring 系列/",
     children: [
       {
         text: "Spring",

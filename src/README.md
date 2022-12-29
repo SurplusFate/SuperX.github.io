@@ -2,7 +2,7 @@
 home: true
 layout: Blog
 icon: home
-bgImage: https://api.ixiaowai.cn/api/api.php
+bgImage: https://tuapi.eees.cc/api.php?category={dongman,fengjing}
 heroFullScreen: true
 title: 主页
 # heroImage: /logo.svg

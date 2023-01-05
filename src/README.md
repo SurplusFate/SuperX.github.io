@@ -2,7 +2,7 @@
 home: true
 layout: Blog
 icon: home
-bgImage: https://www.dmoe.cc/random.php
+bgImage: https://api.ixiaowai.cn/api/api.php
 heroFullScreen: true
 title: 主页
 # heroImage: /logo.svg
